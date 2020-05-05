@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
-  m_Name: 637242841549827100
+  m_Name: 637242872082839380
   m_EditorClassIdentifier: 
-  time: 5/5/2020 2:02:03 PM
+  time: 5/5/2020 2:05:08 PM
   version: 2.28.1
   keys:
   - editorSettings
@@ -3008,7 +3008,7 @@ MonoBehaviour:
     encrypted: 0
   - name: guiBoxes
     xmlData: "<guiBoxes>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0 layerID=\"0\" heightAdjustment=\"0\"
-      boxAnchor=\"4\" contentVerticalAlignment=\"0\" alignment=\"0\" vAlignment=\"2\"
+      boxAnchor=\"4\" contentVerticalAlignment=\"1\" alignment=\"0\" vAlignment=\"2\"
       textColumns=\"1\" typingIncrease=\"1\" nameAnchor=\"6\" nameRelativeTo=\"0\"
       nameVerticalAlignment=\"0\" alignmentName=\"0\" vAlignmentName=\"2\" choiceMode=\"0\"
       choiceColumns=\"1\" columnFill=\"0\" circleChoiceAnchor=\"4\" choiceTitleVerticalAlignment=\"0\"
@@ -3034,7 +3034,7 @@ MonoBehaviour:
       ownButtons=\"False\" ownPortraitPosition=\"False\" ownChoiceIcon=\"False\"
       ownControls=\"False\" ownIconSize=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<screenPadding
       0 0 0 0 />\n\t\t\t\t\t<dragBounds 0 0 1920 20 />\n\t\t\t\t\t<boxBounds 640
-      400 600 600 />\n\t\t\t\t\t<boxPadding 10 10 10 10 />\n\t\t\t\t\t<nameBounds
+      400 400 400 />\n\t\t\t\t\t<boxPadding 10 10 10 10 />\n\t\t\t\t\t<nameBounds
       0 0 150 50 />\n\t\t\t\t\t<namePadding 5 1 5 1 />\n\t\t\t\t\t<choiceSpacing
       10 10 />\n\t\t\t\t\t<tabsPadding 10 10 10 10 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Main
       Menu]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<textFormat colorID=\"0\" shadowColorID=\"1\"
@@ -3122,8 +3122,8 @@ MonoBehaviour:
       red=\"False\" green=\"False\" blue=\"False\" fromCurrent=\"False\" />\n\t\t<_floatarrays>\n\t\t\t<startColor
       0 0 0 1 />\n\t\t\t<endColor 0 0 0 0 />\n\t\t</_floatarrays>\n\t</fadeIn>\n\t<menu
       guiBoxID=\"0\" autoSaveGuiBoxID=\"0\" difficultyGuiBoxID=\"0\" languageGuiBoxID=\"0\"
-      optionsGuiBoxID=\"0\" aboutGuiBoxID=\"0\" >\n\t\t<_bool useTitle=\"True\" usePortrait=\"False\"
-      showContinue=\"False\" hideContinue=\"False\" useContinuePortrait=\"False\"
+      optionsGuiBoxID=\"0\" aboutGuiBoxID=\"0\" >\n\t\t<_bool useTitle=\"False\"
+      usePortrait=\"False\" showContinue=\"False\" hideContinue=\"False\" useContinuePortrait=\"False\"
       useNewGamePortrait=\"False\" autoSaveSelection=\"False\" useAutoSaveTitle=\"False\"
       showOverrideQuestion=\"False\" autoSlotBG=\"False\" autoSlotQuestionBG=\"False\"
       ownBGAutoSlot=\"False\" difficultySelection=\"False\" useDifTitle=\"False\"
@@ -3131,10 +3131,8 @@ MonoBehaviour:
       showLanguage=\"False\" useLanguagePortrait=\"False\" useLangTitle=\"False\"
       showOptions=\"False\" useOptionsPortrait=\"False\" useOptionsTitle=\"False\"
       showAbout=\"False\" useAboutPortrait=\"False\" useAboutTitle=\"False\" showURL=\"False\"
-      useURLPortrait=\"False\" showExit=\"True\" useExitPortrait=\"False\" />\n\t\t<_stringarrays>\n\t\t\t<title>\n\t\t\t\t<0><![CDATA[Soulspace:
-      the game]]></0>\n\t\t\t</title>\n\t\t\t<message>\n\t\t\t\t<0><![CDATA[This
-      is the main menu]]></0>\n\t\t\t</message>\n\t\t\t<autoSaveMessage>\n\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t</autoSaveMessage>\n\t\t\t<difficultyMessage>\n\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t</difficultyMessage>\n\t\t\t<languageMessage>\n\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t</languageMessage>\n\t\t\t<optionsMessage>\n\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t</optionsMessage>\n\t\t\t<aboutMessage>\n\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t</aboutMessage>\n\t\t\t<url>\n\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t</url>\n\t\t</_stringarrays>\n\t\t<contentLayout
-      type=\"2\" infoType=\"0\" >\n\t\t\t<_bool removeEmptyLines=\"False\" hideEmptyInfo=\"False\"
+      useURLPortrait=\"False\" showExit=\"True\" useExitPortrait=\"False\" />\n\t\t<_stringarrays>\n\t\t\t<message>\n\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t</message>\n\t\t\t<autoSaveMessage>\n\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t</autoSaveMessage>\n\t\t\t<difficultyMessage>\n\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t</difficultyMessage>\n\t\t\t<languageMessage>\n\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t</languageMessage>\n\t\t\t<optionsMessage>\n\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t</optionsMessage>\n\t\t\t<aboutMessage>\n\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t</aboutMessage>\n\t\t\t<url>\n\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t</url>\n\t\t</_stringarrays>\n\t\t<contentLayout
+      type=\"0\" infoType=\"0\" >\n\t\t\t<_bool removeEmptyLines=\"False\" hideEmptyInfo=\"False\"
       infoRemoveEmptyLines=\"False\" />\n\t\t\t<customSkin>\n\t\t\t\t<_bool useCustomSkin=\"False\"
       setIconSize=\"False\" />\n\t\t\t</customSkin>\n\t\t</contentLayout>\n\t\t<continueButton>\n\t\t\t<customSkin>\n\t\t\t\t<_bool
       useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t</customSkin>\n\t\t\t<_subarrays>\n\t\t\t\t<button>\n\t\t\t\t\t<0>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<name><![CDATA[Continue]]></name>\n\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t</icon>\n\t\t\t\t\t</0>\n\t\t\t\t</button>\n\t\t\t</_subarrays>\n\t\t</continueButton>\n\t\t<newButton>\n\t\t\t<customSkin>\n\t\t\t\t<_bool
