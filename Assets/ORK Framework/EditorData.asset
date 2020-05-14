@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: EditorData
   m_EditorClassIdentifier: 
   lastProject: {fileID: 11400000, guid: d289c15ffd1e74b36b8feb1ca2a0da07, type: 2}
-  section: 2
+  section: 6
   subSection: 0
   tabIndex: 0
   scrollY: 0
   helpDrag: 220
-  subSectionDrag: 250
-  tabListDrag: 250
-  formulaDrag: 250
+  subSectionDrag: 200
+  tabListDrag: 300
+  formulaDrag: 400
   aiDrag: 400
   eventDrag: 400
   guiEditorDrag: 500
