@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: ORKProject
   m_EditorClassIdentifier: 
-  time: 5/14/2020 6:06:20 PM
+  time: 5/20/2020 7:26:57 PM
   version: 2.28.1
   keys:
   - editorSettings
@@ -199,7 +199,7 @@ MonoBehaviour:
       switchField=\"True\" switchTurnBased=\"False\" switchActiveTime=\"False\" switchRealTime=\"True\"
       switchPhase=\"False\" switchMenuUser=\"False\" switchMenuActiveTime=\"False\"
       switchMenuRealTime=\"True\" loopAbilityLevels=\"False\" />\n\t<_stringarrays>\n\t\t<playerComponent>\n\t\t</playerComponent>\n\t</_stringarrays>\n\t<menuControls
-      acceptKeyID=\"0\" cancelKeyID=\"0\" verticalAxisID=\"0\" horizontalAxisID=\"0\"
+      acceptKeyID=\"5\" cancelKeyID=\"6\" verticalAxisID=\"0\" horizontalAxisID=\"0\"
       scrollAxisID=\"0\" >\n\t\t<_bool useScrollAxis=\"False\" scrollAxisUnfocused=\"False\"
       acceptLeftClick=\"True\" acceptMiddleClick=\"False\" acceptRightClick=\"False\"
       />\n\t</menuControls>\n\t<interaction interactKey=\"0\" maxSteps=\"100\" clickLayerMask=\"-1\"
@@ -214,7 +214,7 @@ MonoBehaviour:
       noMoveWhenCloser=\"True\" compAdd=\"False\" blockPlayer=\"False\" blockCamera=\"False\"
       />\n\t\t\t<_intarrays>\n\t\t\t\t<cancelKeyID />\n\t\t\t</_intarrays>\n\t\t\t<_string>\n\t\t\t\t<compName><![CDATA[]]></compName>\n\t\t\t\t<compSpeedMethod><![CDATA[]]></compSpeedMethod>\n\t\t\t\t<compPositionMethod><![CDATA[]]></compPositionMethod>\n\t\t\t\t<compStopMethod><![CDATA[]]></compStopMethod>\n\t\t\t</_string>\n\t\t\t<speed
       type=\"1\" >\n\t\t\t\t<_float speed=\"5\" />\n\t\t\t</speed>\n\t\t</moveToInteraction>\n\t</interaction>\n\t<playerControl
-      type=\"1\" >\n\t\t<_float runSpeed=\"8\" gravity=\"-9.81\" speedSmoothing=\"10\"
+      type=\"0\" >\n\t\t<_float runSpeed=\"8\" gravity=\"-9.81\" speedSmoothing=\"10\"
       />\n\t\t<_bool sceneChangeBlockControl=\"True\" sceneChangeDestroyPlayer=\"False\"
       moveDead=\"True\" useSpeed=\"True\" />\n\t\t<buttonController verticalAxis=\"0\"
       horizontalAxis=\"0\" jumpKey=\"0\" jumpInterpolation=\"2\" sprintKey=\"0\"
@@ -232,7 +232,7 @@ MonoBehaviour:
       clickCount=\"1\" mode=\"0\" >\n\t\t\t\t<_float timeout=\"0\" />\n\t\t\t\t<_bool
       useClick=\"True\" useTouch=\"True\" allModes=\"False\" />\n\t\t\t</mouseTouch>\n\t\t\t<cursorObject>\n\t\t\t\t<_string>\n\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t</_string>\n\t\t\t\t<settings>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t</_string>\n\t\t\t\t</settings>\n\t\t\t</cursorObject>\n\t\t</mouseController>\n\t</playerControl>\n\t<cameraControl
       type=\"1\" >\n\t\t<_bool sceneChangeBlockControl=\"True\" />\n\t\t<followControl>\n\t\t\t<_float
-      distance=\"10\" height=\"5\" heightDamping=\"2\" rotationDamping=\"3\" />\n\t\t\t<_string>\n\t\t\t\t<onChild><![CDATA[]]></onChild>\n\t\t\t</_string>\n\t\t</followControl>\n\t\t<lookControl>\n\t\t\t<_float
+      distance=\"10\" height=\"0\" heightDamping=\"0\" rotationDamping=\"0\" />\n\t\t\t<_string>\n\t\t\t\t<onChild><![CDATA[]]></onChild>\n\t\t\t</_string>\n\t\t</followControl>\n\t\t<lookControl>\n\t\t\t<_float
       damping=\"6\" />\n\t\t\t<_bool smooth=\"True\" />\n\t\t\t<_string>\n\t\t\t\t<onChild><![CDATA[]]></onChild>\n\t\t\t</_string>\n\t\t</lookControl>\n\t\t<mouseControl>\n\t\t\t<_float
       distance=\"10\" height=\"15\" minHeight=\"5\" maxHeight=\"30\" heightDamping=\"2\"
       rotation=\"0\" rotationDamping=\"3\" rotationFactor=\"1\" zoomFactor=\"1\"
@@ -280,7 +280,9 @@ MonoBehaviour:
       enabled=\"False\" perWorldUnit=\"False\" usePosition=\"True\" useRotation=\"True\"
       />\n\t\t</targetTransition>\n\t\t<collisionCamera type=\"0\" layerMask=\"-1\"
       >\n\t\t\t<_float moveTowards=\"0\" viewSize=\"0.5\" />\n\t\t\t<_bool enable=\"False\"
-      />\n\t\t\t<_string>\n\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t</_string>\n\t\t</collisionCamera>\n\t</cameraControl>\n\t<customControl>\n\t\t<_subarrays>\n\t\t\t<behaviours>\n\t\t\t</behaviours>\n\t\t</_subarrays>\n\t</customControl>\n</gameControls>\n"
+      />\n\t\t\t<_string>\n\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t</_string>\n\t\t</collisionCamera>\n\t</cameraControl>\n\t<customControl>\n\t\t<_subarrays>\n\t\t\t<behaviours>\n\t\t\t\t<0
+      blockType=\"0\" objectType=\"0\" >\n\t\t\t\t\t<_bool fromRoot=\"False\" onChild=\"False\"
+      add=\"True\" setFields=\"False\" changeOnlyAdd=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<name><![CDATA[PlayerMover]]></name>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t</0>\n\t\t\t</behaviours>\n\t\t</_subarrays>\n\t</customControl>\n</gameControls>\n"
     lookUp:
       textures: []
       audioClips: []

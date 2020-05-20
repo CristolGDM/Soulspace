@@ -3,16 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(SpriteRenderer))]
+[RequireComponent(typeof(Animator))]
 public class CharacterMover : MonoBehaviour {
-    public Animator animator;
     public Texture2D spriteSheet;
 
     private Vector3 pos;
     private float speed = 4.0f;
     private Sprite[] sprites;
     private SpriteRenderer spriteRenderer;
-    private string modelSpritesheetName = "test-Sheet";
+    private string modelSpritesheetName = "basic";
     private Vector3 originalPosition;
+    private Animator animator;
 
     // Use this for initialization
     public virtual void Start () {
@@ -20,6 +21,7 @@ public class CharacterMover : MonoBehaviour {
         originalPosition = transform.position;
         sprites = Resources.LoadAll<Sprite>("sprites/spritesheets/" + spriteSheet.name);
         spriteRenderer = GetComponent<SpriteRenderer>();
+        animator = gameObject.GetComponent<Animator>();
     }
 
     public virtual void Update() {

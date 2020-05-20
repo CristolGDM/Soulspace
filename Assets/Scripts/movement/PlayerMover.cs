@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using ORKFramework;
 
 public class PlayerMover : CharacterMover {
 
@@ -15,13 +16,13 @@ public class PlayerMover : CharacterMover {
         //            raycast.collider.gameObject.SendMessage("StartInteraction");
         //        }
         //    }
-        if (Input.GetKey("w") || Input.GetKey("up")) {
+        if (ORK.InputKeys.Get(1).GetButton()) {
             StartCoroutine(MoveUp());
-        } else if (Input.GetKey("s") || Input.GetKey("down")) {
+        } else if (ORK.InputKeys.Get(2).GetButton()) {
             StartCoroutine(MoveDown());
-        } else if (Input.GetKey("a") || Input.GetKey("left")) {
+        } else if (ORK.InputKeys.Get(3).GetButton()) {
             StartCoroutine(MoveLeft());
-        } else if (Input.GetKey("d") || Input.GetKey("right")) {
+        } else if (ORK.InputKeys.Get(4).GetButton()) {
             StartCoroutine(MoveRight());
         }
 
