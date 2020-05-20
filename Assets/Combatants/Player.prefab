@@ -145,7 +145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bc3d16f7c8e14ccbb08f94e865be090, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
+  animator: {fileID: 5979744876527568051}
   spriteSheet: {fileID: 2800000, guid: f74307231361e456b899e6e3887f8e5e, type: 3}
 --- !u!95 &5979744876527568051
 Animator:
