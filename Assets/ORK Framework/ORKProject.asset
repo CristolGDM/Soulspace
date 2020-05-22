@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: ORKProject
   m_EditorClassIdentifier: 
-  time: 5/20/2020 7:26:57 PM
+  time: 5/22/2020 8:27:11 PM
   version: 2.28.1
   keys:
   - editorSettings
@@ -202,11 +202,12 @@ MonoBehaviour:
       acceptKeyID=\"5\" cancelKeyID=\"6\" verticalAxisID=\"0\" horizontalAxisID=\"0\"
       scrollAxisID=\"0\" >\n\t\t<_bool useScrollAxis=\"False\" scrollAxisUnfocused=\"False\"
       acceptLeftClick=\"True\" acceptMiddleClick=\"False\" acceptRightClick=\"False\"
-      />\n\t</menuControls>\n\t<interaction interactKey=\"0\" maxSteps=\"100\" clickLayerMask=\"-1\"
-      >\n\t\t<_float maxClickDistance=\"3\" clickRayDistance=\"100\" />\n\t\t<_bool
-      clickInChildren=\"True\" clickFromRoot=\"False\" addIC=\"False\" />\n\t\t<icMount>\n\t\t\t<_bool
+      />\n\t</menuControls>\n\t<interaction interactKey=\"5\" maxSteps=\"100\" clickLayerMask=\"0\"
+      >\n\t\t<_float maxClickDistance=\"0\" clickRayDistance=\"100\" />\n\t\t<_bool
+      clickInChildren=\"True\" clickFromRoot=\"False\" addIC=\"True\" />\n\t\t<icPrefab>\n\t\t\t<_string>\n\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t</_string>\n\t\t\t<settings>\n\t\t\t\t<_string>\n\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<_gameobject
+      asset=\"0\" />\n\t\t\t</settings>\n\t\t</icPrefab>\n\t\t<icMount>\n\t\t\t<_bool
       useRotation=\"True\" setScale=\"False\" scaleAfterMount=\"False\" />\n\t\t\t<_floatarrays>\n\t\t\t\t<offset
-      0 0 0 />\n\t\t\t\t<rotationOffset 0 0 0 />\n\t\t\t\t<scale 1 1 1 />\n\t\t\t</_floatarrays>\n\t\t\t<_string>\n\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t</_string>\n\t\t\t<localSpace>\n\t\t\t\t<_bool
+      0 1 0 />\n\t\t\t\t<rotationOffset 0 0 0 />\n\t\t\t\t<scale 1 1 1 />\n\t\t\t</_floatarrays>\n\t\t\t<_string>\n\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t</_string>\n\t\t\t<localSpace>\n\t\t\t\t<_bool
       localSpace=\"True\" ignoreScale=\"False\" />\n\t\t\t</localSpace>\n\t\t</icMount>\n\t\t<moveToInteraction
       compType=\"0\" navMeshSampleAreaMask=\"-1\" >\n\t\t\t<_float defaultInteractionRadius=\"1\"
       defaultStopDistance=\"1\" interactionDistance=\"0.1\" navMeshSampleDistance=\"5\"
@@ -286,7 +287,8 @@ MonoBehaviour:
     lookUp:
       textures: []
       audioClips: []
-      gameObjects: []
+      gameObjects:
+      - {fileID: 1079211941779488336, guid: 2eb7e47bfb3bf4ba0ad6c013f706b3bb, type: 3}
       guiSkins: []
       materials: []
       fonts: []
