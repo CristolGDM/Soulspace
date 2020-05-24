@@ -4,9 +4,37 @@ using UnityEngine;
 using ORKFramework;
 
 public class PlayerMover : CharacterMover {
+    private Transform interactionController;
 
     // Update is called once per frame
     public override void Update() {
+        if(interactionController == null) {
+            foreach (Transform eachChild in transform) {
+                if (eachChild.name.ToLower().IndexOf("interaction") > -1 && eachChild.name.ToLower().IndexOf("controller") > -1) {
+                    interactionController = eachChild;
+                    break;
+                }
+            }
+        }
+        if(interactionController != null) {
+            switch (gameObject.GetComponent<Animator>().GetInteger("Direction")) {
+                case 0:
+                    interactionController.localPosition = new Vector2(0, -1);
+                    break;
+                case 1:
+                    interactionController.localPosition = new Vector2(-1, 0);
+                    break;
+                case 2:
+                    interactionController.localPosition = new Vector2(0, 1);
+                    break;
+                case 3:
+                    interactionController.localPosition = new Vector2(1, 0);
+                    break;
+                default:
+                    interactionController.localPosition = new Vector2(0, -1);
+                    break;
+            }
+        }
 
         //if(inputManager.InteractKeySingle(this)) {
         //    Vector3 currentDirection = mover.GetCurrentDirection();
