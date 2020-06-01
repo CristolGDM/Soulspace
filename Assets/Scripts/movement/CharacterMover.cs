@@ -2,16 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(SpriteRenderer))]
 [RequireComponent(typeof(Animator))]
 public class CharacterMover : MonoBehaviour {
-    public Texture2D spriteSheet;
 
     private Vector3 pos;
     private float speed = 4.0f;
-    private Sprite[] sprites;
-    private SpriteRenderer spriteRenderer;
-    private string modelSpritesheetName = "basic";
     private Vector3 originalPosition;
     private Animator animator;
 
@@ -19,8 +14,6 @@ public class CharacterMover : MonoBehaviour {
     public virtual void Start () {
         pos = transform.position;
         originalPosition = transform.position;
-        sprites = Resources.LoadAll<Sprite>("sprites/spritesheets/" + spriteSheet.name);
-        spriteRenderer = GetComponent<SpriteRenderer>();
         animator = gameObject.GetComponent<Animator>();
     }
 
@@ -32,18 +25,6 @@ public class CharacterMover : MonoBehaviour {
 
     public void OnCollisionEnter2D(Collision2D collision) {
         pos = originalPosition;
-    }
-
-
-    public void LateUpdate() {
-        string currentSpriteName = spriteRenderer.sprite.name;
-        string newSpritename = currentSpriteName.Replace(modelSpritesheetName, spriteSheet.name);
-        foreach (var sprite in sprites) {
-            if (sprite.name == newSpritename) {
-                spriteRenderer.sprite = sprite;
-                break;
-            }
-        }
     }
     /////////////////////////////////
     

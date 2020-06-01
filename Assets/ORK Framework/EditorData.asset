@@ -30,8 +30,10 @@ MonoBehaviour:
   updateScenes: 0
   sceneUpdate: 
   eventAsset:
+  - {fileID: 11400000, guid: d0f59def1de7e414fb73babed4a5c2af, type: 2}
   - {fileID: 11400000, guid: 8a06e626c14444fd3987a4779faed16d, type: 2}
   gameEventAsset:
+  - {fileID: 11400000, guid: d0f59def1de7e414fb73babed4a5c2af, type: 2}
   - {fileID: 11400000, guid: 8a06e626c14444fd3987a4779faed16d, type: 2}
   moveEventAsset: []
   battleEventAsset: []
