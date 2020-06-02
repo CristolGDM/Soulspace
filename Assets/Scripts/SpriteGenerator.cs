@@ -12,9 +12,7 @@ public class SpriteGenerator : MonoBehaviour {
 
     // Start is called before the first frame update
     void Start(){
-        Debug.Log(spriteSheet.name);
         sprites = Resources.LoadAll<Sprite>("spritesheets/" + spriteSheet.name);
-        Debug.Log(sprites.Length);
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
