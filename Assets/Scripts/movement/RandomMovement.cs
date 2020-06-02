@@ -4,11 +4,22 @@ using UnityEngine;
 
 public class RandomMovement : CharacterMover {
 
+    private float startMoving;
+    private float moveInterval;
+
     // Use this for initialization
     public override void Start() {
         base.Start();
-        float startMoving = Random.Range(0.5f, 1.5f);
-        float moveInterval = Random.Range(3.0f, 5.0f);
+        startMoving = Random.Range(0.5f, 1.5f);
+        moveInterval = Random.Range(3.0f, 5.0f);
+        InvokeRepeating("MoveRandomDirection", startMoving, moveInterval);
+    }
+
+    public void OnDisable() {
+        CancelInvoke("MoveRandomDirection");
+    }
+
+    public void OnEnable() {
         InvokeRepeating("MoveRandomDirection", startMoving, moveInterval);
     }
 
