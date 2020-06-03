@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4227888389081841309}
   - component: {fileID: 2655579691484534080}
   - component: {fileID: 2765080231863897700}
+  - component: {fileID: 2853062675320264706}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Untagged
@@ -178,3 +179,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteSheet: {fileID: 2800000, guid: d1a7885bcd6f0463db8b54803d511a16, type: 3}
+--- !u!114 &2853062675320264706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5975432597096157819}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17abfa68799fd4c70a40224c78e1eff8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
