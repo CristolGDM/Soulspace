@@ -8,7 +8,7 @@ public class OrkCanvasSpriteCompatibility : MonoBehaviour {
         Canvas[] parentCanvases = gameObject.GetComponentsInParent<Canvas>();
 
         if (parentCanvases == null || parentCanvases.Length == 0) {
-            sprite.GetComponent<SpriteRenderer>().size = new Vector2(1, 1);
+            sprite.GetComponent<SpriteRenderer>().size = new Vector2(0, 0);
             return;
         }
         SetCanvasMode(parentCanvases[0]);
@@ -30,5 +30,6 @@ public class OrkCanvasSpriteCompatibility : MonoBehaviour {
         Camera camera = Camera.main;
 
         canvas.worldCamera = camera;
+        canvas.sortingLayerName = "UI";
     }
 }
