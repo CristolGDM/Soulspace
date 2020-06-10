@@ -2854,7 +2854,7 @@ PrefabInstance:
     - target: {fileID: 5975432597096157819, guid: 5a5d6ce4701374bde93c44d064d2565f,
         type: 3}
       propertyPath: m_Name
-      value: Girl
+      value: Girl with a blue ribbon on her head
       objectReference: {fileID: 0}
     - target: {fileID: 5975432597096157819, guid: 5a5d6ce4701374bde93c44d064d2565f,
         type: 3}

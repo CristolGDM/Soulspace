@@ -5,7 +5,13 @@ public class OrkCanvasSpriteCompatibility : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        SetCanvasMode();
+        Canvas[] parentCanvases = gameObject.GetComponentsInParent<Canvas>();
+
+        if (parentCanvases == null || parentCanvases.Length == 0) {
+            sprite.GetComponent<SpriteRenderer>().size = new Vector2(1, 1);
+            return;
+        }
+        SetCanvasMode(parentCanvases[0]);
         SetSpriteSize();
     }
 
@@ -15,17 +21,7 @@ public class OrkCanvasSpriteCompatibility : MonoBehaviour {
         renderer.size = new Vector2(parent.rect.width / 80, parent.rect.height / 80);
     }
 
-    void SetCanvasMode() {
-
-        Canvas canvas;
-        Canvas[] parentCanvases = gameObject.GetComponentsInParent<Canvas>();
-
-        if (parentCanvases == null || parentCanvases.Length == 0) {
-            sprite.GetComponent<SpriteRenderer>().size = new Vector2(1, 1);
-            return;
-        }
-
-        canvas = parentCanvases[0];
+    void SetCanvasMode(Canvas canvas) {
         if (canvas == null) return;
         if (canvas.renderMode == RenderMode.ScreenSpaceCamera) return;
         canvas.renderMode = RenderMode.ScreenSpaceCamera;
