@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -1501101930, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: HiThisIsMyDialog
   m_EditorClassIdentifier: 
-  time: 6/3/2020 11:14:07 PM
+  time: 6/10/2020 5:08:45 PM
   version: 2.28.1
   data:
     name: gameEvent
