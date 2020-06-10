@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: ORKProject
   m_EditorClassIdentifier: 
-  time: 6/10/2020 5:50:17 PM
+  time: 6/10/2020 6:48:43 PM
   version: 2.28.1
   keys:
   - editorSettings
@@ -3156,9 +3156,9 @@ MonoBehaviour:
       ownButtons=\"False\" ownPortraitPosition=\"False\" ownChoiceIcon=\"False\"
       ownControls=\"False\" ownIconSize=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<screenPadding
       0 0 0 0 />\n\t\t\t\t\t<dragBounds 0 0 1920 20 />\n\t\t\t\t\t<boxBounds 640
-      400 400 400 />\n\t\t\t\t\t<boxPadding 40 40 10 10 />\n\t\t\t\t\t<nameBounds
+      400 400 400 />\n\t\t\t\t\t<boxPadding 40 40 40 40 />\n\t\t\t\t\t<nameBounds
       0 0 150 50 />\n\t\t\t\t\t<namePadding 5 1 5 1 />\n\t\t\t\t\t<choiceSpacing
-      10 10 />\n\t\t\t\t\t<tabsPadding 10 10 10 10 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Main
+      10 30 />\n\t\t\t\t\t<tabsPadding 10 10 10 10 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Main
       Menu]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<textFormat colorID=\"0\" shadowColorID=\"1\"
       outlineColorID=\"1\" fontSize=\"30\" fontStyle=\"0\" >\n\t\t\t\t\t<_bool showShadow=\"True\"
       showOutline=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<shadowOffset
