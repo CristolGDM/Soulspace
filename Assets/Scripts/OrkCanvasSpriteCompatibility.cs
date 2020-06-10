@@ -1,17 +1,16 @@
 ﻿using UnityEngine;
 
 public class OrkCanvasSpriteCompatibility : MonoBehaviour {
-    // Start is called before the first frame update
-    void Start() {
-        
-    }
+    public GameObject sprite = null;
 
     // Update is called once per frame
     void Update() {
         Canvas canvas;
         Canvas[] parentCanvases = gameObject.GetComponentsInParent<Canvas>();
-        if (parentCanvases == null) return;
-        if (parentCanvases.Length == 0) return;
+        if (parentCanvases == null || parentCanvases.Length == 0) {
+            sprite.GetComponent<SpriteRenderer>().size = new Vector2(1, 1);
+            return;
+        }
         canvas = parentCanvases[0];
         if (canvas == null) return;
         if (canvas.renderMode == RenderMode.ScreenSpaceCamera) return;
@@ -21,5 +20,9 @@ public class OrkCanvasSpriteCompatibility : MonoBehaviour {
         Camera camera = Camera.main;
 
         canvas.worldCamera = camera;
+
+        SpriteRenderer renderer = sprite.GetComponent<SpriteRenderer>();
+        RectTransform parent = gameObject.GetComponentInParent<RectTransform>();
+        renderer.size = new Vector2(parent.rect.width / 80, parent.rect.height / 80);
     }
 }
