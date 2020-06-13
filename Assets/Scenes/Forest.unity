@@ -230,11 +230,11 @@ MonoBehaviour:
   startByCollider: 1
   startByTrigger: 1
   startByRootObject: 0
-  useOtherObject: 0
+  useOtherObject: 1
   startObjectCheck:
-    checkName: 0
-    isTag: 0
-    name: 
+    checkName: 1
+    isTag: 1
+    name: Player
     components: []
   horizontalPlane: 0
   useFront: 1
@@ -292,7 +292,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 22754140}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.5, y: 2.5, z: 0}
+  m_LocalPosition: {x: -9.5, y: 2.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
