@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: ORKProject
   m_EditorClassIdentifier: 
-  time: 6/11/2020 7:20:29 PM
+  time: 6/17/2020 2:33:58 PM
   version: 2.28.1
   keys:
   - editorSettings
@@ -1099,11 +1099,36 @@ MonoBehaviour:
     encrypted: 0
   - name: musicClips
     xmlData: "<musicClips>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0>\n\t\t\t\t<_float
-      maxVolume=\"1\" />\n\t\t\t\t<_bool doLoop=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Default
-      Music]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<clip>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<settings>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</settings>\n\t\t\t\t</clip>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<clipLoop>\n\t\t\t\t\t</clipLoop>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</musicClips>\n"
+      maxVolume=\"1\" />\n\t\t\t\t<_bool doLoop=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Village
+      Theme]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<clip>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<settings>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t<_audioclip
+      asset=\"0\" />\n\t\t\t\t\t</settings>\n\t\t\t\t</clip>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<clipLoop>\n\t\t\t\t\t\t<0
+      checkPCM=\"0\" setPCM=\"0\" >\n\t\t\t\t\t\t\t<_float checkTime=\"41\" setTime=\"0\"
+      />\n\t\t\t\t\t\t\t<_bool endLoop=\"False\" keepLooping=\"True\" usePCM=\"False\"
+      />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</clipLoop>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t\t<1>\n\t\t\t\t<_float
+      maxVolume=\"1\" />\n\t\t\t\t<_bool doLoop=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Forest
+      Theme]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<clip>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<settings>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t<_audioclip
+      asset=\"1\" />\n\t\t\t\t\t</settings>\n\t\t\t\t</clip>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<clipLoop>\n\t\t\t\t\t\t<0
+      checkPCM=\"0\" setPCM=\"0\" >\n\t\t\t\t\t\t\t<_float checkTime=\"105\" setTime=\"8\"
+      />\n\t\t\t\t\t\t\t<_bool endLoop=\"False\" keepLooping=\"True\" usePCM=\"False\"
+      />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</clipLoop>\n\t\t\t\t</_subarrays>\n\t\t\t</1>\n\t\t\t<2>\n\t\t\t\t<_float
+      maxVolume=\"1\" />\n\t\t\t\t<_bool doLoop=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Victory]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<clip>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<settings>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t<_audioclip
+      asset=\"2\" />\n\t\t\t\t\t</settings>\n\t\t\t\t</clip>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<clipLoop>\n\t\t\t\t\t\t<0
+      checkPCM=\"0\" setPCM=\"0\" >\n\t\t\t\t\t\t\t<_float checkTime=\"134\" setTime=\"14\"
+      />\n\t\t\t\t\t\t\t<_bool endLoop=\"False\" keepLooping=\"True\" usePCM=\"False\"
+      />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</clipLoop>\n\t\t\t\t</_subarrays>\n\t\t\t</2>\n\t\t\t<3>\n\t\t\t\t<_float
+      maxVolume=\"1\" />\n\t\t\t\t<_bool doLoop=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Combat
+      Theme]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<clip>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<settings>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t<_audioclip
+      asset=\"3\" />\n\t\t\t\t\t</settings>\n\t\t\t\t</clip>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<clipLoop>\n\t\t\t\t\t\t<0
+      checkPCM=\"0\" setPCM=\"0\" >\n\t\t\t\t\t\t\t<_float checkTime=\"100\" setTime=\"5\"
+      />\n\t\t\t\t\t\t\t<_bool endLoop=\"False\" keepLooping=\"True\" usePCM=\"False\"
+      />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</clipLoop>\n\t\t\t\t</_subarrays>\n\t\t\t</3>\n\t\t</data>\n\t</_subarrays>\n</musicClips>\n"
     lookUp:
       textures: []
-      audioClips: []
+      audioClips:
+      - {fileID: 8300000, guid: 230dede735b484a8e9233ca651bc2e69, type: 3}
+      - {fileID: 8300000, guid: 2269e3accdaea408a8ad754d03e9d81c, type: 3}
+      - {fileID: 8300000, guid: b4fef217d4e154048b320223405bd361, type: 3}
+      - {fileID: 8300000, guid: 0f081e1bd42024172afd00b885a24444, type: 3}
       gameObjects: []
       guiSkins: []
       materials: []
