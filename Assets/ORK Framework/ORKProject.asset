@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: ORKProject
   m_EditorClassIdentifier: 
-  time: 6/29/2020 4:59:38 PM
+  time: 6/29/2020 6:50:50 PM
   version: 2.28.1
   keys:
   - editorSettings
@@ -511,15 +511,226 @@ MonoBehaviour:
       generalAssets: []
     encrypted: 0
   - name: formulas
-    xmlData: "<formulas>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0 typeID=\"0\" formulaOperator=\"0\"
-      startIndex=\"-1\" >\n\t\t\t\t<_float minValue=\"0\" maxValue=\"0\" />\n\t\t\t\t<_bool
-      useMinValue=\"False\" useMaxValue=\"False\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
-      38 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Default
+    xmlData: "<formulas>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0 typeID=\"0\" formulaOperator=\"7\"
+      startIndex=\"0\" >\n\t\t\t\t<_float minValue=\"0\" maxValue=\"0\" />\n\t\t\t\t<_bool
+      useMinValue=\"True\" useMaxValue=\"False\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      38 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Evade%
+      (need equipment weight)]]></name>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t</_string>\n\t\t\t\t<startValue
+      type=\"0\" multiVariableUseType=\"0\" id=\"0\" >\n\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"0\" value2=\"0\" />\n\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<variableOrigin
+      variableOrigin=\"1\" >\n\t\t\t\t\t</variableOrigin>\n\t\t\t\t</startValue>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<step>\n\t\t\t\t\t\t<0
+      formulaOperator=\"7\" next=\"1\" >\n\t\t\t\t\t\t\t<_bool active=\"True\" overrideNodeName=\"False\"
+      />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<nodePosition 266 38 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t\t\t\t<_type><![CDATA[ValueStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<value
+      type=\"0\" multiVariableUseType=\"0\" id=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"48\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<variableOrigin
+      variableOrigin=\"1\" >\n\t\t\t\t\t\t\t\t</variableOrigin>\n\t\t\t\t\t\t\t</value>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1
+      formulaOperator=\"0\" id=\"21\" svOrigin=\"1\" multiValueType=\"4\" next=\"-1\"
+      >\n\t\t\t\t\t\t\t<_bool fromAllSelectedData=\"False\" wholeGroup=\"False\"
+      onlyBattle=\"True\" active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<nodePosition
+      494 38 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t\t\t\t<_type><![CDATA[StatusValueStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<origin
+      origin=\"0\" >\n\t\t\t\t\t\t\t\t<_bool groupLeader=\"False\" />\n\t\t\t\t\t\t\t</origin>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t</step>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t\t<1
+      typeID=\"0\" formulaOperator=\"0\" startIndex=\"0\" >\n\t\t\t\t<_float minValue=\"0\"
+      maxValue=\"0\" />\n\t\t\t\t<_bool useMinValue=\"True\" useMaxValue=\"False\"
+      overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      38 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Damage
+      Stat (need weapon damage)]]></name>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t</_string>\n\t\t\t\t<startValue
+      type=\"0\" multiVariableUseType=\"0\" id=\"0\" >\n\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"0\" value2=\"0\" />\n\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<variableOrigin
+      variableOrigin=\"1\" >\n\t\t\t\t\t</variableOrigin>\n\t\t\t\t</startValue>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<step>\n\t\t\t\t\t\t<0
+      formulaOperator=\"0\" id=\"20\" svOrigin=\"1\" multiValueType=\"4\" next=\"-1\"
+      >\n\t\t\t\t\t\t\t<_bool fromAllSelectedData=\"False\" wholeGroup=\"False\"
+      onlyBattle=\"True\" active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<nodePosition
+      266 38 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t\t\t\t<_type><![CDATA[StatusValueStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<origin
+      origin=\"0\" >\n\t\t\t\t\t\t\t\t<_bool groupLeader=\"False\" />\n\t\t\t\t\t\t\t</origin>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</step>\n\t\t\t\t</_subarrays>\n\t\t\t</1>\n\t\t\t<2
+      typeID=\"0\" formulaOperator=\"0\" startIndex=\"0\" >\n\t\t\t\t<_float minValue=\"0\"
+      maxValue=\"0\" />\n\t\t\t\t<_bool useMinValue=\"False\" useMaxValue=\"False\"
+      overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      38 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Combat
       Formula]]></name>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t</_string>\n\t\t\t\t<startValue
       type=\"0\" multiVariableUseType=\"0\" id=\"0\" >\n\t\t\t\t\t<_float initialValue=\"0\"
       offset=\"0\" value=\"0\" value2=\"0\" />\n\t\t\t\t\t<_bool isInt=\"False\"
       isUTC=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<variableOrigin
-      variableOrigin=\"1\" >\n\t\t\t\t\t</variableOrigin>\n\t\t\t\t</startValue>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<step>\n\t\t\t\t\t</step>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</formulas>\n"
+      variableOrigin=\"1\" >\n\t\t\t\t\t</variableOrigin>\n\t\t\t\t</startValue>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<step>\n\t\t\t\t\t\t<0
+      formulaOperator=\"7\" next=\"1\" >\n\t\t\t\t\t\t\t<_bool active=\"True\" overrideNodeName=\"False\"
+      />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<nodePosition 304 76 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t\t\t\t<_type><![CDATA[ValueStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<value
+      type=\"0\" multiVariableUseType=\"0\" id=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"168\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<variableOrigin
+      variableOrigin=\"1\" >\n\t\t\t\t\t\t\t\t</variableOrigin>\n\t\t\t\t\t\t\t</value>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1
+      formulaOperator=\"0\" id=\"25\" svOrigin=\"1\" multiValueType=\"4\" next=\"2\"
+      >\n\t\t\t\t\t\t\t<_bool fromAllSelectedData=\"False\" wholeGroup=\"False\"
+      onlyBattle=\"True\" active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<nodePosition
+      532 76 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t\t\t\t<_type><![CDATA[StatusValueStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<origin
+      origin=\"0\" >\n\t\t\t\t\t\t\t\t<_bool groupLeader=\"False\" />\n\t\t\t\t\t\t\t</origin>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t\t<2
+      formulaOperator=\"1\" id=\"31\" svOrigin=\"1\" multiValueType=\"4\" next=\"-1\"
+      >\n\t\t\t\t\t\t\t<_bool fromAllSelectedData=\"False\" wholeGroup=\"False\"
+      onlyBattle=\"True\" active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<nodePosition
+      760 76 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t\t\t\t<_type><![CDATA[StatusValueStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<origin
+      origin=\"1\" >\n\t\t\t\t\t\t\t\t<_bool groupLeader=\"False\" />\n\t\t\t\t\t\t\t</origin>\n\t\t\t\t\t\t</2>\n\t\t\t\t\t</step>\n\t\t\t\t</_subarrays>\n\t\t\t</2>\n\t\t\t<3
+      typeID=\"0\" formulaOperator=\"0\" startIndex=\"0\" >\n\t\t\t\t<_float minValue=\"1\"
+      maxValue=\"0\" />\n\t\t\t\t<_bool useMinValue=\"True\" useMaxValue=\"False\"
+      overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      38 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Damage
+      Formula (need element weakness/strength)]]></name>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t</_string>\n\t\t\t\t<startValue
+      type=\"0\" multiVariableUseType=\"0\" id=\"0\" >\n\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"0\" value2=\"0\" />\n\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<variableOrigin
+      variableOrigin=\"1\" >\n\t\t\t\t\t</variableOrigin>\n\t\t\t\t</startValue>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<step>\n\t\t\t\t\t\t<0
+      formulaOperator=\"0\" id=\"28\" svOrigin=\"1\" multiValueType=\"4\" next=\"1\"
+      >\n\t\t\t\t\t\t\t<_bool fromAllSelectedData=\"False\" wholeGroup=\"False\"
+      onlyBattle=\"True\" active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<nodePosition
+      266 38 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t\t\t\t<_type><![CDATA[StatusValueStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<origin
+      origin=\"0\" >\n\t\t\t\t\t\t\t\t<_bool groupLeader=\"False\" />\n\t\t\t\t\t\t\t</origin>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1
+      formulaOperator=\"2\" next=\"2\" >\n\t\t\t\t\t\t\t<_bool asInt=\"False\" active=\"True\"
+      overrideNodeName=\"False\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<nodePosition
+      361 190 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t\t\t\t<_type><![CDATA[RandomValueStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<min
+      type=\"0\" multiVariableUseType=\"0\" id=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"1\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<variableOrigin
+      variableOrigin=\"1\" >\n\t\t\t\t\t\t\t\t</variableOrigin>\n\t\t\t\t\t\t\t</min>\n\t\t\t\t\t\t\t<max
+      type=\"0\" multiVariableUseType=\"0\" id=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"2\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<variableOrigin
+      variableOrigin=\"1\" >\n\t\t\t\t\t\t\t\t</variableOrigin>\n\t\t\t\t\t\t\t</max>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t\t<2
+      formulaOperator=\"1\" id=\"29\" svOrigin=\"1\" multiValueType=\"4\" next=\"3\"
+      >\n\t\t\t\t\t\t\t<_bool fromAllSelectedData=\"False\" wholeGroup=\"False\"
+      onlyBattle=\"True\" active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<nodePosition
+      589 190 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t\t\t\t<_type><![CDATA[StatusValueStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<origin
+      origin=\"1\" >\n\t\t\t\t\t\t\t\t<_bool groupLeader=\"False\" />\n\t\t\t\t\t\t\t</origin>\n\t\t\t\t\t\t</2>\n\t\t\t\t\t\t<3
+      rounding=\"1\" next=\"-1\" >\n\t\t\t\t\t\t\t<_bool doSum=\"False\" active=\"True\"
+      overrideNodeName=\"False\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<nodePosition
+      817 190 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t\t\t\t<_type><![CDATA[RoundingStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</3>\n\t\t\t\t\t</step>\n\t\t\t\t</_subarrays>\n\t\t\t</3>\n\t\t\t<4
+      typeID=\"0\" formulaOperator=\"0\" startIndex=\"0\" >\n\t\t\t\t<_float minValue=\"1\"
+      maxValue=\"0\" />\n\t\t\t\t<_bool useMinValue=\"True\" useMaxValue=\"False\"
+      overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      38 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Status
+      chance (need status resistance)]]></name>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t</_string>\n\t\t\t\t<startValue
+      type=\"0\" multiVariableUseType=\"0\" id=\"0\" >\n\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"0\" value2=\"0\" />\n\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<variableOrigin
+      variableOrigin=\"1\" >\n\t\t\t\t\t</variableOrigin>\n\t\t\t\t</startValue>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<step>\n\t\t\t\t\t\t<0
+      formulaOperator=\"0\" next=\"1\" >\n\t\t\t\t\t\t\t<_bool active=\"True\" overrideNodeName=\"False\"
+      />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<nodePosition 266 38 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t\t\t\t<_type><![CDATA[ValueStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<value
+      type=\"0\" multiVariableUseType=\"0\" id=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"100\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<variableOrigin
+      variableOrigin=\"1\" >\n\t\t\t\t\t\t\t\t</variableOrigin>\n\t\t\t\t\t\t\t</value>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1
+      formulaOperator=\"1\" id=\"26\" svOrigin=\"1\" multiValueType=\"4\" next=\"2\"
+      >\n\t\t\t\t\t\t\t<_bool fromAllSelectedData=\"False\" wholeGroup=\"False\"
+      onlyBattle=\"True\" active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<nodePosition
+      494 38 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t\t\t\t<_type><![CDATA[StatusValueStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<origin
+      origin=\"1\" >\n\t\t\t\t\t\t\t\t<_bool groupLeader=\"False\" />\n\t\t\t\t\t\t\t</origin>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t\t<2
+      formulaOperator=\"1\" id=\"23\" svOrigin=\"1\" multiValueType=\"4\" next=\"-1\"
+      >\n\t\t\t\t\t\t\t<_bool fromAllSelectedData=\"False\" wholeGroup=\"False\"
+      onlyBattle=\"True\" active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<nodePosition
+      722 38 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t\t\t\t<_type><![CDATA[StatusValueStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<origin
+      origin=\"1\" >\n\t\t\t\t\t\t\t\t<_bool groupLeader=\"False\" />\n\t\t\t\t\t\t\t</origin>\n\t\t\t\t\t\t</2>\n\t\t\t\t\t</step>\n\t\t\t\t</_subarrays>\n\t\t\t</4>\n\t\t\t<5
+      typeID=\"0\" formulaOperator=\"0\" startIndex=\"0\" >\n\t\t\t\t<_float minValue=\"0\"
+      maxValue=\"0\" />\n\t\t\t\t<_bool useMinValue=\"False\" useMaxValue=\"False\"
+      overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      38 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Spell
+      hit chance (need element weakness, need spell hit chance)]]></name>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t</_string>\n\t\t\t\t<startValue
+      type=\"0\" multiVariableUseType=\"0\" id=\"0\" >\n\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"0\" value2=\"0\" />\n\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<variableOrigin
+      variableOrigin=\"1\" >\n\t\t\t\t\t</variableOrigin>\n\t\t\t\t</startValue>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<step>\n\t\t\t\t\t\t<0
+      formulaOperator=\"7\" next=\"1\" >\n\t\t\t\t\t\t\t<_bool active=\"True\" overrideNodeName=\"False\"
+      />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<nodePosition 266 38 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t\t\t\t<_type><![CDATA[ValueStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<value
+      type=\"0\" multiVariableUseType=\"0\" id=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"168\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<variableOrigin
+      variableOrigin=\"1\" >\n\t\t\t\t\t\t\t\t</variableOrigin>\n\t\t\t\t\t\t\t</value>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1
+      formulaOperator=\"1\" id=\"26\" svOrigin=\"1\" multiValueType=\"4\" next=\"-1\"
+      >\n\t\t\t\t\t\t\t<_bool fromAllSelectedData=\"False\" wholeGroup=\"False\"
+      onlyBattle=\"True\" active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<nodePosition
+      665 57 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t\t\t\t<_type><![CDATA[StatusValueStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<origin
+      origin=\"1\" >\n\t\t\t\t\t\t\t\t<_bool groupLeader=\"False\" />\n\t\t\t\t\t\t\t</origin>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t</step>\n\t\t\t\t</_subarrays>\n\t\t\t</5>\n\t\t\t<6
+      typeID=\"0\" formulaOperator=\"0\" startIndex=\"0\" >\n\t\t\t\t<_float minValue=\"1\"
+      maxValue=\"0\" />\n\t\t\t\t<_bool useMinValue=\"True\" useMaxValue=\"False\"
+      overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      38 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Spell
+      damage (need spells damage)]]></name>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t</_string>\n\t\t\t\t<startValue
+      type=\"0\" multiVariableUseType=\"0\" id=\"0\" >\n\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"0\" value2=\"0\" />\n\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<variableOrigin
+      variableOrigin=\"1\" >\n\t\t\t\t\t</variableOrigin>\n\t\t\t\t</startValue>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<step>\n\t\t\t\t\t\t<0
+      formulaOperator=\"0\" id=\"22\" svOrigin=\"1\" multiValueType=\"4\" next=\"-1\"
+      >\n\t\t\t\t\t\t\t<_bool fromAllSelectedData=\"False\" wholeGroup=\"False\"
+      onlyBattle=\"True\" active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<nodePosition
+      266 38 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t\t\t\t<_type><![CDATA[StatusValueStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<origin
+      origin=\"0\" >\n\t\t\t\t\t\t\t\t<_bool groupLeader=\"False\" />\n\t\t\t\t\t\t\t</origin>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</step>\n\t\t\t\t</_subarrays>\n\t\t\t</6>\n\t\t\t<7
+      typeID=\"0\" formulaOperator=\"0\" startIndex=\"0\" >\n\t\t\t\t<_float minValue=\"0\"
+      maxValue=\"0\" />\n\t\t\t\t<_bool useMinValue=\"False\" useMaxValue=\"False\"
+      overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      38 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Initiative
+      Stat]]></name>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t</_string>\n\t\t\t\t<startValue
+      type=\"0\" multiVariableUseType=\"0\" id=\"0\" >\n\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"0\" value2=\"0\" />\n\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<variableOrigin
+      variableOrigin=\"1\" >\n\t\t\t\t\t</variableOrigin>\n\t\t\t\t</startValue>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<step>\n\t\t\t\t\t\t<0
+      formulaOperator=\"0\" id=\"21\" svOrigin=\"1\" multiValueType=\"4\" next=\"1\"
+      >\n\t\t\t\t\t\t\t<_bool fromAllSelectedData=\"False\" wholeGroup=\"False\"
+      onlyBattle=\"True\" active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<nodePosition
+      266 38 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t\t\t\t<_type><![CDATA[StatusValueStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<origin
+      origin=\"0\" >\n\t\t\t\t\t\t\t\t<_bool groupLeader=\"False\" />\n\t\t\t\t\t\t\t</origin>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1
+      formulaOperator=\"0\" id=\"24\" svOrigin=\"1\" multiValueType=\"4\" next=\"2\"
+      >\n\t\t\t\t\t\t\t<_bool fromAllSelectedData=\"False\" wholeGroup=\"False\"
+      onlyBattle=\"True\" active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<nodePosition
+      494 38 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t\t\t\t<_type><![CDATA[StatusValueStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<origin
+      origin=\"0\" >\n\t\t\t\t\t\t\t\t<_bool groupLeader=\"False\" />\n\t\t\t\t\t\t\t</origin>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t\t<2
+      formulaOperator=\"3\" next=\"-1\" >\n\t\t\t\t\t\t\t<_bool active=\"True\" overrideNodeName=\"False\"
+      />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<nodePosition 722 38 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t\t\t\t<_type><![CDATA[ValueStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<value
+      type=\"0\" multiVariableUseType=\"0\" id=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"8\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<variableOrigin
+      variableOrigin=\"1\" >\n\t\t\t\t\t\t\t\t</variableOrigin>\n\t\t\t\t\t\t\t</value>\n\t\t\t\t\t\t</2>\n\t\t\t\t\t</step>\n\t\t\t\t</_subarrays>\n\t\t\t</7>\n\t\t\t<8
+      typeID=\"0\" formulaOperator=\"0\" startIndex=\"0\" >\n\t\t\t\t<_float minValue=\"0\"
+      maxValue=\"0\" />\n\t\t\t\t<_bool useMinValue=\"False\" useMaxValue=\"False\"
+      overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      38 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Ambush/Preemptive
+      Chance (need monster surprise factor)]]></name>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t</_string>\n\t\t\t\t<startValue
+      type=\"0\" multiVariableUseType=\"0\" id=\"0\" >\n\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"0\" value2=\"0\" />\n\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<variableOrigin
+      variableOrigin=\"1\" >\n\t\t\t\t\t</variableOrigin>\n\t\t\t\t</startValue>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<step>\n\t\t\t\t\t\t<0
+      formulaOperator=\"7\" next=\"1\" >\n\t\t\t\t\t\t\t<_bool asInt=\"False\" active=\"True\"
+      overrideNodeName=\"False\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<nodePosition
+      285 57 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t\t\t\t<_type><![CDATA[RandomValueStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<min
+      type=\"0\" multiVariableUseType=\"0\" id=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"1\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<variableOrigin
+      variableOrigin=\"1\" >\n\t\t\t\t\t\t\t\t</variableOrigin>\n\t\t\t\t\t\t\t</min>\n\t\t\t\t\t\t\t<max
+      type=\"0\" multiVariableUseType=\"0\" id=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"100\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<variableOrigin
+      variableOrigin=\"1\" >\n\t\t\t\t\t\t\t\t</variableOrigin>\n\t\t\t\t\t\t\t</max>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1
+      formulaOperator=\"0\" id=\"32\" svOrigin=\"1\" multiValueType=\"4\" next=\"-1\"
+      >\n\t\t\t\t\t\t\t<_bool fromAllSelectedData=\"False\" wholeGroup=\"False\"
+      onlyBattle=\"True\" active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<nodePosition
+      513 57 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t\t\t\t<_type><![CDATA[StatusValueStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<origin
+      origin=\"2\" >\n\t\t\t\t\t\t\t\t<_bool groupLeader=\"False\" />\n\t\t\t\t\t\t\t</origin>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t</step>\n\t\t\t\t</_subarrays>\n\t\t\t</8>\n\t\t\t<9
+      typeID=\"0\" formulaOperator=\"0\" startIndex=\"0\" >\n\t\t\t\t<_float minValue=\"0\"
+      maxValue=\"0\" />\n\t\t\t\t<_bool useMinValue=\"False\" useMaxValue=\"False\"
+      overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      38 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Monster
+      run away (need monster morale)]]></name>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t</_string>\n\t\t\t\t<startValue
+      type=\"0\" multiVariableUseType=\"0\" id=\"0\" >\n\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"0\" value2=\"0\" />\n\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<variableOrigin
+      variableOrigin=\"1\" >\n\t\t\t\t\t</variableOrigin>\n\t\t\t\t</startValue>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<step>\n\t\t\t\t\t\t<0
+      formulaOperator=\"7\" next=\"1\" >\n\t\t\t\t\t\t\t<_bool useClass=\"False\"
+      useMax=\"False\" useAverage=\"False\" onlyBattle=\"True\" active=\"True\" overrideNodeName=\"False\"
+      />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<nodePosition 266 38 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t\t\t\t<_type><![CDATA[LevelStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<origin
+      origin=\"0\" >\n\t\t\t\t\t\t\t\t<_bool groupLeader=\"True\" />\n\t\t\t\t\t\t\t</origin>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1
+      formulaOperator=\"2\" next=\"-1\" >\n\t\t\t\t\t\t\t<_bool active=\"True\" overrideNodeName=\"False\"
+      />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<nodePosition 494 38 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t\t\t\t<_type><![CDATA[ValueStep]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<value
+      type=\"0\" multiVariableUseType=\"0\" id=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"2\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<variableOrigin
+      variableOrigin=\"1\" >\n\t\t\t\t\t\t\t\t</variableOrigin>\n\t\t\t\t\t\t\t</value>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t</step>\n\t\t\t\t</_subarrays>\n\t\t\t</9>\n\t\t</data>\n\t</_subarrays>\n</formulas>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -783,13 +994,7 @@ MonoBehaviour:
       loadSceneMode=\"0\" guiBoxID=\"0\" >\n\t\t<_float waitTime=\"1\" />\n\t\t<_bool
       loadAsync=\"False\" fieldAuto=\"False\" autoGroupDead=\"True\" useFadeOut=\"True\"
       useFadeIn=\"True\" showChoice=\"False\" useTitle=\"False\" showRetry=\"True\"
-      showLoad=\"True\" showExit=\"True\" />\n\t\t<_string>\n\t\t\t<scene><![CDATA[]]></scene>\n\t\t</_string>\n\t\t<_stringarrays>\n\t\t\t<message>\n\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t</message>\n\t\t</_stringarrays>\n\t\t<fadeOut
-      interpolation=\"0\" >\n\t\t\t<_float time=\"0.5\" />\n\t\t\t<_bool alpha=\"True\"
-      red=\"False\" green=\"False\" blue=\"False\" fromCurrent=\"False\" />\n\t\t\t<_floatarrays>\n\t\t\t\t<startColor
-      0 0 0 0 />\n\t\t\t\t<endColor 0 0 0 1 />\n\t\t\t</_floatarrays>\n\t\t</fadeOut>\n\t\t<fadeIn
-      interpolation=\"0\" >\n\t\t\t<_float time=\"0.5\" />\n\t\t\t<_bool alpha=\"True\"
-      red=\"False\" green=\"False\" blue=\"False\" fromCurrent=\"False\" />\n\t\t\t<_floatarrays>\n\t\t\t\t<startColor
-      0 0 0 1 />\n\t\t\t\t<endColor 0 0 0 0 />\n\t\t\t</_floatarrays>\n\t\t</fadeIn>\n\t\t<variableSetter>\n\t\t\t<_subarrays>\n\t\t\t\t<gameVariable>\n\t\t\t\t</gameVariable>\n\t\t\t</_subarrays>\n\t\t</variableSetter>\n\t\t<retryButton>\n\t\t\t<customSkin>\n\t\t\t\t<_bool
+      showLoad=\"True\" showExit=\"True\" />\n\t\t<_string>\n\t\t\t<scene><![CDATA[]]></scene>\n\t\t</_string>\n\t\t<_stringarrays>\n\t\t\t<message>\n\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t</message>\n\t\t</_stringarrays>\n\t\t<variableSetter>\n\t\t\t<_subarrays>\n\t\t\t\t<gameVariable>\n\t\t\t\t</gameVariable>\n\t\t\t</_subarrays>\n\t\t</variableSetter>\n\t\t<retryButton>\n\t\t\t<customSkin>\n\t\t\t\t<_bool
       useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t</customSkin>\n\t\t\t<_subarrays>\n\t\t\t\t<button>\n\t\t\t\t\t<0>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<name><![CDATA[Retry]]></name>\n\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t</icon>\n\t\t\t\t\t</0>\n\t\t\t\t</button>\n\t\t\t</_subarrays>\n\t\t</retryButton>\n\t\t<loadButton>\n\t\t\t<customSkin>\n\t\t\t\t<_bool
       useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t</customSkin>\n\t\t\t<_subarrays>\n\t\t\t\t<button>\n\t\t\t\t\t<0>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<name><![CDATA[Load]]></name>\n\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t</icon>\n\t\t\t\t\t</0>\n\t\t\t\t</button>\n\t\t\t</_subarrays>\n\t\t</loadButton>\n\t\t<exitButton>\n\t\t\t<customSkin>\n\t\t\t\t<_bool
       useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t</customSkin>\n\t\t\t<_subarrays>\n\t\t\t\t<button>\n\t\t\t\t\t<0>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<name><![CDATA[Exit]]></name>\n\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t</icon>\n\t\t\t\t\t</0>\n\t\t\t\t</button>\n\t\t\t</_subarrays>\n\t\t</exitButton>\n\t</gameOver>\n\t<initialVariables>\n\t\t<_subarrays>\n\t\t\t<gameVariable>\n\t\t\t</gameVariable>\n\t\t</_subarrays>\n\t</initialVariables>\n\t<assetSettings
@@ -1697,8 +1902,8 @@ MonoBehaviour:
       useMaterial=\"False\" cropImage=\"False\" alphaBlend=\"True\" />\n\t\t\t\t\t\t\t\t</image>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</image>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</bar>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<changeEvent>\n\t\t\t\t\t</changeEvent>\n\t\t\t\t\t<flyingText>\n\t\t\t\t\t</flyingText>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Max
       HP]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t\t<1
       statusTypeID=\"0\" type=\"1\" otherMinID=\"0\" otherMaxID=\"0\" minValue=\"0\"
-      maxValue=\"2147483647\" combinedFormulaID=\"0\" maxStatusID=\"0\" deathOn=\"1\"
-      startValue=\"100\" startSetIn=\"0\" expType=\"0\" expNoneMaxType=\"0\" countInterpolate=\"0\"
+      maxValue=\"9999\" combinedFormulaID=\"0\" maxStatusID=\"0\" deathOn=\"1\" startValue=\"100\"
+      startSetIn=\"0\" expType=\"0\" expNoneMaxType=\"0\" countInterpolate=\"0\"
       >\n\t\t\t\t<_float initialValueCombined=\"0\" countTime=\"0.5\" countDelay=\"0\"
       />\n\t\t\t\t<_bool hidden=\"False\" useOtherMinMax=\"False\" combined=\"False\"
       noRegeneration=\"False\" animateDamage=\"True\" expEarnOnLevelUp=\"False\"
@@ -1917,8 +2122,8 @@ MonoBehaviour:
       imageAspect=\"0\" />\n\t\t\t\t\t\t\t\t\t<_bool useImage=\"False\" useAlphaMask=\"False\"
       useMaterial=\"False\" cropImage=\"False\" alphaBlend=\"True\" />\n\t\t\t\t\t\t\t\t</image>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</image>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</bar>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<changeEvent>\n\t\t\t\t\t</changeEvent>\n\t\t\t\t\t<flyingText>\n\t\t\t\t\t</flyingText>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[MaxMP9]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[Lv.9]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</10>\n\t\t\t<11
       statusTypeID=\"0\" type=\"1\" otherMinID=\"0\" otherMaxID=\"0\" minValue=\"0\"
-      maxValue=\"2147483647\" combinedFormulaID=\"0\" maxStatusID=\"2\" deathOn=\"0\"
-      startValue=\"0\" startSetIn=\"0\" expType=\"0\" expNoneMaxType=\"0\" countInterpolate=\"0\"
+      maxValue=\"99\" combinedFormulaID=\"0\" maxStatusID=\"2\" deathOn=\"0\" startValue=\"0\"
+      startSetIn=\"0\" expType=\"0\" expNoneMaxType=\"0\" countInterpolate=\"0\"
       >\n\t\t\t\t<_float initialValueCombined=\"0\" countTime=\"0.5\" countDelay=\"0\"
       />\n\t\t\t\t<_bool hidden=\"False\" useOtherMinMax=\"False\" combined=\"False\"
       noRegeneration=\"False\" animateDamage=\"True\" expEarnOnLevelUp=\"False\"
@@ -1939,8 +2144,8 @@ MonoBehaviour:
       imageAspect=\"0\" />\n\t\t\t\t\t\t\t\t\t<_bool useImage=\"False\" useAlphaMask=\"False\"
       useMaterial=\"False\" cropImage=\"False\" alphaBlend=\"True\" />\n\t\t\t\t\t\t\t\t</image>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</image>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</bar>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<changeEvent>\n\t\t\t\t\t</changeEvent>\n\t\t\t\t\t<flyingText>\n\t\t\t\t\t</flyingText>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[MP1]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[h1]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</11>\n\t\t\t<12
       statusTypeID=\"0\" type=\"1\" otherMinID=\"0\" otherMaxID=\"0\" minValue=\"0\"
-      maxValue=\"2147483647\" combinedFormulaID=\"0\" maxStatusID=\"3\" deathOn=\"0\"
-      startValue=\"0\" startSetIn=\"0\" expType=\"0\" expNoneMaxType=\"0\" countInterpolate=\"0\"
+      maxValue=\"99\" combinedFormulaID=\"0\" maxStatusID=\"3\" deathOn=\"0\" startValue=\"0\"
+      startSetIn=\"0\" expType=\"0\" expNoneMaxType=\"0\" countInterpolate=\"0\"
       >\n\t\t\t\t<_float initialValueCombined=\"0\" countTime=\"0.5\" countDelay=\"0\"
       />\n\t\t\t\t<_bool hidden=\"False\" useOtherMinMax=\"False\" combined=\"False\"
       noRegeneration=\"False\" animateDamage=\"True\" expEarnOnLevelUp=\"False\"
@@ -1961,8 +2166,8 @@ MonoBehaviour:
       imageAspect=\"0\" />\n\t\t\t\t\t\t\t\t\t<_bool useImage=\"False\" useAlphaMask=\"False\"
       useMaterial=\"False\" cropImage=\"False\" alphaBlend=\"True\" />\n\t\t\t\t\t\t\t\t</image>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</image>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</bar>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<changeEvent>\n\t\t\t\t\t</changeEvent>\n\t\t\t\t\t<flyingText>\n\t\t\t\t\t</flyingText>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[MP2]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</12>\n\t\t\t<13
       statusTypeID=\"0\" type=\"1\" otherMinID=\"0\" otherMaxID=\"0\" minValue=\"0\"
-      maxValue=\"2147483647\" combinedFormulaID=\"0\" maxStatusID=\"4\" deathOn=\"0\"
-      startValue=\"0\" startSetIn=\"0\" expType=\"0\" expNoneMaxType=\"0\" countInterpolate=\"0\"
+      maxValue=\"99\" combinedFormulaID=\"0\" maxStatusID=\"4\" deathOn=\"0\" startValue=\"0\"
+      startSetIn=\"0\" expType=\"0\" expNoneMaxType=\"0\" countInterpolate=\"0\"
       >\n\t\t\t\t<_float initialValueCombined=\"0\" countTime=\"0.5\" countDelay=\"0\"
       />\n\t\t\t\t<_bool hidden=\"False\" useOtherMinMax=\"False\" combined=\"False\"
       noRegeneration=\"False\" animateDamage=\"True\" expEarnOnLevelUp=\"False\"
@@ -1983,8 +2188,8 @@ MonoBehaviour:
       imageAspect=\"0\" />\n\t\t\t\t\t\t\t\t\t<_bool useImage=\"False\" useAlphaMask=\"False\"
       useMaterial=\"False\" cropImage=\"False\" alphaBlend=\"True\" />\n\t\t\t\t\t\t\t\t</image>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</image>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</bar>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<changeEvent>\n\t\t\t\t\t</changeEvent>\n\t\t\t\t\t<flyingText>\n\t\t\t\t\t</flyingText>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[MP3]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</13>\n\t\t\t<14
       statusTypeID=\"0\" type=\"1\" otherMinID=\"0\" otherMaxID=\"0\" minValue=\"0\"
-      maxValue=\"2147483647\" combinedFormulaID=\"0\" maxStatusID=\"5\" deathOn=\"0\"
-      startValue=\"0\" startSetIn=\"0\" expType=\"0\" expNoneMaxType=\"0\" countInterpolate=\"0\"
+      maxValue=\"99\" combinedFormulaID=\"0\" maxStatusID=\"5\" deathOn=\"0\" startValue=\"0\"
+      startSetIn=\"0\" expType=\"0\" expNoneMaxType=\"0\" countInterpolate=\"0\"
       >\n\t\t\t\t<_float initialValueCombined=\"0\" countTime=\"0.5\" countDelay=\"0\"
       />\n\t\t\t\t<_bool hidden=\"False\" useOtherMinMax=\"False\" combined=\"False\"
       noRegeneration=\"False\" animateDamage=\"True\" expEarnOnLevelUp=\"False\"
@@ -2005,8 +2210,8 @@ MonoBehaviour:
       imageAspect=\"0\" />\n\t\t\t\t\t\t\t\t\t<_bool useImage=\"False\" useAlphaMask=\"False\"
       useMaterial=\"False\" cropImage=\"False\" alphaBlend=\"True\" />\n\t\t\t\t\t\t\t\t</image>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</image>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</bar>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<changeEvent>\n\t\t\t\t\t</changeEvent>\n\t\t\t\t\t<flyingText>\n\t\t\t\t\t</flyingText>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[MP4]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</14>\n\t\t\t<15
       statusTypeID=\"0\" type=\"1\" otherMinID=\"0\" otherMaxID=\"0\" minValue=\"0\"
-      maxValue=\"2147483647\" combinedFormulaID=\"0\" maxStatusID=\"6\" deathOn=\"0\"
-      startValue=\"0\" startSetIn=\"0\" expType=\"0\" expNoneMaxType=\"0\" countInterpolate=\"0\"
+      maxValue=\"99\" combinedFormulaID=\"0\" maxStatusID=\"6\" deathOn=\"0\" startValue=\"0\"
+      startSetIn=\"0\" expType=\"0\" expNoneMaxType=\"0\" countInterpolate=\"0\"
       >\n\t\t\t\t<_float initialValueCombined=\"0\" countTime=\"0.5\" countDelay=\"0\"
       />\n\t\t\t\t<_bool hidden=\"False\" useOtherMinMax=\"False\" combined=\"False\"
       noRegeneration=\"False\" animateDamage=\"True\" expEarnOnLevelUp=\"False\"
@@ -2027,8 +2232,8 @@ MonoBehaviour:
       imageAspect=\"0\" />\n\t\t\t\t\t\t\t\t\t<_bool useImage=\"False\" useAlphaMask=\"False\"
       useMaterial=\"False\" cropImage=\"False\" alphaBlend=\"True\" />\n\t\t\t\t\t\t\t\t</image>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</image>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</bar>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<changeEvent>\n\t\t\t\t\t</changeEvent>\n\t\t\t\t\t<flyingText>\n\t\t\t\t\t</flyingText>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[MP5]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</15>\n\t\t\t<16
       statusTypeID=\"0\" type=\"1\" otherMinID=\"0\" otherMaxID=\"0\" minValue=\"0\"
-      maxValue=\"2147483647\" combinedFormulaID=\"0\" maxStatusID=\"7\" deathOn=\"0\"
-      startValue=\"0\" startSetIn=\"0\" expType=\"0\" expNoneMaxType=\"0\" countInterpolate=\"0\"
+      maxValue=\"99\" combinedFormulaID=\"0\" maxStatusID=\"7\" deathOn=\"0\" startValue=\"0\"
+      startSetIn=\"0\" expType=\"0\" expNoneMaxType=\"0\" countInterpolate=\"0\"
       >\n\t\t\t\t<_float initialValueCombined=\"0\" countTime=\"0.5\" countDelay=\"0\"
       />\n\t\t\t\t<_bool hidden=\"False\" useOtherMinMax=\"False\" combined=\"False\"
       noRegeneration=\"False\" animateDamage=\"True\" expEarnOnLevelUp=\"False\"
@@ -2049,8 +2254,8 @@ MonoBehaviour:
       imageAspect=\"0\" />\n\t\t\t\t\t\t\t\t\t<_bool useImage=\"False\" useAlphaMask=\"False\"
       useMaterial=\"False\" cropImage=\"False\" alphaBlend=\"True\" />\n\t\t\t\t\t\t\t\t</image>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</image>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</bar>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<changeEvent>\n\t\t\t\t\t</changeEvent>\n\t\t\t\t\t<flyingText>\n\t\t\t\t\t</flyingText>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[MP6]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</16>\n\t\t\t<17
       statusTypeID=\"0\" type=\"1\" otherMinID=\"0\" otherMaxID=\"0\" minValue=\"0\"
-      maxValue=\"2147483647\" combinedFormulaID=\"0\" maxStatusID=\"8\" deathOn=\"0\"
-      startValue=\"0\" startSetIn=\"0\" expType=\"0\" expNoneMaxType=\"0\" countInterpolate=\"0\"
+      maxValue=\"99\" combinedFormulaID=\"0\" maxStatusID=\"8\" deathOn=\"0\" startValue=\"0\"
+      startSetIn=\"0\" expType=\"0\" expNoneMaxType=\"0\" countInterpolate=\"0\"
       >\n\t\t\t\t<_float initialValueCombined=\"0\" countTime=\"0.5\" countDelay=\"0\"
       />\n\t\t\t\t<_bool hidden=\"False\" useOtherMinMax=\"False\" combined=\"False\"
       noRegeneration=\"False\" animateDamage=\"True\" expEarnOnLevelUp=\"False\"
@@ -2071,8 +2276,8 @@ MonoBehaviour:
       imageAspect=\"0\" />\n\t\t\t\t\t\t\t\t\t<_bool useImage=\"False\" useAlphaMask=\"False\"
       useMaterial=\"False\" cropImage=\"False\" alphaBlend=\"True\" />\n\t\t\t\t\t\t\t\t</image>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</image>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</bar>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<changeEvent>\n\t\t\t\t\t</changeEvent>\n\t\t\t\t\t<flyingText>\n\t\t\t\t\t</flyingText>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[MP7]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</17>\n\t\t\t<18
       statusTypeID=\"0\" type=\"1\" otherMinID=\"0\" otherMaxID=\"0\" minValue=\"0\"
-      maxValue=\"2147483647\" combinedFormulaID=\"0\" maxStatusID=\"9\" deathOn=\"0\"
-      startValue=\"0\" startSetIn=\"0\" expType=\"0\" expNoneMaxType=\"0\" countInterpolate=\"0\"
+      maxValue=\"99\" combinedFormulaID=\"0\" maxStatusID=\"9\" deathOn=\"0\" startValue=\"0\"
+      startSetIn=\"0\" expType=\"0\" expNoneMaxType=\"0\" countInterpolate=\"0\"
       >\n\t\t\t\t<_float initialValueCombined=\"0\" countTime=\"0.5\" countDelay=\"0\"
       />\n\t\t\t\t<_bool hidden=\"False\" useOtherMinMax=\"False\" combined=\"False\"
       noRegeneration=\"False\" animateDamage=\"True\" expEarnOnLevelUp=\"False\"
@@ -2093,8 +2298,8 @@ MonoBehaviour:
       imageAspect=\"0\" />\n\t\t\t\t\t\t\t\t\t<_bool useImage=\"False\" useAlphaMask=\"False\"
       useMaterial=\"False\" cropImage=\"False\" alphaBlend=\"True\" />\n\t\t\t\t\t\t\t\t</image>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</image>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</bar>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<changeEvent>\n\t\t\t\t\t</changeEvent>\n\t\t\t\t\t<flyingText>\n\t\t\t\t\t</flyingText>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[MP8]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</18>\n\t\t\t<19
       statusTypeID=\"0\" type=\"1\" otherMinID=\"0\" otherMaxID=\"0\" minValue=\"0\"
-      maxValue=\"2147483647\" combinedFormulaID=\"0\" maxStatusID=\"10\" deathOn=\"0\"
-      startValue=\"0\" startSetIn=\"0\" expType=\"0\" expNoneMaxType=\"0\" countInterpolate=\"0\"
+      maxValue=\"99\" combinedFormulaID=\"0\" maxStatusID=\"10\" deathOn=\"0\" startValue=\"0\"
+      startSetIn=\"0\" expType=\"0\" expNoneMaxType=\"0\" countInterpolate=\"0\"
       >\n\t\t\t\t<_float initialValueCombined=\"0\" countTime=\"0.5\" countDelay=\"0\"
       />\n\t\t\t\t<_bool hidden=\"False\" useOtherMinMax=\"False\" combined=\"False\"
       noRegeneration=\"False\" animateDamage=\"True\" expEarnOnLevelUp=\"False\"
@@ -2292,7 +2497,7 @@ MonoBehaviour:
       imageAspect=\"0\" />\n\t\t\t\t\t\t\t\t\t<_bool useImage=\"False\" useAlphaMask=\"False\"
       useMaterial=\"False\" cropImage=\"False\" alphaBlend=\"True\" />\n\t\t\t\t\t\t\t\t</image>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</image>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</bar>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<changeEvent>\n\t\t\t\t\t</changeEvent>\n\t\t\t\t\t<flyingText>\n\t\t\t\t\t</flyingText>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Experience]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[XP]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</27>\n\t\t\t<28
       statusTypeID=\"0\" type=\"0\" otherMinID=\"0\" otherMaxID=\"0\" minValue=\"0\"
-      maxValue=\"2147483647\" combinedFormulaID=\"0\" maxStatusID=\"0\" deathOn=\"0\"
+      maxValue=\"2147483647\" combinedFormulaID=\"1\" maxStatusID=\"0\" deathOn=\"0\"
       startValue=\"100\" startSetIn=\"0\" expType=\"0\" expNoneMaxType=\"0\" countInterpolate=\"0\"
       >\n\t\t\t\t<_float initialValueCombined=\"0\" countTime=\"0.5\" countDelay=\"0\"
       />\n\t\t\t\t<_bool hidden=\"False\" useOtherMinMax=\"False\" combined=\"True\"
@@ -2380,7 +2585,29 @@ MonoBehaviour:
       />\n\t\t\t\t\t\t\t\t<image color=\"0\" scaleMode=\"0\" >\n\t\t\t\t\t\t\t\t\t<_float
       imageAspect=\"0\" />\n\t\t\t\t\t\t\t\t\t<_bool useImage=\"False\" useAlphaMask=\"False\"
       useMaterial=\"False\" cropImage=\"False\" alphaBlend=\"True\" />\n\t\t\t\t\t\t\t\t</image>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</image>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</bar>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<changeEvent>\n\t\t\t\t\t</changeEvent>\n\t\t\t\t\t<flyingText>\n\t\t\t\t\t</flyingText>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Evade%]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[ev%]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[24+AGI
-      - armor weight]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</31>\n\t\t</data>\n\t</_subarrays>\n</statusValues>\n"
+      - armor weight]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</31>\n\t\t\t<32
+      statusTypeID=\"0\" type=\"0\" otherMinID=\"0\" otherMaxID=\"0\" minValue=\"0\"
+      maxValue=\"2147483647\" combinedFormulaID=\"7\" maxStatusID=\"0\" deathOn=\"0\"
+      startValue=\"100\" startSetIn=\"0\" expType=\"0\" expNoneMaxType=\"0\" countInterpolate=\"0\"
+      >\n\t\t\t\t<_float initialValueCombined=\"0\" countTime=\"0.5\" countDelay=\"0\"
+      />\n\t\t\t\t<_bool hidden=\"False\" useOtherMinMax=\"False\" combined=\"True\"
+      noRegeneration=\"False\" animateDamage=\"True\" expEarnOnLevelUp=\"False\"
+      expNoneClassDev=\"False\" expFromMinimum=\"False\" initExpToLevel=\"True\"
+      useLevelDifference=\"False\" lvlDiffClass=\"False\" countToValue=\"False\"
+      realValueCount=\"False\" previewOwnNoChangeValueText=\"False\" previewUseNoChangeValueText=\"False\"
+      previewOwnNoChangeChangeText=\"False\" previewUseNoChangeChangeText=\"False\"
+      consoleIgnoreZeroDamage=\"False\" ownConsoleIncrease=\"False\" ownConsoleDecrease=\"False\"
+      ownConsoleSet=\"False\" />\n\t\t\t\t<bar filling=\"0\" iconSetter=\"1\" >\n\t\t\t\t\t<_float
+      icOff=\"0\" iconValue=\"1\" />\n\t\t\t\t\t<_bool hideEmpty=\"False\" interpolateColors=\"False\"
+      interpolateEmptyColors=\"False\" interpolatePositiveColors=\"False\" interpolatePositiveRangeColors=\"False\"
+      interpolateNegativeColors=\"False\" interpolateNegativeRangeColors=\"False\"
+      useIcons=\"False\" iconFromZero=\"False\" imagesPerIcon=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<icSize
+      30 30 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<image>\n\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t<_float
+      percent=\"100\" />\n\t\t\t\t\t\t\t\t<_bool useEmpty=\"False\" usePositiveChanges=\"False\"
+      usePositiveRange=\"False\" useNegativeChanges=\"False\" useNegativeRange=\"False\"
+      />\n\t\t\t\t\t\t\t\t<image color=\"0\" scaleMode=\"0\" >\n\t\t\t\t\t\t\t\t\t<_float
+      imageAspect=\"0\" />\n\t\t\t\t\t\t\t\t\t<_bool useImage=\"False\" useAlphaMask=\"False\"
+      useMaterial=\"False\" cropImage=\"False\" alphaBlend=\"True\" />\n\t\t\t\t\t\t\t\t</image>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</image>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</bar>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<changeEvent>\n\t\t\t\t\t</changeEvent>\n\t\t\t\t\t<flyingText>\n\t\t\t\t\t</flyingText>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Initiative]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</32>\n\t\t</data>\n\t</_subarrays>\n</statusValues>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -2855,7 +3082,9 @@ MonoBehaviour:
       type=\"0\" startValue=\"1\" formulaID=\"0\" percentRounding=\"0\" >\n\t\t\t\t\t\t\t<_float
       initialValueFormula=\"0\" percentValue=\"10\" />\n\t\t\t\t\t\t</30>\n\t\t\t\t\t\t<31
       type=\"0\" startValue=\"1\" formulaID=\"0\" percentRounding=\"0\" >\n\t\t\t\t\t\t\t<_float
-      initialValueFormula=\"0\" percentValue=\"10\" />\n\t\t\t\t\t\t</31>\n\t\t\t\t\t</statusValue>\n\t\t\t\t\t<upgrade>\n\t\t\t\t\t</upgrade>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</statusDevelopments>\n"
+      initialValueFormula=\"0\" percentValue=\"10\" />\n\t\t\t\t\t\t</31>\n\t\t\t\t\t\t<32
+      type=\"0\" startValue=\"1\" formulaID=\"0\" percentRounding=\"0\" >\n\t\t\t\t\t\t\t<_float
+      initialValueFormula=\"0\" percentValue=\"10\" />\n\t\t\t\t\t\t</32>\n\t\t\t\t\t</statusValue>\n\t\t\t\t\t<upgrade>\n\t\t\t\t\t</upgrade>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</statusDevelopments>\n"
     lookUp:
       textures: []
       audioClips: []
