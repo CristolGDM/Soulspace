@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: ORKProject
   m_EditorClassIdentifier: 
-  time: 7/3/2020 4:20:45 PM
+  time: 7/3/2020 6:57:11 PM
   version: 2.28.1
   keys:
   - editorSettings
@@ -4404,14 +4404,66 @@ MonoBehaviour:
       variableSave=\"True\" variableUseWhenLoading=\"True\" useVariableDescription=\"False\"
       useUpdateVariables=\"False\" />\n\t\t\t\t\t\t\t\t<variableChanges>\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</variableChanges>\n\t\t\t\t\t\t\t</variableSettings>\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<randomSVBonus>\n\t\t\t\t\t\t\t\t</randomSVBonus>\n\t\t\t\t\t\t\t\t<randomAtkAttrBonus>\n\t\t\t\t\t\t\t\t</randomAtkAttrBonus>\n\t\t\t\t\t\t\t\t<randomDefAttrBonus>\n\t\t\t\t\t\t\t\t</randomDefAttrBonus>\n\t\t\t\t\t\t\t\t<setAtkAttribute>\n\t\t\t\t\t\t\t\t\t<0
       index=\"0\" subIndex=\"1\" >\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</setAtkAttribute>\n\t\t\t\t\t\t\t\t<setDefAttribute>\n\t\t\t\t\t\t\t\t</setDefAttribute>\n\t\t\t\t\t\t\t\t<equipmentAbility>\n\t\t\t\t\t\t\t\t</equipmentAbility>\n\t\t\t\t\t\t\t\t<battleSound>\n\t\t\t\t\t\t\t\t</battleSound>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</level>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Ice
-      Sword]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</1>\n\t\t</data>\n\t</_subarrays>\n</weapons>\n"
+      Sword]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</1>\n\t\t\t<2
+      animationID=\"0\" animationBattleID=\"0\" itemType=\"0\" quantityLimit=\"99\"
+      stackQuantityLimit=\"99\" inventoryAddType=\"0\" selectionID=\"0\" lvlType=\"0\"
+      expID=\"0\" >\n\t\t\t\t<_float sympathyChange=\"0\" inventorySpace=\"1\" />\n\t\t\t\t<_bool
+      ownAttack=\"False\" ownCounter=\"False\" ownAnims=\"False\" ownAnimsBattle=\"False\"
+      dropable=\"False\" stealable=\"False\" oneTimeEquip=\"False\" inventorySpacePerStack=\"False\"
+      ownLimitQuantity=\"False\" limitQuantity=\"False\" ownStackLimitQuantity=\"False\"
+      limitStackQuantity=\"False\" overrideInventoryAddType=\"False\" ownSelection=\"False\"
+      ownNotifications=\"False\" ownConsoleLevelUp=\"False\" ownConsoleAdd=\"False\"
+      ownConsoleRemove=\"False\" ownConsoleIncrDurab=\"False\" ownConsoleDecrDurab=\"False\"
+      ownConsoleOutworn=\"False\" />\n\t\t\t\t<prefabSettings>\n\t\t\t\t\t<prefab>\n\t\t\t\t\t\t<_bool
+      viewerLocalRotation=\"False\" />\n\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t<viewerPosOff
+      0 0 0 />\n\t\t\t\t\t\t\t<viewerRotOff 0 0 0 />\n\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<viewerName><![CDATA[]]></viewerName>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t<itemPrefab>\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<spawnOffset
+      0 0 0 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<prefab>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</prefab>\n\t\t\t\t\t\t</itemPrefab>\n\t\t\t\t\t\t<prefabViewPrefab>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t</prefabViewPrefab>\n\t\t\t\t\t\t<viewerPrefab>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<_gameobject
+      asset=\"2\" />\n\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t</viewerPrefab>\n\t\t\t\t\t\t<prefabViewViewerPrefab>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t</prefabViewViewerPrefab>\n\t\t\t\t\t\t<viewerMaterial>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t</viewerMaterial>\n\t\t\t\t\t\t<prefabViewMaterial>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t</prefabViewMaterial>\n\t\t\t\t\t</prefab>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<conditionalPrefab>\n\t\t\t\t\t\t</conditionalPrefab>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</prefabSettings>\n\t\t\t\t<price
+      sellSetter=\"0\" rounding=\"3\" >\n\t\t\t\t\t<_bool sellable=\"True\" />\n\t\t\t\t\t<buyPriceValue
+      type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"10\" value2=\"0\" />\n\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</buyPriceValue>\n\t\t\t\t\t<sellPriceValue
+      type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"50\" value2=\"0\" />\n\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</sellPriceValue>\n\t\t\t\t</price>\n\t\t\t\t<equipRequirements
+      needed=\"0\" >\n\t\t\t\t\t<_bool autoUnequip=\"False\" />\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<statusRequirement>\n\t\t\t\t\t\t</statusRequirement>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</equipRequirements>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<partSet>\n\t\t\t\t\t\t<0
+      equipType=\"0\" >\n\t\t\t\t\t\t\t<_boolarrays>\n\t\t\t\t\t\t\t\t<equipPart
+      True False False False />\n\t\t\t\t\t\t\t\t<blockPart False False False False
+      />\n\t\t\t\t\t\t\t\t<blockViewer False False False False />\n\t\t\t\t\t\t\t</_boolarrays>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</partSet>\n\t\t\t\t\t<portrait>\n\t\t\t\t\t\t<0
+      typeID=\"0\" >\n\t\t\t\t\t\t\t<_bool usePrefabView=\"False\" setPrefab=\"False\"
+      ownCamera=\"False\" ownBackground=\"False\" useAlphaMask=\"False\" useMaterial=\"False\"
+      ownPortraitPosition=\"False\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<rotation
+      0 0 0 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<image>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t<_texture2d
+      asset=\"1\" />\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</image>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</portrait>\n\t\t\t\t\t<level>\n\t\t\t\t\t\t<0
+      lvlPoints=\"0\" durabilityType=\"0\" svBonusType=\"0\" svBonusCount=\"1\" atkAttrBonusType=\"0\"
+      atkAttrBonusCount=\"1\" defAttrBonusType=\"0\" defAttrBonusCount=\"1\" >\n\t\t\t\t\t\t\t<_bool
+      ownDescription=\"False\" ownPrefab=\"False\" ownPrice=\"False\" ownEquipRequirements=\"False\"
+      useDurability=\"False\" autoInitDurability=\"False\" svBonusAddPrevious=\"True\"
+      atkAttrBonusAddPrevious=\"True\" defAttrBonusAddPrevious=\"True\" effectUseEquipVariables=\"False\"
+      variableUsePrevious=\"True\" />\n\t\t\t\t\t\t\t<_intarrays>\n\t\t\t\t\t\t\t\t<addEquipmentPart
+      />\n\t\t\t\t\t\t\t\t<blockedEquipmentPart />\n\t\t\t\t\t\t\t</_intarrays>\n\t\t\t\t\t\t\t<initGameEvent>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</initGameEvent>\n\t\t\t\t\t\t\t<equipGameEvent>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</equipGameEvent>\n\t\t\t\t\t\t\t<unequipGameEvent>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</unequipGameEvent>\n\t\t\t\t\t\t\t<bonus>\n\t\t\t\t\t\t\t\t<_bool
+      useCustomBonus=\"True\" />\n\t\t\t\t\t\t\t\t<custom>\n\t\t\t\t\t\t\t\t\t<_float
+      hitBonus=\"0\" counterBonus=\"0\" criticalBonus=\"0\" blockBonus=\"0\" escapeBonus=\"0\"
+      walkBonus=\"0\" runBonus=\"0\" sprintBonus=\"0\" itemStealBonus=\"0\" moneyStealBonus=\"0\"
+      itemLimitBonus=\"0\" randomBattleBonus=\"0\" expFactorBonus=\"0\" gridMoveRangeBonus=\"0\"
+      />\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<statusBonus>\n\t\t\t\t\t\t\t\t\t\t\t<0
+      statusID=\"28\" bonus=\"6\" >\n\t\t\t\t\t\t\t\t\t\t\t\t<_float bonusPercent=\"0\"
+      />\n\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t\t<1 statusID=\"25\" bonus=\"0\"
+      >\n\t\t\t\t\t\t\t\t\t\t\t\t<_float bonusPercent=\"0\" />\n\t\t\t\t\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t\t\t\t\t\t<2
+      statusID=\"33\" bonus=\"1\" >\n\t\t\t\t\t\t\t\t\t\t\t\t<_float bonusPercent=\"0\"
+      />\n\t\t\t\t\t\t\t\t\t\t\t</2>\n\t\t\t\t\t\t\t\t\t\t</statusBonus>\n\t\t\t\t\t\t\t\t\t\t<statusChangeModifier>\n\t\t\t\t\t\t\t\t\t\t</statusChangeModifier>\n\t\t\t\t\t\t\t\t\t\t<atkAttrBonus>\n\t\t\t\t\t\t\t\t\t\t</atkAttrBonus>\n\t\t\t\t\t\t\t\t\t\t<defAttrBonus>\n\t\t\t\t\t\t\t\t\t\t</defAttrBonus>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</custom>\n\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t<bonuses>\n\t\t\t\t\t\t\t\t\t</bonuses>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</bonus>\n\t\t\t\t\t\t\t<autoEffects>\n\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t<effect>\n\t\t\t\t\t\t\t\t\t</effect>\n\t\t\t\t\t\t\t\t\t<attackEffect>\n\t\t\t\t\t\t\t\t\t</attackEffect>\n\t\t\t\t\t\t\t\t\t<defenceEffect>\n\t\t\t\t\t\t\t\t\t</defenceEffect>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</autoEffects>\n\t\t\t\t\t\t\t<variableSettings>\n\t\t\t\t\t\t\t\t<_bool
+      variableSave=\"True\" variableUseWhenLoading=\"True\" useVariableDescription=\"False\"
+      useUpdateVariables=\"False\" />\n\t\t\t\t\t\t\t\t<variableChanges>\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</variableChanges>\n\t\t\t\t\t\t\t</variableSettings>\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<randomSVBonus>\n\t\t\t\t\t\t\t\t</randomSVBonus>\n\t\t\t\t\t\t\t\t<randomAtkAttrBonus>\n\t\t\t\t\t\t\t\t</randomAtkAttrBonus>\n\t\t\t\t\t\t\t\t<randomDefAttrBonus>\n\t\t\t\t\t\t\t\t</randomDefAttrBonus>\n\t\t\t\t\t\t\t\t<setAtkAttribute>\n\t\t\t\t\t\t\t\t</setAtkAttribute>\n\t\t\t\t\t\t\t\t<setDefAttribute>\n\t\t\t\t\t\t\t\t</setDefAttribute>\n\t\t\t\t\t\t\t\t<equipmentAbility>\n\t\t\t\t\t\t\t\t</equipmentAbility>\n\t\t\t\t\t\t\t\t<battleSound>\n\t\t\t\t\t\t\t\t</battleSound>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</level>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Wood
+      Staff]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</2>\n\t\t</data>\n\t</_subarrays>\n</weapons>\n"
     lookUp:
       textures:
+      - {fileID: 2800000, guid: edfbc9e5f5af8488cb61e2243609e3b2, type: 3}
       - {fileID: 2800000, guid: edfbc9e5f5af8488cb61e2243609e3b2, type: 3}
       audioClips: []
       gameObjects:
       - {fileID: 5111894897897717247, guid: 842a4383ddec842d9a7eea8aa2674d7d, type: 3}
       - {fileID: 5826536286813383246, guid: 1298f17d113ba40a3836d4c352e5112e, type: 3}
+      - {fileID: 5111894897897717247, guid: 842a4383ddec842d9a7eea8aa2674d7d, type: 3}
       guiSkins: []
       materials: []
       fonts: []
@@ -4753,12 +4805,12 @@ MonoBehaviour:
       usePhaseMenu=\"False\" useClassLevel=\"False\" ownLvlUp=\"False\" ownShortcutListCount=\"False\"
       replaceDefaultShortcuts=\"False\" replaceDefaultAutoAddSlots=\"False\" replaceDefaultAutoArrangeSlots=\"False\"
       />\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<controlMap />\n\t\t\t\t</_intarrays>\n\t\t\t\t<equipment>\n\t\t\t\t\t<_boolarrays>\n\t\t\t\t\t\t<equipPart
-      False False False False />\n\t\t\t\t\t\t<weapon False False />\n\t\t\t\t\t\t<armor
-      False False False False False />\n\t\t\t\t\t</_boolarrays>\n\t\t\t\t</equipment>\n\t\t\t\t<bonus>\n\t\t\t\t\t<_bool
+      True True True True />\n\t\t\t\t\t\t<weapon True True False />\n\t\t\t\t\t\t<armor
+      True True True False True />\n\t\t\t\t\t</_boolarrays>\n\t\t\t\t</equipment>\n\t\t\t\t<bonus>\n\t\t\t\t\t<_bool
       useCustomBonus=\"False\" />\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<bonuses>\n\t\t\t\t\t\t</bonuses>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</bonus>\n\t\t\t\t<autoEffects>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<effect>\n\t\t\t\t\t\t</effect>\n\t\t\t\t\t\t<attackEffect>\n\t\t\t\t\t\t</attackEffect>\n\t\t\t\t\t\t<defenceEffect>\n\t\t\t\t\t\t</defenceEffect>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</autoEffects>\n\t\t\t\t<abilityDevelopment>\n\t\t\t\t\t<_bool
       findTypesAbilityDevelopment=\"True\" findTypesAbility=\"True\" findTypesAbilityTree=\"True\"
       />\n\t\t\t\t\t<_intarrays>\n\t\t\t\t\t\t<abilityDevelopmentID />\n\t\t\t\t\t\t<abilityType
-      />\n\t\t\t\t\t</_intarrays>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<atLevel>\n\t\t\t\t\t\t</atLevel>\n\t\t\t\t\t\t<abilityTree>\n\t\t\t\t\t\t</abilityTree>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</abilityDevelopment>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<atkAttrStart>\n\t\t\t\t\t</atkAttrStart>\n\t\t\t\t\t<defAttrStart>\n\t\t\t\t\t</defAttrStart>\n\t\t\t\t\t<defaultShortcut>\n\t\t\t\t\t</defaultShortcut>\n\t\t\t\t\t<autoAddShortcuts>\n\t\t\t\t\t</autoAddShortcuts>\n\t\t\t\t\t<autoArrangeShortcuts>\n\t\t\t\t\t</autoArrangeShortcuts>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Default]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</classes>\n"
+      />\n\t\t\t\t\t</_intarrays>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<atLevel>\n\t\t\t\t\t\t</atLevel>\n\t\t\t\t\t\t<abilityTree>\n\t\t\t\t\t\t</abilityTree>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</abilityDevelopment>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<atkAttrStart>\n\t\t\t\t\t</atkAttrStart>\n\t\t\t\t\t<defAttrStart>\n\t\t\t\t\t</defAttrStart>\n\t\t\t\t\t<defaultShortcut>\n\t\t\t\t\t</defaultShortcut>\n\t\t\t\t\t<autoAddShortcuts>\n\t\t\t\t\t</autoAddShortcuts>\n\t\t\t\t\t<autoArrangeShortcuts>\n\t\t\t\t\t</autoArrangeShortcuts>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Fighter]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</classes>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -4884,7 +4936,7 @@ MonoBehaviour:
       generalAssets: []
     encrypted: 0
   - name: combatants
-    xmlData: "<combatants>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0 typeID=\"0\" startLevel=\"5\"
+    xmlData: "<combatants>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0 typeID=\"0\" startLevel=\"1\"
       startClassID=\"0\" startClassLevel=\"1\" statusDevelopmentID=\"0\" lootOrigin=\"0\"
       menuID=\"0\" turnBasedMenuID=\"0\" activeTimeMenuID=\"0\" realTimeMenuID=\"0\"
       phaseMenuID=\"0\" logTextID=\"0\" logID=\"0\" deathVarOrigin=\"0\" aggressionType=\"0\"
@@ -4918,11 +4970,11 @@ MonoBehaviour:
       replaceDefaultAutoArrangeSlots=\"False\" useBattleAnims=\"False\" autoMoveAnimation=\"False\"
       useMoveAI=\"False\" useBattleMoveAI=\"False\" />\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<controlMap
       />\n\t\t\t\t\t<defenceAttributeID 0 0 />\n\t\t\t\t\t<actionCombo />\n\t\t\t\t\t<money
-      0 />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<animationCustomName><![CDATA[]]></animationCustomName>\n\t\t\t\t</_string>\n\t\t\t\t<buyPriceValue
+      50 />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<animationCustomName><![CDATA[]]></animationCustomName>\n\t\t\t\t</_string>\n\t\t\t\t<buyPriceValue
       type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t<_float initialValue=\"0\"
       offset=\"0\" value=\"50\" value2=\"0\" />\n\t\t\t\t\t<_bool isInt=\"False\"
       isUTC=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t</buyPriceValue>\n\t\t\t\t<prefab>\n\t\t\t\t\t<_float
-      boxRadius=\"0\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<spawnOffset 0 0
+      boxRadius=\"1\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<spawnOffset 0 0
       0 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<prefabRoot><![CDATA[]]></prefabRoot>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<prefab>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_gameobject
       asset=\"0\" />\n\t\t\t\t\t\t</settings>\n\t\t\t\t\t</prefab>\n\t\t\t\t</prefab>\n\t\t\t\t<eventSettings>\n\t\t\t\t\t<_bool
       ownInitEvents=\"False\" ownSpawnEvents=\"False\" ownTurnStartEvents=\"False\"
@@ -4937,7 +4989,13 @@ MonoBehaviour:
       isUTC=\"False\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</intervalValue>\n\t\t\t\t</autoAttack>\n\t\t\t\t<abilityDevelopment>\n\t\t\t\t\t<_bool
       findTypesAbilityDevelopment=\"True\" findTypesAbility=\"True\" findTypesAbilityTree=\"True\"
       />\n\t\t\t\t\t<_intarrays>\n\t\t\t\t\t\t<abilityDevelopmentID />\n\t\t\t\t\t\t<abilityType
-      />\n\t\t\t\t\t</_intarrays>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<atLevel>\n\t\t\t\t\t\t</atLevel>\n\t\t\t\t\t\t<abilityTree>\n\t\t\t\t\t\t</abilityTree>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</abilityDevelopment>\n\t\t\t\t<stealContent
+      />\n\t\t\t\t\t</_intarrays>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<atLevel>\n\t\t\t\t\t\t\t<0
+      atLevel=\"2\" >\n\t\t\t\t\t\t\t\t<_bool classLevel=\"False\" isGroupAbility=\"False\"
+      showNotification=\"True\" showConsole=\"True\" classChangeForget=\"True\" classChangeLearn=\"True\"
+      />\n\t\t\t\t\t\t\t\t<ability abilityID=\"1\" level=\"1\" >\n\t\t\t\t\t\t\t\t</ability>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t<1
+      atLevel=\"5\" >\n\t\t\t\t\t\t\t\t<_bool classLevel=\"False\" isGroupAbility=\"False\"
+      showNotification=\"True\" showConsole=\"True\" classChangeForget=\"True\" classChangeLearn=\"True\"
+      />\n\t\t\t\t\t\t\t\t<ability abilityID=\"4\" level=\"1\" >\n\t\t\t\t\t\t\t\t</ability>\n\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t</atLevel>\n\t\t\t\t\t\t<abilityTree>\n\t\t\t\t\t\t</abilityTree>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</abilityDevelopment>\n\t\t\t\t<stealContent
       stealItemType=\"0\" stealItemID=\"0\" stealMoneyAmount=\"0\" >\n\t\t\t\t\t<_float
       stealItemFactor=\"1\" stealMoneyFactor=\"1\" />\n\t\t\t\t\t<_bool stealItem=\"False\"
       stealFixItem=\"True\" stealItemOnce=\"False\" stealMoney=\"False\" stealMoneyOnce=\"False\"
@@ -4956,7 +5014,19 @@ MonoBehaviour:
       type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t<_float initialValue=\"0\"
       offset=\"0\" value=\"9\" value2=\"0\" />\n\t\t\t\t\t\t<_bool isInt=\"False\"
       isUTC=\"False\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</sprintSpeed>\n\t\t\t\t</moveSettings>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<conditionalPrefab>\n\t\t\t\t\t</conditionalPrefab>\n\t\t\t\t\t<battleSound>\n\t\t\t\t\t</battleSound>\n\t\t\t\t\t<portraitSet>\n\t\t\t\t\t</portraitSet>\n\t\t\t\t\t<textCode>\n\t\t\t\t\t</textCode>\n\t\t\t\t\t<normalSVReward>\n\t\t\t\t\t</normalSVReward>\n\t\t\t\t\t<fieldStatusChange>\n\t\t\t\t\t</fieldStatusChange>\n\t\t\t\t\t<battleStatusChange>\n\t\t\t\t\t</battleStatusChange>\n\t\t\t\t\t<atkAttrStart>\n\t\t\t\t\t</atkAttrStart>\n\t\t\t\t\t<defAttrStart>\n\t\t\t\t\t</defAttrStart>\n\t\t\t\t\t<baseAttack>\n\t\t\t\t\t\t<0
-      abilityID=\"0\" level=\"1\" >\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</baseAttack>\n\t\t\t\t\t<itemDrop>\n\t\t\t\t\t</itemDrop>\n\t\t\t\t\t<startEquipment>\n\t\t\t\t\t</startEquipment>\n\t\t\t\t\t<battleAnimation>\n\t\t\t\t\t</battleAnimation>\n\t\t\t\t\t<aiBehaviour>\n\t\t\t\t\t</aiBehaviour>\n\t\t\t\t\t<aiBehaviourSlot>\n\t\t\t\t\t</aiBehaviourSlot>\n\t\t\t\t\t<aiRulesetSlot>\n\t\t\t\t\t</aiRulesetSlot>\n\t\t\t\t\t<defaultShortcut>\n\t\t\t\t\t</defaultShortcut>\n\t\t\t\t\t<autoAddShortcuts>\n\t\t\t\t\t</autoAddShortcuts>\n\t\t\t\t\t<autoArrangeShortcuts>\n\t\t\t\t\t</autoArrangeShortcuts>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Mikasuke]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</combatants>\n"
+      abilityID=\"0\" level=\"1\" >\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</baseAttack>\n\t\t\t\t\t<itemDrop>\n\t\t\t\t\t\t<0
+      type=\"0\" id=\"0\" level=\"1\" >\n\t\t\t\t\t\t\t<quantityValue type=\"0\"
+      id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\" offset=\"0\"
+      value=\"3\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\" isUTC=\"False\"
+      />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</quantityValue>\n\t\t\t\t\t\t\t<chanceValue
+      type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"100\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</chanceValue>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</itemDrop>\n\t\t\t\t\t<startEquipment>\n\t\t\t\t\t\t<0
+      startLevel=\"1\" maxLevel=\"10\" >\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<equipment>\n\t\t\t\t\t\t\t\t\t<0
+      type=\"1\" equipID=\"0\" level=\"1\" >\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t<1
+      type=\"0\" equipID=\"0\" level=\"1\" >\n\t\t\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t\t\t\t<2
+      type=\"0\" equipID=\"0\" level=\"1\" >\n\t\t\t\t\t\t\t\t\t</2>\n\t\t\t\t\t\t\t\t\t<3
+      type=\"0\" equipID=\"0\" level=\"1\" >\n\t\t\t\t\t\t\t\t\t</3>\n\t\t\t\t\t\t\t\t</equipment>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</startEquipment>\n\t\t\t\t\t<battleAnimation>\n\t\t\t\t\t</battleAnimation>\n\t\t\t\t\t<aiBehaviour>\n\t\t\t\t\t</aiBehaviour>\n\t\t\t\t\t<aiBehaviourSlot>\n\t\t\t\t\t</aiBehaviourSlot>\n\t\t\t\t\t<aiRulesetSlot>\n\t\t\t\t\t</aiRulesetSlot>\n\t\t\t\t\t<defaultShortcut>\n\t\t\t\t\t</defaultShortcut>\n\t\t\t\t\t<autoAddShortcuts>\n\t\t\t\t\t</autoAddShortcuts>\n\t\t\t\t\t<autoArrangeShortcuts>\n\t\t\t\t\t</autoArrangeShortcuts>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Mikasuke]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</combatants>\n"
     lookUp:
       textures: []
       audioClips: []
