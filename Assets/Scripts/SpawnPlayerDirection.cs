@@ -9,10 +9,13 @@ public class SpawnPlayerDirection : MonoBehaviour {
     [SerializeField]
     private Direction direction = Direction.down;
 
+    [SerializeField]
+    private bool unique = false;
+
     // Start is called before the first frame update
     void Start() {
         GameObject player = ORK.Game.ActiveGroup.Leader.GameObject;
-        if(Vector2.Distance(player.transform.position, gameObject.transform.position) >= 1) return;
+        if(!unique && Vector2.Distance(player.transform.position, gameObject.transform.position) >= 1) return;
         Animator animator = player.GetComponent<Animator>();
         if (animator == null) return;
 

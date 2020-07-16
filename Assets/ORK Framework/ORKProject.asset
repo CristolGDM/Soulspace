@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: ORKProject
   m_EditorClassIdentifier: 
-  time: 7/14/2020 6:14:08 PM
+  time: 7/16/2020 6:53:17 PM
   version: 2.28.1
   keys:
   - editorSettings
@@ -1163,7 +1163,13 @@ MonoBehaviour:
       loadSceneMode=\"0\" guiBoxID=\"0\" >\n\t\t<_float waitTime=\"1\" />\n\t\t<_bool
       loadAsync=\"False\" fieldAuto=\"False\" autoGroupDead=\"True\" useFadeOut=\"True\"
       useFadeIn=\"True\" showChoice=\"False\" useTitle=\"False\" showRetry=\"True\"
-      showLoad=\"True\" showExit=\"True\" />\n\t\t<_string>\n\t\t\t<scene><![CDATA[]]></scene>\n\t\t</_string>\n\t\t<_stringarrays>\n\t\t\t<message>\n\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t</message>\n\t\t</_stringarrays>\n\t\t<variableSetter>\n\t\t\t<_subarrays>\n\t\t\t\t<gameVariable>\n\t\t\t\t</gameVariable>\n\t\t\t</_subarrays>\n\t\t</variableSetter>\n\t\t<retryButton>\n\t\t\t<customSkin>\n\t\t\t\t<_bool
+      showLoad=\"True\" showExit=\"True\" />\n\t\t<_string>\n\t\t\t<scene><![CDATA[]]></scene>\n\t\t</_string>\n\t\t<_stringarrays>\n\t\t\t<message>\n\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t</message>\n\t\t</_stringarrays>\n\t\t<fadeOut
+      interpolation=\"0\" >\n\t\t\t<_float time=\"0.5\" />\n\t\t\t<_bool alpha=\"True\"
+      red=\"False\" green=\"False\" blue=\"False\" fromCurrent=\"False\" />\n\t\t\t<_floatarrays>\n\t\t\t\t<startColor
+      0 0 0 0 />\n\t\t\t\t<endColor 0 0 0 1 />\n\t\t\t</_floatarrays>\n\t\t</fadeOut>\n\t\t<fadeIn
+      interpolation=\"0\" >\n\t\t\t<_float time=\"0.5\" />\n\t\t\t<_bool alpha=\"True\"
+      red=\"False\" green=\"False\" blue=\"False\" fromCurrent=\"False\" />\n\t\t\t<_floatarrays>\n\t\t\t\t<startColor
+      0 0 0 1 />\n\t\t\t\t<endColor 0 0 0 0 />\n\t\t\t</_floatarrays>\n\t\t</fadeIn>\n\t\t<variableSetter>\n\t\t\t<_subarrays>\n\t\t\t\t<gameVariable>\n\t\t\t\t</gameVariable>\n\t\t\t</_subarrays>\n\t\t</variableSetter>\n\t\t<retryButton>\n\t\t\t<customSkin>\n\t\t\t\t<_bool
       useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t</customSkin>\n\t\t\t<_subarrays>\n\t\t\t\t<button>\n\t\t\t\t\t<0>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<name><![CDATA[Retry]]></name>\n\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t</icon>\n\t\t\t\t\t</0>\n\t\t\t\t</button>\n\t\t\t</_subarrays>\n\t\t</retryButton>\n\t\t<loadButton>\n\t\t\t<customSkin>\n\t\t\t\t<_bool
       useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t</customSkin>\n\t\t\t<_subarrays>\n\t\t\t\t<button>\n\t\t\t\t\t<0>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<name><![CDATA[Load]]></name>\n\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t</icon>\n\t\t\t\t\t</0>\n\t\t\t\t</button>\n\t\t\t</_subarrays>\n\t\t</loadButton>\n\t\t<exitButton>\n\t\t\t<customSkin>\n\t\t\t\t<_bool
       useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t</customSkin>\n\t\t\t<_subarrays>\n\t\t\t\t<button>\n\t\t\t\t\t<0>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<name><![CDATA[Exit]]></name>\n\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t</icon>\n\t\t\t\t\t</0>\n\t\t\t\t</button>\n\t\t\t</_subarrays>\n\t\t</exitButton>\n\t</gameOver>\n\t<initialVariables>\n\t\t<_subarrays>\n\t\t\t<gameVariable>\n\t\t\t</gameVariable>\n\t\t</_subarrays>\n\t</initialVariables>\n\t<assetSettings
@@ -1803,7 +1809,11 @@ MonoBehaviour:
       value=\"0\" value2=\"0\" />\n\t\t\t\t<_bool isInt=\"False\" isUTC=\"False\"
       />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t</_string>\n\t\t\t</maxTime>\n\t\t</aiDecisionTime>\n\t\t<moveAIRange>\n\t\t\t<_float
       range=\"50\" threshold=\"0\" />\n\t\t\t<_bool ignoreHeightDistance=\"True\"
-      ignoreRadius=\"False\" />\n\t\t</moveAIRange>\n\t\t<startEvent>\n\t\t\t<_string>\n\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t</_string>\n\t\t\t<settings>\n\t\t\t\t<_string>\n\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t</_string>\n\t\t\t</settings>\n\t\t</startEvent>\n\t\t<victoryEvent>\n\t\t\t<_string>\n\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t</_string>\n\t\t\t<settings>\n\t\t\t\t<_string>\n\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t</_string>\n\t\t\t</settings>\n\t\t</victoryEvent>\n\t\t<escapeEvent>\n\t\t\t<_string>\n\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t</_string>\n\t\t\t<settings>\n\t\t\t\t<_string>\n\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t</_string>\n\t\t\t</settings>\n\t\t</escapeEvent>\n\t\t<defeatEvent>\n\t\t\t<_string>\n\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t</_string>\n\t\t\t<settings>\n\t\t\t\t<_string>\n\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t</_string>\n\t\t\t</settings>\n\t\t</defeatEvent>\n\t\t<leaveArenaEvent>\n\t\t\t<_string>\n\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t</_string>\n\t\t\t<settings>\n\t\t\t\t<_string>\n\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t</_string>\n\t\t\t</settings>\n\t\t</leaveArenaEvent>\n\t\t<leaveArenaRange>\n\t\t\t<_float
+      ignoreRadius=\"False\" />\n\t\t</moveAIRange>\n\t\t<startEvent>\n\t\t\t<_string>\n\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t</_string>\n\t\t\t<settings>\n\t\t\t\t<_string>\n\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<_eventasset
+      asset=\"0\" />\n\t\t\t</settings>\n\t\t</startEvent>\n\t\t<victoryEvent>\n\t\t\t<_string>\n\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t</_string>\n\t\t\t<settings>\n\t\t\t\t<_string>\n\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<_eventasset
+      asset=\"1\" />\n\t\t\t</settings>\n\t\t</victoryEvent>\n\t\t<escapeEvent>\n\t\t\t<_string>\n\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t</_string>\n\t\t\t<settings>\n\t\t\t\t<_string>\n\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<_eventasset
+      asset=\"2\" />\n\t\t\t</settings>\n\t\t</escapeEvent>\n\t\t<defeatEvent>\n\t\t\t<_string>\n\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t</_string>\n\t\t\t<settings>\n\t\t\t\t<_string>\n\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<_eventasset
+      asset=\"3\" />\n\t\t\t</settings>\n\t\t</defeatEvent>\n\t\t<leaveArenaEvent>\n\t\t\t<_string>\n\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t</_string>\n\t\t\t<settings>\n\t\t\t\t<_string>\n\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t</_string>\n\t\t\t</settings>\n\t\t</leaveArenaEvent>\n\t\t<leaveArenaRange>\n\t\t\t<_float
       range=\"20\" threshold=\"0\" />\n\t\t\t<_bool ignoreHeightDistance=\"True\"
       ignoreRadius=\"False\" />\n\t\t</leaveArenaRange>\n\t\t<bonuses>\n\t\t\t<_bool
       reviveAfterBattle=\"False\" />\n\t\t\t<_subarrays>\n\t\t\t\t<startSetter>\n\t\t\t\t</startSetter>\n\t\t\t\t<startEffect>\n\t\t\t\t</startEffect>\n\t\t\t\t<turnSetter>\n\t\t\t\t</turnSetter>\n\t\t\t\t<turnEffect>\n\t\t\t\t</turnEffect>\n\t\t\t\t<endSetter>\n\t\t\t\t</endSetter>\n\t\t\t\t<endEffect>\n\t\t\t\t</endEffect>\n\t\t\t\t<reviveSetter>\n\t\t\t\t</reviveSetter>\n\t\t\t\t<reviveEffect>\n\t\t\t\t</reviveEffect>\n\t\t\t</_subarrays>\n\t\t</bonuses>\n\t</turnBased>\n\t<activeTime
@@ -1916,7 +1926,11 @@ MonoBehaviour:
       guiSkins: []
       materials: []
       fonts: []
-      eventAssets: []
+      eventAssets:
+      - {fileID: 11400000, guid: 6e2283f56875c42f884157695f49efab, type: 2}
+      - {fileID: 11400000, guid: 9293be35f425548788d8603f73e7d36b, type: 2}
+      - {fileID: 11400000, guid: 50cd4fa290acd42da960dbc60a70786d, type: 2}
+      - {fileID: 11400000, guid: 2992b15bf027945989e9c9207da81ef9, type: 2}
       generalAssets: []
     encrypted: 0
   - name: attackAttributes
@@ -5594,25 +5608,25 @@ MonoBehaviour:
       0 0 0 />\n\t\t\t<rotation 0 0 0 />\n\t\t\t<scale 1 1 1 />\n\t\t</_floatarrays>\n\t</enemyExtra>\n\t<_subarrays>\n\t\t<playerSpot>\n\t\t\t<0>\n\t\t\t\t<_bool
       usePA=\"False\" useEA=\"False\" />\n\t\t\t\t<spot>\n\t\t\t\t\t<_bool addRandom=\"False\"
       setRotation=\"False\" setScale=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<spot
-      3 5 0 />\n\t\t\t\t\t\t<rotation 0 0 0 />\n\t\t\t\t\t\t<scale 1 1 1 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</spot>\n\t\t\t</0>\n\t\t\t<1>\n\t\t\t\t<_bool
+      5 3 0 />\n\t\t\t\t\t\t<rotation 0 0 0 />\n\t\t\t\t\t\t<scale 1 1 1 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</spot>\n\t\t\t</0>\n\t\t\t<1>\n\t\t\t\t<_bool
       usePA=\"False\" useEA=\"False\" />\n\t\t\t\t<spot>\n\t\t\t\t\t<_bool addRandom=\"False\"
       setRotation=\"False\" setScale=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<spot
-      3 3 0 />\n\t\t\t\t\t\t<rotation 0 0 0 />\n\t\t\t\t\t\t<scale 1 1 1 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</spot>\n\t\t\t</1>\n\t\t\t<2>\n\t\t\t\t<_bool
+      5 1 0 />\n\t\t\t\t\t\t<rotation 0 0 0 />\n\t\t\t\t\t\t<scale 1 1 1 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</spot>\n\t\t\t</1>\n\t\t\t<2>\n\t\t\t\t<_bool
       usePA=\"False\" useEA=\"False\" />\n\t\t\t\t<spot>\n\t\t\t\t\t<_bool addRandom=\"False\"
       setRotation=\"False\" setScale=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<spot
-      3 1 0 />\n\t\t\t\t\t\t<rotation 0 0 0 />\n\t\t\t\t\t\t<scale 1 1 1 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</spot>\n\t\t\t</2>\n\t\t\t<3>\n\t\t\t\t<_bool
+      5 -1 0 />\n\t\t\t\t\t\t<rotation 0 0 0 />\n\t\t\t\t\t\t<scale 1 1 1 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</spot>\n\t\t\t</2>\n\t\t\t<3>\n\t\t\t\t<_bool
       usePA=\"False\" useEA=\"False\" />\n\t\t\t\t<spot>\n\t\t\t\t\t<_bool addRandom=\"False\"
       setRotation=\"False\" setScale=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<spot
-      3 -1 0 />\n\t\t\t\t\t\t<rotation 0 0 0 />\n\t\t\t\t\t\t<scale 1 1 1 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</spot>\n\t\t\t</3>\n\t\t</playerSpot>\n\t\t<allySpot>\n\t\t</allySpot>\n\t\t<enemySpot>\n\t\t\t<0>\n\t\t\t\t<_bool
+      5 -3 0 />\n\t\t\t\t\t\t<rotation 0 0 0 />\n\t\t\t\t\t\t<scale 1 1 1 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</spot>\n\t\t\t</3>\n\t\t</playerSpot>\n\t\t<allySpot>\n\t\t</allySpot>\n\t\t<enemySpot>\n\t\t\t<0>\n\t\t\t\t<_bool
       usePA=\"False\" useEA=\"False\" />\n\t\t\t\t<spot>\n\t\t\t\t\t<_bool addRandom=\"False\"
       setRotation=\"False\" setScale=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<spot
-      -3 3 0 />\n\t\t\t\t\t\t<rotation 0 0 0 />\n\t\t\t\t\t\t<scale 1 1 1 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</spot>\n\t\t\t</0>\n\t\t\t<1>\n\t\t\t\t<_bool
+      -4 3 0 />\n\t\t\t\t\t\t<rotation 0 0 0 />\n\t\t\t\t\t\t<scale 1 1 1 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</spot>\n\t\t\t</0>\n\t\t\t<1>\n\t\t\t\t<_bool
       usePA=\"False\" useEA=\"False\" />\n\t\t\t\t<spot>\n\t\t\t\t\t<_bool addRandom=\"False\"
       setRotation=\"False\" setScale=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<spot
-      -3 0 0 />\n\t\t\t\t\t\t<rotation 0 0 0 />\n\t\t\t\t\t\t<scale 1 1 1 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</spot>\n\t\t\t</1>\n\t\t\t<2>\n\t\t\t\t<_bool
+      -4 0 0 />\n\t\t\t\t\t\t<rotation 0 0 0 />\n\t\t\t\t\t\t<scale 1 1 1 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</spot>\n\t\t\t</1>\n\t\t\t<2>\n\t\t\t\t<_bool
       usePA=\"False\" useEA=\"False\" />\n\t\t\t\t<spot>\n\t\t\t\t\t<_bool addRandom=\"False\"
       setRotation=\"False\" setScale=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<spot
-      -3 -3 0 />\n\t\t\t\t\t\t<rotation 0 0 0 />\n\t\t\t\t\t\t<scale 1 1 1 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</spot>\n\t\t\t</2>\n\t\t</enemySpot>\n\t</_subarrays>\n</battleSpots>\n"
+      -4 -3 0 />\n\t\t\t\t\t\t<rotation 0 0 0 />\n\t\t\t\t\t\t<scale 1 1 1 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</spot>\n\t\t\t</2>\n\t\t</enemySpot>\n\t</_subarrays>\n</battleSpots>\n"
     lookUp:
       textures: []
       audioClips: []

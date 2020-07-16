@@ -30,6 +30,10 @@ MonoBehaviour:
   updateScenes: 0
   sceneUpdate: 
   eventAsset:
+  - {fileID: 11400000, guid: 2992b15bf027945989e9c9207da81ef9, type: 2}
+  - {fileID: 11400000, guid: 50cd4fa290acd42da960dbc60a70786d, type: 2}
+  - {fileID: 11400000, guid: 9293be35f425548788d8603f73e7d36b, type: 2}
+  - {fileID: 11400000, guid: 6e2283f56875c42f884157695f49efab, type: 2}
   - {fileID: 11400000, guid: d0f59def1de7e414fb73babed4a5c2af, type: 2}
   - {fileID: 11400000, guid: 8a06e626c14444fd3987a4779faed16d, type: 2}
   gameEventAsset:
@@ -37,8 +41,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8a06e626c14444fd3987a4779faed16d, type: 2}
   moveEventAsset: []
   battleEventAsset: []
-  battleStartEventAsset: []
-  battleEndEventAsset: []
+  battleStartEventAsset:
+  - {fileID: 11400000, guid: 6e2283f56875c42f884157695f49efab, type: 2}
+  battleEndEventAsset:
+  - {fileID: 11400000, guid: 2992b15bf027945989e9c9207da81ef9, type: 2}
+  - {fileID: 11400000, guid: 50cd4fa290acd42da960dbc60a70786d, type: 2}
+  - {fileID: 11400000, guid: 9293be35f425548788d8603f73e7d36b, type: 2}
   phaseChangeEventAsset: []
   variablesDefined: []
   variablesEditor: []
