@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: ORKProject
   m_EditorClassIdentifier: 
-  time: 7/16/2020 6:53:17 PM
+  time: 7/16/2020 7:49:28 PM
   version: 2.28.1
   keys:
   - editorSettings
@@ -197,7 +197,7 @@ MonoBehaviour:
     encrypted: 0
   - name: gameControls
     xmlData: "<gameControls pauseKey=\"0\" memberPlusKey=\"0\" memberMinusKey=\"0\"
-      abilityPlusKey=\"0\" abilityMinusKey=\"0\" >\n\t<_float cursorTimeout=\"0.25\"
+      abilityPlusKey=\"0\" abilityMinusKey=\"0\" >\n\t<_float cursorTimeout=\"0.01\"
       cursorHoldTimeout=\"0.25\" clickTimeout=\"0.2\" />\n\t<_bool pauseTime=\"False\"
       freezePause=\"False\" switchOnlyBattle=\"False\" switchNotDead=\"False\" switchPlayer=\"False\"
       switchField=\"True\" switchTurnBased=\"False\" switchActiveTime=\"False\" switchRealTime=\"True\"
@@ -450,25 +450,25 @@ MonoBehaviour:
       type=\"2\" positiveKey=\"119\" negativeKey=\"115\" mouseButton=\"0\" clickCount=\"1\"
       touchCount=\"1\" tabCount=\"1\" needed=\"1\" handling=\"0\" >\n\t\t\t\t<_float
       axisFactor=\"1\" minAxis=\"-1\" maxAxis=\"1\" clickTimeout=\"0.2\" tabTimeout=\"0.2\"
-      inputTimeout=\"0.2\" inputHoldTime=\"0\" />\n\t\t\t\t<_bool invertAxis=\"False\"
+      inputTimeout=\"0\" inputHoldTime=\"0\" />\n\t\t\t\t<_bool invertAxis=\"False\"
       limitAxis=\"True\" uiBlocksInput=\"False\" isJoypadAxis=\"False\" joypadUpDownFullAxis=\"False\"
       useRawAxis=\"False\" consumeFingers=\"True\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[_VerticalAxis]]></name>\n\t\t\t\t\t<keyName><![CDATA[]]></keyName>\n\t\t\t\t\t<customName><![CDATA[]]></customName>\n\t\t\t\t</_string>\n\t\t\t</22>\n\t\t\t<23
       type=\"2\" positiveKey=\"273\" negativeKey=\"274\" mouseButton=\"0\" clickCount=\"1\"
       touchCount=\"1\" tabCount=\"1\" needed=\"1\" handling=\"0\" >\n\t\t\t\t<_float
       axisFactor=\"1\" minAxis=\"-1\" maxAxis=\"1\" clickTimeout=\"0.2\" tabTimeout=\"0.2\"
-      inputTimeout=\"0.2\" inputHoldTime=\"0\" />\n\t\t\t\t<_bool invertAxis=\"False\"
+      inputTimeout=\"0\" inputHoldTime=\"0\" />\n\t\t\t\t<_bool invertAxis=\"False\"
       limitAxis=\"True\" uiBlocksInput=\"False\" isJoypadAxis=\"False\" joypadUpDownFullAxis=\"False\"
       useRawAxis=\"False\" consumeFingers=\"True\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[_VerticalAxisAlt]]></name>\n\t\t\t\t\t<keyName><![CDATA[]]></keyName>\n\t\t\t\t\t<customName><![CDATA[]]></customName>\n\t\t\t\t</_string>\n\t\t\t</23>\n\t\t\t<24
       type=\"2\" positiveKey=\"97\" negativeKey=\"100\" mouseButton=\"0\" clickCount=\"1\"
       touchCount=\"1\" tabCount=\"1\" needed=\"1\" handling=\"0\" >\n\t\t\t\t<_float
       axisFactor=\"1\" minAxis=\"-1\" maxAxis=\"1\" clickTimeout=\"0.2\" tabTimeout=\"0.2\"
-      inputTimeout=\"0.2\" inputHoldTime=\"0\" />\n\t\t\t\t<_bool invertAxis=\"False\"
+      inputTimeout=\"0\" inputHoldTime=\"0\" />\n\t\t\t\t<_bool invertAxis=\"False\"
       limitAxis=\"True\" uiBlocksInput=\"False\" isJoypadAxis=\"False\" joypadUpDownFullAxis=\"False\"
       useRawAxis=\"False\" consumeFingers=\"True\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[_HorizAxis]]></name>\n\t\t\t\t\t<keyName><![CDATA[]]></keyName>\n\t\t\t\t\t<customName><![CDATA[]]></customName>\n\t\t\t\t</_string>\n\t\t\t</24>\n\t\t\t<25
       type=\"2\" positiveKey=\"276\" negativeKey=\"275\" mouseButton=\"0\" clickCount=\"1\"
       touchCount=\"1\" tabCount=\"1\" needed=\"1\" handling=\"0\" >\n\t\t\t\t<_float
       axisFactor=\"1\" minAxis=\"-1\" maxAxis=\"1\" clickTimeout=\"0.2\" tabTimeout=\"0.2\"
-      inputTimeout=\"0.2\" inputHoldTime=\"0\" />\n\t\t\t\t<_bool invertAxis=\"False\"
+      inputTimeout=\"0\" inputHoldTime=\"0\" />\n\t\t\t\t<_bool invertAxis=\"False\"
       limitAxis=\"True\" uiBlocksInput=\"False\" isJoypadAxis=\"False\" joypadUpDownFullAxis=\"False\"
       useRawAxis=\"False\" consumeFingers=\"True\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[_HorizAxis]]></name>\n\t\t\t\t\t<keyName><![CDATA[]]></keyName>\n\t\t\t\t\t<customName><![CDATA[]]></customName>\n\t\t\t\t</_string>\n\t\t\t</25>\n\t\t</data>\n\t</_subarrays>\n</inputKeys>\n"
     lookUp:
@@ -5646,7 +5646,7 @@ MonoBehaviour:
       targetPortraitTypeID=\"0\" commandPortraitTypeID=\"0\" changePortraitTypeID=\"0\"
       >\n\t\t\t\t<_float updateInterval=\"0.5\" timeScale=\"1\" openVolume=\"1\"
       closeVolume=\"1\" />\n\t\t\t\t<_bool setTimeScale=\"False\" setORKScale=\"False\"
-      useSubBoxes=\"False\" atCombatant=\"False\" showTitle=\"True\" selectLastTarget=\"False\"
+      useSubBoxes=\"False\" atCombatant=\"False\" showTitle=\"False\" selectLastTarget=\"False\"
       selectSelf=\"False\" rememberSelection=\"False\" resetSelection=\"False\" useGroupTarget=\"False\"
       useIndividualTarget=\"False\" backInBase=\"False\" useDesc=\"False\" descAlways=\"False\"
       useDescTitle=\"False\" showPortrait=\"False\" ownPortraitPosition=\"False\"
@@ -6391,7 +6391,7 @@ MonoBehaviour:
       alpha=\"True\" red=\"False\" green=\"False\" blue=\"False\" fromCurrent=\"False\"
       />\n\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t<startColor 0 0 0 1 />\n\t\t\t\t\t\t\t<endColor
       0 0 0 0 />\n\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t</fade>\n\t\t\t\t</closeBoxBehaviour>\n\t\t\t</3>\n\t\t\t<4
-      layerID=\"0\" heightAdjustment=\"1\" boxAnchor=\"6\" contentVerticalAlignment=\"0\"
+      layerID=\"0\" heightAdjustment=\"1\" boxAnchor=\"8\" contentVerticalAlignment=\"0\"
       alignment=\"0\" vAlignment=\"2\" textColumns=\"1\" typingIncrease=\"1\" nameAnchor=\"6\"
       nameRelativeTo=\"0\" nameVerticalAlignment=\"0\" alignmentName=\"0\" vAlignmentName=\"2\"
       choiceMode=\"0\" choiceColumns=\"1\" columnFill=\"0\" circleChoiceAnchor=\"4\"
@@ -6403,22 +6403,22 @@ MonoBehaviour:
       circleFixedOffset=\"30\" choiceInactiveAlpha=\"0.5\" choiceTitlePadding=\"10\"
       choiceTitleWidth=\"200\" selectedChoiceOffset=\"0\" choiceWidth=\"300\" choiceOffsetX=\"0\"
       choiceHeight=\"100\" tabsSpacing=\"0\" tabsInactiveAlpha=\"0.5\" tabsWidth=\"200\"
-      />\n\t\t\t\t<_bool cursorOver=\"True\" resetUnityInput=\"True\" ownScrollSpeed=\"False\"
+      />\n\t\t\t\t<_bool cursorOver=\"False\" resetUnityInput=\"True\" ownScrollSpeed=\"False\"
       useAutoMinHeight=\"False\" oneline=\"False\" limitToScreen=\"False\" dragable=\"False\"
       atCursor=\"False\" followCursor=\"False\" followAtClose=\"False\" showBox=\"True\"
       useTextTyping=\"False\" typingHidesOkCancel=\"False\" alignInputFields=\"True\"
       nameRelative=\"True\" showNameBox=\"True\" nameAdjWidth=\"True\" nameAdjHeight=\"True\"
-      choiceNoClickAccept=\"False\" circleUseFixedOffset=\"False\" circleInverse=\"False\"
+      choiceNoClickAccept=\"True\" circleUseFixedOffset=\"False\" circleInverse=\"False\"
       circleRotateSelection=\"False\" circleInterpolate=\"False\" circleRadialSelection=\"False\"
-      choiceSetTitleWidth=\"False\" loop=\"False\" selectFirst=\"False\" dragOnlySelected=\"False\"
+      choiceSetTitleWidth=\"False\" loop=\"True\" selectFirst=\"False\" dragOnlySelected=\"False\"
       unfocusedChoice=\"False\" unfocusedChoiceHighlight=\"True\" choiceBlockMouseOver=\"False\"
       choiceDefineWidth=\"False\" choiceDefineHeight=\"False\" cAdjustHeight=\"False\"
       ownHeaders=\"False\" tabsSetWidth=\"False\" tabsAdjustWidth=\"True\" ownInactive=\"False\"
       ownSkins=\"False\" ownAudio=\"False\" ownButtons=\"True\" ownPortraitPosition=\"False\"
       ownChoiceIcon=\"False\" ownControls=\"False\" ownIconSize=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<screenPadding
-      0 0 0 0 />\n\t\t\t\t\t<dragBounds 0 0 1920 20 />\n\t\t\t\t\t<boxBounds 0 800
-      300 400 />\n\t\t\t\t\t<boxPadding 40 40 40 40 />\n\t\t\t\t\t<nameBounds 0 0
-      200 50 />\n\t\t\t\t\t<namePadding 40 20 40 20 />\n\t\t\t\t\t<choiceSpacing
+      0 0 0 0 />\n\t\t\t\t\t<dragBounds 0 0 1920 20 />\n\t\t\t\t\t<boxBounds 980
+      1080 400 600 />\n\t\t\t\t\t<boxPadding 40 40 40 40 />\n\t\t\t\t\t<nameBounds
+      0 0 200 50 />\n\t\t\t\t\t<namePadding 40 20 40 20 />\n\t\t\t\t\t<choiceSpacing
       10 10 />\n\t\t\t\t\t<tabsPadding 10 10 10 10 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Battle
       Menu]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<textFormat colorID=\"0\" shadowColorID=\"1\"
       outlineColorID=\"1\" fontSize=\"40\" fontStyle=\"0\" >\n\t\t\t\t\t<_bool showShadow=\"True\"
