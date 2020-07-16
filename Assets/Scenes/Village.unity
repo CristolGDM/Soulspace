@@ -1116,6 +1116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   direction: 0
+  unique: 0
 --- !u!1 &1133961689
 GameObject:
   m_ObjectHideFlags: 0
@@ -3310,7 +3311,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3, y: 3}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &1713295323
 MonoBehaviour:
@@ -3324,7 +3325,7 @@ MonoBehaviour:
   m_Script: {fileID: -1828747119, guid: f5c55b3678e89c6409bf2371aaef7c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  useSceneID: 0
+  useSceneID: 1
   sceneID: 0
   autoDestroy: 1
   repeatDestroy: 0
@@ -3377,11 +3378,11 @@ MonoBehaviour:
   startByCollider: 1
   startByTrigger: 1
   startByRootObject: 0
-  useOtherObject: 0
+  useOtherObject: 1
   startObjectCheck:
-    checkName: 0
-    isTag: 0
-    name: 
+    checkName: 1
+    isTag: 1
+    name: Player
     components: []
   horizontalPlane: 0
   useFront: 1
@@ -3481,7 +3482,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1713295321}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.57, y: 3.98, z: -1}
+  m_LocalPosition: {x: -0.5, y: 0.5, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3517,7 +3518,7 @@ PrefabInstance:
     - target: {fileID: 8589146164028294048, guid: 5a5d6ce4701374bde93c44d064d2565f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.5
+      value: -5.5
       objectReference: {fileID: 0}
     - target: {fileID: 8589146164028294048, guid: 5a5d6ce4701374bde93c44d064d2565f,
         type: 3}

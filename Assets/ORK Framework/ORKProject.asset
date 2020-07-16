@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: ORKProject
   m_EditorClassIdentifier: 
-  time: 7/16/2020 7:49:28 PM
+  time: 7/16/2020 8:36:50 PM
   version: 2.28.1
   keys:
   - editorSettings
@@ -1163,13 +1163,7 @@ MonoBehaviour:
       loadSceneMode=\"0\" guiBoxID=\"0\" >\n\t\t<_float waitTime=\"1\" />\n\t\t<_bool
       loadAsync=\"False\" fieldAuto=\"False\" autoGroupDead=\"True\" useFadeOut=\"True\"
       useFadeIn=\"True\" showChoice=\"False\" useTitle=\"False\" showRetry=\"True\"
-      showLoad=\"True\" showExit=\"True\" />\n\t\t<_string>\n\t\t\t<scene><![CDATA[]]></scene>\n\t\t</_string>\n\t\t<_stringarrays>\n\t\t\t<message>\n\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t</message>\n\t\t</_stringarrays>\n\t\t<fadeOut
-      interpolation=\"0\" >\n\t\t\t<_float time=\"0.5\" />\n\t\t\t<_bool alpha=\"True\"
-      red=\"False\" green=\"False\" blue=\"False\" fromCurrent=\"False\" />\n\t\t\t<_floatarrays>\n\t\t\t\t<startColor
-      0 0 0 0 />\n\t\t\t\t<endColor 0 0 0 1 />\n\t\t\t</_floatarrays>\n\t\t</fadeOut>\n\t\t<fadeIn
-      interpolation=\"0\" >\n\t\t\t<_float time=\"0.5\" />\n\t\t\t<_bool alpha=\"True\"
-      red=\"False\" green=\"False\" blue=\"False\" fromCurrent=\"False\" />\n\t\t\t<_floatarrays>\n\t\t\t\t<startColor
-      0 0 0 1 />\n\t\t\t\t<endColor 0 0 0 0 />\n\t\t\t</_floatarrays>\n\t\t</fadeIn>\n\t\t<variableSetter>\n\t\t\t<_subarrays>\n\t\t\t\t<gameVariable>\n\t\t\t\t</gameVariable>\n\t\t\t</_subarrays>\n\t\t</variableSetter>\n\t\t<retryButton>\n\t\t\t<customSkin>\n\t\t\t\t<_bool
+      showLoad=\"True\" showExit=\"True\" />\n\t\t<_string>\n\t\t\t<scene><![CDATA[]]></scene>\n\t\t</_string>\n\t\t<_stringarrays>\n\t\t\t<message>\n\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t</message>\n\t\t</_stringarrays>\n\t\t<variableSetter>\n\t\t\t<_subarrays>\n\t\t\t\t<gameVariable>\n\t\t\t\t</gameVariable>\n\t\t\t</_subarrays>\n\t\t</variableSetter>\n\t\t<retryButton>\n\t\t\t<customSkin>\n\t\t\t\t<_bool
       useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t</customSkin>\n\t\t\t<_subarrays>\n\t\t\t\t<button>\n\t\t\t\t\t<0>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<name><![CDATA[Retry]]></name>\n\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t</icon>\n\t\t\t\t\t</0>\n\t\t\t\t</button>\n\t\t\t</_subarrays>\n\t\t</retryButton>\n\t\t<loadButton>\n\t\t\t<customSkin>\n\t\t\t\t<_bool
       useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t</customSkin>\n\t\t\t<_subarrays>\n\t\t\t\t<button>\n\t\t\t\t\t<0>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<name><![CDATA[Load]]></name>\n\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t</icon>\n\t\t\t\t\t</0>\n\t\t\t\t</button>\n\t\t\t</_subarrays>\n\t\t</loadButton>\n\t\t<exitButton>\n\t\t\t<customSkin>\n\t\t\t\t<_bool
       useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t</customSkin>\n\t\t\t<_subarrays>\n\t\t\t\t<button>\n\t\t\t\t\t<0>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<name><![CDATA[Exit]]></name>\n\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t</icon>\n\t\t\t\t\t</0>\n\t\t\t\t</button>\n\t\t\t</_subarrays>\n\t\t</exitButton>\n\t</gameOver>\n\t<initialVariables>\n\t\t<_subarrays>\n\t\t\t<gameVariable>\n\t\t\t</gameVariable>\n\t\t</_subarrays>\n\t</initialVariables>\n\t<assetSettings
@@ -2908,7 +2902,7 @@ MonoBehaviour:
       changeTimebar=\"False\" changeActionsPerTurn=\"False\" changeUsedActionsPerTurn=\"False\"
       useRequirements=\"False\" itemShowNotification=\"True\" itemShowConsole=\"True\"
       userChangeTargetHitOnly=\"False\" />\n\t\t\t\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t\t\t\t<activationTags>\n\t\t\t\t\t\t\t\t\t</activationTags>\n\t\t\t\t\t\t\t\t</_stringarrays>\n\t\t\t\t\t\t\t\t<targetSettings
-      targetType=\"3\" targetRange=\"1\" isDead=\"1\" >\n\t\t\t\t\t\t\t\t\t<_bool
+      targetType=\"2\" targetRange=\"1\" isDead=\"1\" >\n\t\t\t\t\t\t\t\t\t<_bool
       targetRangeToggle=\"False\" notSelf=\"False\" noneSelectGridCell=\"False\"
       />\n\t\t\t\t\t\t\t\t\t<useRange>\n\t\t\t\t\t\t\t\t\t\t<_bool ownUseRange=\"False\"
       />\n\t\t\t\t\t\t\t\t\t</useRange>\n\t\t\t\t\t\t\t\t\t<affectRange type=\"0\"
@@ -2976,7 +2970,7 @@ MonoBehaviour:
       />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<attributeChanges useEffectAttributes=\"0\"
       >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_intarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<ignoreDefAttributeID
       />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_intarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<atkAttribute>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<0
-      index=\"1\" subIndex=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</atkAttribute>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</attributeChanges>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t\t\t</consume>\n\t\t\t\t\t\t\t\t\t\t\t\t<effect>\n\t\t\t\t\t\t\t\t\t\t\t\t</effect>\n\t\t\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t</targetChange>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</active>\n\t\t\t\t\t\t\t<variableSettings>\n\t\t\t\t\t\t\t\t<_bool
+      index=\"1\" subIndex=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</atkAttribute>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</attributeChanges>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t\t\t</consume>\n\t\t\t\t\t\t\t\t\t\t\t\t<effect>\n\t\t\t\t\t\t\t\t\t\t\t\t</effect>\n\t\t\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t</targetChange>\n\t\t\t\t\t\t\t\t\t<targetCriticalChange>\n\t\t\t\t\t\t\t\t\t</targetCriticalChange>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</active>\n\t\t\t\t\t\t\t<variableSettings>\n\t\t\t\t\t\t\t\t<_bool
       variableSave=\"True\" variableUseWhenLoading=\"True\" useVariableDescription=\"False\"
       useUpdateVariables=\"False\" />\n\t\t\t\t\t\t\t\t<variableChanges>\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</variableChanges>\n\t\t\t\t\t\t\t</variableSettings>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</level>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Attack]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t\t<1
       abilityType=\"0\" damageTypeID=\"0\" useableIn=\"1\" selectionID=\"0\" lvlType=\"0\"
@@ -3066,7 +3060,7 @@ MonoBehaviour:
       changeTimebar=\"False\" changeActionsPerTurn=\"False\" changeUsedActionsPerTurn=\"False\"
       useRequirements=\"False\" itemShowNotification=\"True\" itemShowConsole=\"True\"
       userChangeTargetHitOnly=\"False\" />\n\t\t\t\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t\t\t\t<activationTags>\n\t\t\t\t\t\t\t\t\t</activationTags>\n\t\t\t\t\t\t\t\t</_stringarrays>\n\t\t\t\t\t\t\t\t<targetSettings
-      targetType=\"3\" targetRange=\"1\" isDead=\"1\" >\n\t\t\t\t\t\t\t\t\t<_bool
+      targetType=\"2\" targetRange=\"1\" isDead=\"1\" >\n\t\t\t\t\t\t\t\t\t<_bool
       targetRangeToggle=\"False\" notSelf=\"False\" noneSelectGridCell=\"False\"
       />\n\t\t\t\t\t\t\t\t\t<useRange>\n\t\t\t\t\t\t\t\t\t\t<_bool ownUseRange=\"False\"
       />\n\t\t\t\t\t\t\t\t\t</useRange>\n\t\t\t\t\t\t\t\t\t<affectRange type=\"0\"
@@ -3154,7 +3148,7 @@ MonoBehaviour:
       changeTimebar=\"False\" changeActionsPerTurn=\"False\" changeUsedActionsPerTurn=\"False\"
       useRequirements=\"False\" itemShowNotification=\"True\" itemShowConsole=\"True\"
       userChangeTargetHitOnly=\"False\" />\n\t\t\t\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t\t\t\t<activationTags>\n\t\t\t\t\t\t\t\t\t</activationTags>\n\t\t\t\t\t\t\t\t</_stringarrays>\n\t\t\t\t\t\t\t\t<targetSettings
-      targetType=\"3\" targetRange=\"1\" isDead=\"1\" >\n\t\t\t\t\t\t\t\t\t<_bool
+      targetType=\"1\" targetRange=\"1\" isDead=\"1\" >\n\t\t\t\t\t\t\t\t\t<_bool
       targetRangeToggle=\"False\" notSelf=\"False\" noneSelectGridCell=\"False\"
       />\n\t\t\t\t\t\t\t\t\t<useRange>\n\t\t\t\t\t\t\t\t\t\t<_bool ownUseRange=\"False\"
       />\n\t\t\t\t\t\t\t\t\t</useRange>\n\t\t\t\t\t\t\t\t\t<affectRange type=\"0\"
@@ -5437,9 +5431,9 @@ MonoBehaviour:
       useRotation=\"True\" setScale=\"False\" scaleAfterMount=\"False\" />\n\t\t<_floatarrays>\n\t\t\t<offset
       -1 0 0 />\n\t\t\t<rotationOffset 0 0 0 />\n\t\t\t<scale 1 1 1 />\n\t\t</_floatarrays>\n\t\t<_string>\n\t\t\t<childName><![CDATA[]]></childName>\n\t\t</_string>\n\t\t<localSpace>\n\t\t\t<_bool
       localSpace=\"True\" ignoreScale=\"False\" />\n\t\t</localSpace>\n\t</cursorMount>\n\t<blink
-      interpolation=\"0\" >\n\t\t<_float time=\"0.5\" />\n\t\t<_bool alpha=\"False\"
+      interpolation=\"0\" >\n\t\t<_float time=\"0.05\" />\n\t\t<_bool alpha=\"True\"
       red=\"True\" green=\"True\" blue=\"True\" fromCurrent=\"False\" />\n\t\t<_floatarrays>\n\t\t\t<startColor
-      1 1 1 0 />\n\t\t\t<endColor 0 0.6230382 0.6980392 1 />\n\t\t</_floatarrays>\n\t</blink>\n\t<targetMouseTouch
+      1 1 1 1 />\n\t\t\t<endColor 1 1 1 0.7882353 />\n\t\t</_floatarrays>\n\t</blink>\n\t<targetMouseTouch
       mouseClick=\"0\" touchCount=\"1\" clickCount=\"1\" mode=\"0\" >\n\t\t<_float
       timeout=\"0\" />\n\t\t<_bool useClick=\"False\" useTouch=\"False\" allModes=\"False\"
       />\n\t</targetMouseTouch>\n\t<_subarrays>\n\t\t<targetInformation>\n\t\t</targetInformation>\n\t\t<groupTargetSelection>\n\t\t</groupTargetSelection>\n\t\t<individualTargetSelection>\n\t\t</individualTargetSelection>\n\t</_subarrays>\n</battleTargetSettings>\n"
@@ -5447,7 +5441,7 @@ MonoBehaviour:
       textures: []
       audioClips: []
       gameObjects:
-      - {fileID: 100000, guid: a85f73cb3c3dfe5488e84e4dc2ea88d3, type: 3}
+      - {fileID: 4271044395683643466, guid: a547a11ab6c9a4a418aabb14f577f22f, type: 3}
       guiSkins: []
       materials: []
       fonts: []
@@ -5661,9 +5655,9 @@ MonoBehaviour:
       infoRemoveEmptyLines=\"False\" />\n\t\t\t\t\t<customSkin>\n\t\t\t\t\t\t<_bool
       useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t</customSkin>\n\t\t\t\t</contentLayout>\n\t\t\t\t<headerTexts>\n\t\t\t\t\t<_bool
       useHeaders=\"False\" setIconSize=\"False\" />\n\t\t\t\t</headerTexts>\n\t\t\t\t<userHighlight>\n\t\t\t\t\t<_bool
-      useCursor=\"False\" useBlink=\"False\" blinkChildren=\"True\" useBlinkHUD=\"False\"
-      />\n\t\t\t\t\t<cursorMount>\n\t\t\t\t\t\t<_bool useRotation=\"True\" setScale=\"False\"
-      scaleAfterMount=\"False\" />\n\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t<offset
+      useCursor=\"True\" useBlink=\"False\" blinkChildren=\"True\" useBlinkHUD=\"False\"
+      />\n\t\t\t\t\t<cursorPrefab>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</settings>\n\t\t\t\t\t</cursorPrefab>\n\t\t\t\t\t<cursorMount>\n\t\t\t\t\t\t<_bool
+      useRotation=\"True\" setScale=\"False\" scaleAfterMount=\"False\" />\n\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t<offset
       0 0 0 />\n\t\t\t\t\t\t\t<rotationOffset 0 0 0 />\n\t\t\t\t\t\t\t<scale 1 1
       1 />\n\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t<localSpace>\n\t\t\t\t\t\t\t<_bool
       localSpace=\"True\" ignoreScale=\"False\" />\n\t\t\t\t\t\t</localSpace>\n\t\t\t\t\t</cursorMount>\n\t\t\t\t</userHighlight>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<item>\n\t\t\t\t\t\t<0
