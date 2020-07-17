@@ -5,7 +5,11 @@ using ORKFramework;
 
 public class PlayerMover : CharacterMover {
     private Transform interactionController;
-    private float interactionControllerDistance = 0.3f;
+    private readonly float interactionControllerDistance = 0.3f;
+    private readonly float triggerDistance = 0.45f;
+
+    [SerializeField]
+    private GameObject trigger;
 
     // Update is called once per frame
     public override void Update() {
@@ -48,6 +52,27 @@ public class PlayerMover : CharacterMover {
                     break;
                 default:
                     interactionController.localPosition = new Vector2(0, -interactionControllerDistance);
+                    break;
+            }
+        }
+
+        /* Move interaction controller depending on player position */
+        if (trigger != null) {
+            switch (gameObject.GetComponent<Animator>().GetInteger("Direction")) {
+                case 0:
+                    trigger.transform.localPosition = new Vector2(0, triggerDistance);
+                    break;
+                case 1:
+                    trigger.transform.localPosition = new Vector2(triggerDistance, 0);
+                    break;
+                case 2:
+                    trigger.transform.localPosition = new Vector2(0, -triggerDistance);
+                    break;
+                case 3:
+                    trigger.transform.localPosition = new Vector2(-triggerDistance, 0);
+                    break;
+                default:
+                    trigger.transform.localPosition = new Vector2(0, triggerDistance);
                     break;
             }
         }

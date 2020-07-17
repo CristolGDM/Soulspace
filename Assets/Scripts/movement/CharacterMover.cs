@@ -18,7 +18,16 @@ public class CharacterMover : MonoBehaviour {
     }
 
     public virtual void Update() {
-        if (!animator.GetBool("Moving")) transform.position = pos;
+        if (!animator.GetBool("Moving")) {
+            if ((transform.position.x - 0.5f) % 1 == 0 && (transform.position.y - 0.5f) % 1 == 0) {
+                transform.position = pos;
+            }
+            else {
+                float newX = Mathf.Round(transform.position.x + 9999.5f) - 9999.5f;
+                float newY = Mathf.Round(transform.position.y + 9999.5f) - 9999.5f;
+                pos = new Vector3(newX, newY, transform.position.z);
+            }
+        }
         transform.position = Vector3.MoveTowards(transform.position, pos, Time.deltaTime * speed);
         if (transform.position == pos) animator.SetBool("Moving", false);
     }
