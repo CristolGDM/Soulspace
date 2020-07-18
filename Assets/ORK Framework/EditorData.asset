@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: EditorData
   m_EditorClassIdentifier: 
   lastProject: {fileID: 11400000, guid: d289c15ffd1e74b36b8feb1ca2a0da07, type: 2}
-  section: 6
-  subSection: 2
-  tabIndex: 0
-  scrollY: 0
+  section: 4
+  subSection: 1
+  tabIndex: 1
+  scrollY: 3786.0327
   helpDrag: 220
   subSectionDrag: 200
   tabListDrag: 300
@@ -30,6 +30,7 @@ MonoBehaviour:
   updateScenes: 0
   sceneUpdate: 
   eventAsset:
+  - {fileID: 11400000, guid: d31a074b6c09c47f78234c617b6a2392, type: 2}
   - {fileID: 11400000, guid: 2992b15bf027945989e9c9207da81ef9, type: 2}
   - {fileID: 11400000, guid: 50cd4fa290acd42da960dbc60a70786d, type: 2}
   - {fileID: 11400000, guid: 9293be35f425548788d8603f73e7d36b, type: 2}
@@ -39,7 +40,8 @@ MonoBehaviour:
   gameEventAsset:
   - {fileID: 11400000, guid: d0f59def1de7e414fb73babed4a5c2af, type: 2}
   - {fileID: 11400000, guid: 8a06e626c14444fd3987a4779faed16d, type: 2}
-  moveEventAsset: []
+  moveEventAsset:
+  - {fileID: 11400000, guid: d31a074b6c09c47f78234c617b6a2392, type: 2}
   battleEventAsset: []
   battleStartEventAsset:
   - {fileID: 11400000, guid: 6e2283f56875c42f884157695f49efab, type: 2}
