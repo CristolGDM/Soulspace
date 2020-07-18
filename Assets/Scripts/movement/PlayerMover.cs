@@ -9,7 +9,7 @@ public class PlayerMover : CharacterMover {
     private readonly float triggerDistance = 0.45f;
 
     [SerializeField]
-    private GameObject trigger;
+    private GameObject trigger = null;
 
     // Update is called once per frame
     public override void Update() {

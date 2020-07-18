@@ -25,6 +25,26 @@ public class CharacterMover : MonoBehaviour {
             else {
                 float newX = Mathf.Round(transform.position.x + 9999.5f) - 9999.5f;
                 float newY = Mathf.Round(transform.position.y + 9999.5f) - 9999.5f;
+
+                float diffX = newX - transform.position.x;
+                float diffY = newY - transform.position.y;
+                int direction = 0;
+
+                if (Mathf.Abs(diffX) > Mathf.Abs(diffY)) {
+                    if (diffX > 0) {
+                        direction = 3;
+                    }
+                    else {
+                        direction = 1;
+                    }
+                }
+                else {
+                    if(diffY > 0) {
+                        direction = 2;
+                    }
+                }
+                animator.SetInteger("Direction", direction);
+                animator.SetBool("Moving", true);
                 pos = new Vector3(newX, newY, transform.position.z);
             }
         }
