@@ -48,6 +48,12 @@ public class CharacterMover : MonoBehaviour {
                 pos = new Vector3(newX, newY, transform.position.z);
             }
         }
+        if (name.Contains("layer")) {
+            Debug.Log("##########");
+            Debug.Log(transform.position);
+            Debug.Log(pos);
+            Debug.Log(transform.position == pos);
+        }
         transform.position = Vector3.MoveTowards(transform.position, pos, Time.deltaTime * speed);
         if (transform.position == pos) animator.SetBool("Moving", false);
     }

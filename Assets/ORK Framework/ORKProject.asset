@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: ORKProject
   m_EditorClassIdentifier: 
-  time: 7/30/2020 10:16:49 PM
+  time: 8/11/2020 1:40:15 AM
   version: 2.28.1
   keys:
   - editorSettings
@@ -953,7 +953,7 @@ MonoBehaviour:
     xmlData: "<animationTypes idleID=\"0\" walkID=\"0\" runID=\"0\" sprintID=\"0\"
       jumpID=\"0\" fallID=\"0\" landID=\"0\" actionChooseIdleID=\"0\" actionWaitIdleID=\"0\"
       actionCastIdleID=\"2\" turnEndedIdleID=\"0\" deathID=\"4\" reviveID=\"0\" victoryID=\"3\"
-      >\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Idle]]></name>\n\t\t\t\t</_string>\n\t\t\t</0>\n\t\t\t<1>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Attack]]></name>\n\t\t\t\t</_string>\n\t\t\t</1>\n\t\t\t<2>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Cast]]></name>\n\t\t\t\t</_string>\n\t\t\t</2>\n\t\t\t<3>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Victory]]></name>\n\t\t\t\t</_string>\n\t\t\t</3>\n\t\t\t<4>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[KO]]></name>\n\t\t\t\t</_string>\n\t\t\t</4>\n\t\t\t<5>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[StartBattle]]></name>\n\t\t\t\t</_string>\n\t\t\t</5>\n\t\t</data>\n\t</_subarrays>\n</animationTypes>\n"
+      >\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Idle]]></name>\n\t\t\t\t</_string>\n\t\t\t</0>\n\t\t\t<1>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Attack]]></name>\n\t\t\t\t</_string>\n\t\t\t</1>\n\t\t\t<2>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Cast]]></name>\n\t\t\t\t</_string>\n\t\t\t</2>\n\t\t\t<3>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Victory]]></name>\n\t\t\t\t</_string>\n\t\t\t</3>\n\t\t\t<4>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[KO]]></name>\n\t\t\t\t</_string>\n\t\t\t</4>\n\t\t\t<5>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[StartBattle]]></name>\n\t\t\t\t</_string>\n\t\t\t</5>\n\t\t\t<6>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[GettingHit]]></name>\n\t\t\t\t</_string>\n\t\t\t</6>\n\t\t</data>\n\t</_subarrays>\n</animationTypes>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -972,7 +972,7 @@ MonoBehaviour:
       typeID=\"1\" layer=\"0\" durationType=\"0\" playMode=\"0\" >\n\t\t\t\t\t\t\t<_float
       layerWeight=\"1\" duration=\"0\" transitionDuration=\"0.1\" normalizedTime=\"0\"
       />\n\t\t\t\t\t\t\t<_bool setLayerWeight=\"False\" durationUseState=\"True\"
-      setNormalizedTime=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Battle.cast]]></name>\n\t\t\t\t\t\t\t\t<durationClipName><![CDATA[]]></durationClipName>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<playParameter>\n\t\t\t\t\t\t\t\t\t<0
+      setNormalizedTime=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[attack]]></name>\n\t\t\t\t\t\t\t\t<durationClipName><![CDATA[]]></durationClipName>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<playParameter>\n\t\t\t\t\t\t\t\t\t<0
       type=\"1\" iVal=\"1\" >\n\t\t\t\t\t\t\t\t\t\t<_float fVal=\"0\" />\n\t\t\t\t\t\t\t\t\t\t<_bool
       useHashID=\"True\" bToggle=\"False\" bVal=\"True\" add=\"False\" />\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[BattleStatus]]></name>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</playParameter>\n\t\t\t\t\t\t\t\t<stopParameter>\n\t\t\t\t\t\t\t\t\t<0
       type=\"1\" iVal=\"99\" >\n\t\t\t\t\t\t\t\t\t\t<_float fVal=\"0\" />\n\t\t\t\t\t\t\t\t\t\t<_bool
@@ -984,7 +984,23 @@ MonoBehaviour:
       type=\"1\" iVal=\"99\" >\n\t\t\t\t\t\t\t\t\t\t<_float fVal=\"0\" />\n\t\t\t\t\t\t\t\t\t\t<_bool
       useHashID=\"True\" bToggle=\"False\" bVal=\"True\" add=\"False\" />\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[BattleStatus]]></name>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</playParameter>\n\t\t\t\t\t\t\t\t<stopParameter>\n\t\t\t\t\t\t\t\t\t<0
       type=\"1\" iVal=\"0\" >\n\t\t\t\t\t\t\t\t\t\t<_float fVal=\"0\" />\n\t\t\t\t\t\t\t\t\t\t<_bool
-      useHashID=\"True\" bToggle=\"False\" bVal=\"False\" add=\"False\" />\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[BattleStatus]]></name>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</stopParameter>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t</mecanim>\n\t\t\t\t\t<mecanimStateCheck>\n\t\t\t\t\t</mecanimStateCheck>\n\t\t\t\t\t<custom>\n\t\t\t\t\t</custom>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</animations>\n"
+      useHashID=\"True\" bToggle=\"False\" bVal=\"False\" add=\"False\" />\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[BattleStatus]]></name>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</stopParameter>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t\t<2
+      typeID=\"2\" layer=\"0\" durationType=\"0\" playMode=\"0\" >\n\t\t\t\t\t\t\t<_float
+      layerWeight=\"1\" duration=\"10\" transitionDuration=\"0.1\" normalizedTime=\"0\"
+      />\n\t\t\t\t\t\t\t<_bool setLayerWeight=\"False\" durationUseState=\"True\"
+      setNormalizedTime=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[cast]]></name>\n\t\t\t\t\t\t\t\t<durationClipName><![CDATA[]]></durationClipName>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<playParameter>\n\t\t\t\t\t\t\t\t\t<0
+      type=\"1\" iVal=\"2\" >\n\t\t\t\t\t\t\t\t\t\t<_float fVal=\"0\" />\n\t\t\t\t\t\t\t\t\t\t<_bool
+      useHashID=\"True\" bToggle=\"False\" bVal=\"False\" add=\"False\" />\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[BattleStatus]]></name>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</playParameter>\n\t\t\t\t\t\t\t\t<stopParameter>\n\t\t\t\t\t\t\t\t\t<0
+      type=\"1\" iVal=\"99\" >\n\t\t\t\t\t\t\t\t\t\t<_float fVal=\"0\" />\n\t\t\t\t\t\t\t\t\t\t<_bool
+      useHashID=\"True\" bToggle=\"False\" bVal=\"False\" add=\"False\" />\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[BattleStatus]]></name>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</stopParameter>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</2>\n\t\t\t\t\t\t<3
+      typeID=\"6\" layer=\"0\" durationType=\"0\" playMode=\"0\" >\n\t\t\t\t\t\t\t<_float
+      layerWeight=\"1\" duration=\"0\" transitionDuration=\"0.1\" normalizedTime=\"0\"
+      />\n\t\t\t\t\t\t\t<_bool setLayerWeight=\"False\" durationUseState=\"True\"
+      setNormalizedTime=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[hit]]></name>\n\t\t\t\t\t\t\t\t<durationClipName><![CDATA[]]></durationClipName>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<playParameter>\n\t\t\t\t\t\t\t\t\t<0
+      type=\"1\" iVal=\"3\" >\n\t\t\t\t\t\t\t\t\t\t<_float fVal=\"0\" />\n\t\t\t\t\t\t\t\t\t\t<_bool
+      useHashID=\"True\" bToggle=\"False\" bVal=\"False\" add=\"False\" />\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[BattleStatus]]></name>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</playParameter>\n\t\t\t\t\t\t\t\t<stopParameter>\n\t\t\t\t\t\t\t\t\t<0
+      type=\"1\" iVal=\"99\" >\n\t\t\t\t\t\t\t\t\t\t<_float fVal=\"0\" />\n\t\t\t\t\t\t\t\t\t\t<_bool
+      useHashID=\"True\" bToggle=\"False\" bVal=\"False\" add=\"False\" />\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[BattleStatus]]></name>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</stopParameter>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</3>\n\t\t\t\t\t</mecanim>\n\t\t\t\t\t<mecanimStateCheck>\n\t\t\t\t\t</mecanimStateCheck>\n\t\t\t\t\t<custom>\n\t\t\t\t\t</custom>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</animations>\n"
     lookUp:
       textures: []
       audioClips: []
