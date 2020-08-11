@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: ORKProject
   m_EditorClassIdentifier: 
-  time: 8/11/2020 4:43:14 PM
+  time: 8/11/2020 5:29:49 PM
   version: 2.28.1
   keys:
   - editorSettings
@@ -977,14 +977,6 @@ MonoBehaviour:
       useHashID=\"True\" bToggle=\"False\" bVal=\"True\" add=\"False\" />\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[BattleStatus]]></name>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</playParameter>\n\t\t\t\t\t\t\t\t<stopParameter>\n\t\t\t\t\t\t\t\t\t<0
       type=\"1\" iVal=\"99\" >\n\t\t\t\t\t\t\t\t\t\t<_float fVal=\"0\" />\n\t\t\t\t\t\t\t\t\t\t<_bool
       useHashID=\"True\" bToggle=\"False\" bVal=\"False\" add=\"False\" />\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[BattleStatus]]></name>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</stopParameter>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1
-      typeID=\"5\" layer=\"0\" durationType=\"0\" playMode=\"0\" >\n\t\t\t\t\t\t\t<_float
-      layerWeight=\"1\" duration=\"10\" transitionDuration=\"0.1\" normalizedTime=\"0\"
-      />\n\t\t\t\t\t\t\t<_bool setLayerWeight=\"False\" durationUseState=\"True\"
-      setNormalizedTime=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[idle_left_0]]></name>\n\t\t\t\t\t\t\t\t<durationClipName><![CDATA[]]></durationClipName>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<playParameter>\n\t\t\t\t\t\t\t\t\t<0
-      type=\"1\" iVal=\"99\" >\n\t\t\t\t\t\t\t\t\t\t<_float fVal=\"0\" />\n\t\t\t\t\t\t\t\t\t\t<_bool
-      useHashID=\"True\" bToggle=\"False\" bVal=\"True\" add=\"False\" />\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[BattleStatus]]></name>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</playParameter>\n\t\t\t\t\t\t\t\t<stopParameter>\n\t\t\t\t\t\t\t\t\t<0
-      type=\"1\" iVal=\"0\" >\n\t\t\t\t\t\t\t\t\t\t<_float fVal=\"0\" />\n\t\t\t\t\t\t\t\t\t\t<_bool
-      useHashID=\"True\" bToggle=\"False\" bVal=\"False\" add=\"False\" />\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[BattleStatus]]></name>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</stopParameter>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t\t<2
       typeID=\"2\" layer=\"0\" durationType=\"0\" playMode=\"0\" >\n\t\t\t\t\t\t\t<_float
       layerWeight=\"1\" duration=\"10\" transitionDuration=\"0.1\" normalizedTime=\"0\"
       />\n\t\t\t\t\t\t\t<_bool setLayerWeight=\"False\" durationUseState=\"True\"
@@ -992,7 +984,23 @@ MonoBehaviour:
       type=\"1\" iVal=\"2\" >\n\t\t\t\t\t\t\t\t\t\t<_float fVal=\"0\" />\n\t\t\t\t\t\t\t\t\t\t<_bool
       useHashID=\"True\" bToggle=\"False\" bVal=\"False\" add=\"False\" />\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[BattleStatus]]></name>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</playParameter>\n\t\t\t\t\t\t\t\t<stopParameter>\n\t\t\t\t\t\t\t\t\t<0
       type=\"1\" iVal=\"99\" >\n\t\t\t\t\t\t\t\t\t\t<_float fVal=\"0\" />\n\t\t\t\t\t\t\t\t\t\t<_bool
-      useHashID=\"True\" bToggle=\"False\" bVal=\"False\" add=\"False\" />\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[BattleStatus]]></name>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</stopParameter>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</2>\n\t\t\t\t\t\t<3
+      useHashID=\"True\" bToggle=\"False\" bVal=\"False\" add=\"False\" />\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[BattleStatus]]></name>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</stopParameter>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t\t<2
+      typeID=\"4\" layer=\"0\" durationType=\"0\" playMode=\"0\" >\n\t\t\t\t\t\t\t<_float
+      layerWeight=\"1\" duration=\"0\" transitionDuration=\"0.1\" normalizedTime=\"0\"
+      />\n\t\t\t\t\t\t\t<_bool setLayerWeight=\"False\" durationUseState=\"True\"
+      setNormalizedTime=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[ko]]></name>\n\t\t\t\t\t\t\t\t<durationClipName><![CDATA[]]></durationClipName>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<playParameter>\n\t\t\t\t\t\t\t\t\t<0
+      type=\"1\" iVal=\"99\" >\n\t\t\t\t\t\t\t\t\t\t<_float fVal=\"0\" />\n\t\t\t\t\t\t\t\t\t\t<_bool
+      useHashID=\"True\" bToggle=\"False\" bVal=\"False\" add=\"False\" />\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[BattleStatus]]></name>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t<1
+      type=\"1\" iVal=\"0\" >\n\t\t\t\t\t\t\t\t\t\t<_float fVal=\"0\" />\n\t\t\t\t\t\t\t\t\t\t<_bool
+      useHashID=\"True\" bToggle=\"False\" bVal=\"False\" add=\"False\" />\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[LifePercent]]></name>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t\t\t</playParameter>\n\t\t\t\t\t\t\t\t<stopParameter>\n\t\t\t\t\t\t\t\t</stopParameter>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</2>\n\t\t\t\t\t\t<3
+      typeID=\"5\" layer=\"0\" durationType=\"0\" playMode=\"0\" >\n\t\t\t\t\t\t\t<_float
+      layerWeight=\"1\" duration=\"10\" transitionDuration=\"0.1\" normalizedTime=\"0\"
+      />\n\t\t\t\t\t\t\t<_bool setLayerWeight=\"False\" durationUseState=\"True\"
+      setNormalizedTime=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[idle_left_0]]></name>\n\t\t\t\t\t\t\t\t<durationClipName><![CDATA[]]></durationClipName>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<playParameter>\n\t\t\t\t\t\t\t\t\t<0
+      type=\"1\" iVal=\"99\" >\n\t\t\t\t\t\t\t\t\t\t<_float fVal=\"0\" />\n\t\t\t\t\t\t\t\t\t\t<_bool
+      useHashID=\"True\" bToggle=\"False\" bVal=\"True\" add=\"False\" />\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[BattleStatus]]></name>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</playParameter>\n\t\t\t\t\t\t\t\t<stopParameter>\n\t\t\t\t\t\t\t\t\t<0
+      type=\"1\" iVal=\"0\" >\n\t\t\t\t\t\t\t\t\t\t<_float fVal=\"0\" />\n\t\t\t\t\t\t\t\t\t\t<_bool
+      useHashID=\"True\" bToggle=\"False\" bVal=\"False\" add=\"False\" />\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[BattleStatus]]></name>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</stopParameter>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</3>\n\t\t\t\t\t\t<4
       typeID=\"6\" layer=\"0\" durationType=\"0\" playMode=\"0\" >\n\t\t\t\t\t\t\t<_float
       layerWeight=\"1\" duration=\"0\" transitionDuration=\"0.1\" normalizedTime=\"0\"
       />\n\t\t\t\t\t\t\t<_bool setLayerWeight=\"False\" durationUseState=\"True\"
@@ -1000,7 +1008,7 @@ MonoBehaviour:
       type=\"1\" iVal=\"3\" >\n\t\t\t\t\t\t\t\t\t\t<_float fVal=\"0\" />\n\t\t\t\t\t\t\t\t\t\t<_bool
       useHashID=\"True\" bToggle=\"False\" bVal=\"False\" add=\"False\" />\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[BattleStatus]]></name>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</playParameter>\n\t\t\t\t\t\t\t\t<stopParameter>\n\t\t\t\t\t\t\t\t\t<0
       type=\"1\" iVal=\"99\" >\n\t\t\t\t\t\t\t\t\t\t<_float fVal=\"0\" />\n\t\t\t\t\t\t\t\t\t\t<_bool
-      useHashID=\"True\" bToggle=\"False\" bVal=\"False\" add=\"False\" />\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[BattleStatus]]></name>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</stopParameter>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</3>\n\t\t\t\t\t</mecanim>\n\t\t\t\t\t<mecanimStateCheck>\n\t\t\t\t\t</mecanimStateCheck>\n\t\t\t\t\t<custom>\n\t\t\t\t\t</custom>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</animations>\n"
+      useHashID=\"True\" bToggle=\"False\" bVal=\"False\" add=\"False\" />\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[BattleStatus]]></name>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</stopParameter>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</4>\n\t\t\t\t\t</mecanim>\n\t\t\t\t\t<mecanimStateCheck>\n\t\t\t\t\t</mecanimStateCheck>\n\t\t\t\t\t<custom>\n\t\t\t\t\t</custom>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</animations>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -1196,7 +1204,8 @@ MonoBehaviour:
       loadSceneMode=\"0\" guiBoxID=\"0\" >\n\t\t<_float waitTime=\"1\" />\n\t\t<_bool
       loadAsync=\"False\" fieldAuto=\"False\" autoGroupDead=\"True\" useFadeOut=\"True\"
       useFadeIn=\"True\" showChoice=\"False\" useTitle=\"False\" showRetry=\"True\"
-      showLoad=\"True\" showExit=\"True\" />\n\t\t<_string>\n\t\t\t<scene><![CDATA[]]></scene>\n\t\t</_string>\n\t\t<_stringarrays>\n\t\t\t<message>\n\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t</message>\n\t\t</_stringarrays>\n\t\t<fadeOut
+      showLoad=\"True\" showExit=\"True\" />\n\t\t<_string>\n\t\t\t<scene><![CDATA[Main
+      Menu]]></scene>\n\t\t</_string>\n\t\t<_stringarrays>\n\t\t\t<message>\n\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t</message>\n\t\t</_stringarrays>\n\t\t<fadeOut
       interpolation=\"0\" >\n\t\t\t<_float time=\"0.5\" />\n\t\t\t<_bool alpha=\"True\"
       red=\"False\" green=\"False\" blue=\"False\" fromCurrent=\"False\" />\n\t\t\t<_floatarrays>\n\t\t\t\t<startColor
       0 0 0 0 />\n\t\t\t\t<endColor 0 0 0 1 />\n\t\t\t</_floatarrays>\n\t\t</fadeOut>\n\t\t<fadeIn
@@ -5313,8 +5322,8 @@ MonoBehaviour:
       ownShortcutListCount=\"False\" replaceDefaultShortcuts=\"False\" replaceDefaultAutoAddSlots=\"False\"
       replaceDefaultAutoArrangeSlots=\"False\" useBattleAnims=\"False\" autoMoveAnimation=\"False\"
       useMoveAI=\"False\" useBattleMoveAI=\"False\" />\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<controlMap
-      />\n\t\t\t\t\t<startValue 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0 0
-      0 2 16 0 4 255 1 255 0 1 0 106 />\n\t\t\t\t\t<defenceAttributeID 7 2 />\n\t\t\t\t\t<actionCombo
+      />\n\t\t\t\t\t<startValue 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 999 255 0
+      0 0 2 16 0 999 255 1 255 0 1 0 106 />\n\t\t\t\t\t<defenceAttributeID 7 2 />\n\t\t\t\t\t<actionCombo
       />\n\t\t\t\t\t<money 6 />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<animationCustomName><![CDATA[]]></animationCustomName>\n\t\t\t\t</_string>\n\t\t\t\t<buyPriceValue
       type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t<_float initialValue=\"0\"
       offset=\"0\" value=\"50\" value2=\"0\" />\n\t\t\t\t\t<_bool isInt=\"False\"
