@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: ORKProject
   m_EditorClassIdentifier: 
-  time: 9/21/2020 11:49:29 AM
+  time: 9/22/2020 12:56:42 AM
   version: 2.28.1
   keys:
   - editorSettings
@@ -5399,9 +5399,9 @@ MonoBehaviour:
     encrypted: 0
   - name: combatantGroups
     xmlData: "<combatantGroups>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0>\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<money
-      0 />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Default
-      Group]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<member>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_bool
-      ownBattleSpot=\"False\" />\n\t\t\t\t\t\t\t<combatant id=\"0\" levelInit=\"0\"
+      0 />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Forest
+      - Rat x3]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<member>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_bool
+      ownBattleSpot=\"False\" />\n\t\t\t\t\t\t\t<combatant id=\"2\" levelInit=\"0\"
       levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\" levelMaxRandom=\"99\"
       levelFormulaID=\"0\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
       classMinRandom=\"1\" classMaxRandom=\"99\" classFormulaID=\"0\" >\n\t\t\t\t\t\t\t\t<_float
@@ -5409,7 +5409,74 @@ MonoBehaviour:
       learnAbilities=\"True\" useStartInventory=\"True\" useStartEquipment=\"True\"
       useInitEvent=\"True\" levelOnlyBattle=\"False\" classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</combatant>\n\t\t\t\t\t\t\t<requirement>\n\t\t\t\t\t\t\t\t<_bool
       checkDifficulty=\"False\" />\n\t\t\t\t\t\t\t\t<variableCondition needed=\"0\"
-      >\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</variableCondition>\n\t\t\t\t\t\t\t</requirement>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</member>\n\t\t\t\t\t<itemDrop>\n\t\t\t\t\t</itemDrop>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</combatantGroups>\n"
+      >\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</variableCondition>\n\t\t\t\t\t\t\t</requirement>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1>\n\t\t\t\t\t\t\t<_bool
+      ownBattleSpot=\"False\" />\n\t\t\t\t\t\t\t<combatant id=\"2\" levelInit=\"0\"
+      levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\" levelMaxRandom=\"99\"
+      levelFormulaID=\"0\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
+      classMinRandom=\"1\" classMaxRandom=\"99\" classFormulaID=\"0\" >\n\t\t\t\t\t\t\t\t<_float
+      levelFormulaInitialValue=\"0\" classFormulaInitialValue=\"0\" />\n\t\t\t\t\t\t\t\t<_bool
+      learnAbilities=\"True\" useStartInventory=\"True\" useStartEquipment=\"True\"
+      useInitEvent=\"True\" levelOnlyBattle=\"False\" classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</combatant>\n\t\t\t\t\t\t\t<requirement>\n\t\t\t\t\t\t\t\t<_bool
+      checkDifficulty=\"False\" />\n\t\t\t\t\t\t\t\t<variableCondition needed=\"0\"
+      >\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</variableCondition>\n\t\t\t\t\t\t\t</requirement>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t\t<2>\n\t\t\t\t\t\t\t<_bool
+      ownBattleSpot=\"False\" />\n\t\t\t\t\t\t\t<combatant id=\"2\" levelInit=\"0\"
+      levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\" levelMaxRandom=\"99\"
+      levelFormulaID=\"0\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
+      classMinRandom=\"1\" classMaxRandom=\"99\" classFormulaID=\"0\" >\n\t\t\t\t\t\t\t\t<_float
+      levelFormulaInitialValue=\"0\" classFormulaInitialValue=\"0\" />\n\t\t\t\t\t\t\t\t<_bool
+      learnAbilities=\"True\" useStartInventory=\"True\" useStartEquipment=\"True\"
+      useInitEvent=\"True\" levelOnlyBattle=\"False\" classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</combatant>\n\t\t\t\t\t\t\t<requirement>\n\t\t\t\t\t\t\t\t<_bool
+      checkDifficulty=\"False\" />\n\t\t\t\t\t\t\t\t<variableCondition needed=\"0\"
+      >\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</variableCondition>\n\t\t\t\t\t\t\t</requirement>\n\t\t\t\t\t\t</2>\n\t\t\t\t\t</member>\n\t\t\t\t\t<itemDrop>\n\t\t\t\t\t</itemDrop>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t\t<1>\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<money
+      0 />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Forest
+      - Rat x2, Centipede x1]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<member>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_bool
+      ownBattleSpot=\"False\" />\n\t\t\t\t\t\t\t<combatant id=\"2\" levelInit=\"0\"
+      levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\" levelMaxRandom=\"99\"
+      levelFormulaID=\"0\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
+      classMinRandom=\"1\" classMaxRandom=\"99\" classFormulaID=\"0\" >\n\t\t\t\t\t\t\t\t<_float
+      levelFormulaInitialValue=\"0\" classFormulaInitialValue=\"0\" />\n\t\t\t\t\t\t\t\t<_bool
+      learnAbilities=\"True\" useStartInventory=\"True\" useStartEquipment=\"True\"
+      useInitEvent=\"True\" levelOnlyBattle=\"False\" classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</combatant>\n\t\t\t\t\t\t\t<requirement>\n\t\t\t\t\t\t\t\t<_bool
+      checkDifficulty=\"False\" />\n\t\t\t\t\t\t\t\t<variableCondition needed=\"0\"
+      >\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</variableCondition>\n\t\t\t\t\t\t\t</requirement>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1>\n\t\t\t\t\t\t\t<_bool
+      ownBattleSpot=\"False\" />\n\t\t\t\t\t\t\t<combatant id=\"2\" levelInit=\"0\"
+      levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\" levelMaxRandom=\"99\"
+      levelFormulaID=\"0\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
+      classMinRandom=\"1\" classMaxRandom=\"99\" classFormulaID=\"0\" >\n\t\t\t\t\t\t\t\t<_float
+      levelFormulaInitialValue=\"0\" classFormulaInitialValue=\"0\" />\n\t\t\t\t\t\t\t\t<_bool
+      learnAbilities=\"True\" useStartInventory=\"True\" useStartEquipment=\"True\"
+      useInitEvent=\"True\" levelOnlyBattle=\"False\" classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</combatant>\n\t\t\t\t\t\t\t<requirement>\n\t\t\t\t\t\t\t\t<_bool
+      checkDifficulty=\"False\" />\n\t\t\t\t\t\t\t\t<variableCondition needed=\"0\"
+      >\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</variableCondition>\n\t\t\t\t\t\t\t</requirement>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t\t<2>\n\t\t\t\t\t\t\t<_bool
+      ownBattleSpot=\"False\" />\n\t\t\t\t\t\t\t<combatant id=\"1\" levelInit=\"0\"
+      levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\" levelMaxRandom=\"99\"
+      levelFormulaID=\"0\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
+      classMinRandom=\"1\" classMaxRandom=\"99\" classFormulaID=\"0\" >\n\t\t\t\t\t\t\t\t<_float
+      levelFormulaInitialValue=\"0\" classFormulaInitialValue=\"0\" />\n\t\t\t\t\t\t\t\t<_bool
+      learnAbilities=\"True\" useStartInventory=\"True\" useStartEquipment=\"True\"
+      useInitEvent=\"True\" levelOnlyBattle=\"False\" classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</combatant>\n\t\t\t\t\t\t\t<requirement>\n\t\t\t\t\t\t\t\t<_bool
+      checkDifficulty=\"False\" />\n\t\t\t\t\t\t\t\t<variableCondition needed=\"0\"
+      >\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</variableCondition>\n\t\t\t\t\t\t\t</requirement>\n\t\t\t\t\t\t</2>\n\t\t\t\t\t</member>\n\t\t\t\t\t<itemDrop>\n\t\t\t\t\t</itemDrop>\n\t\t\t\t</_subarrays>\n\t\t\t</1>\n\t\t\t<2>\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<money
+      0 />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Forest
+      - Centipede x2]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<member>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_bool
+      ownBattleSpot=\"False\" />\n\t\t\t\t\t\t\t<combatant id=\"1\" levelInit=\"0\"
+      levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\" levelMaxRandom=\"99\"
+      levelFormulaID=\"0\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
+      classMinRandom=\"1\" classMaxRandom=\"99\" classFormulaID=\"0\" >\n\t\t\t\t\t\t\t\t<_float
+      levelFormulaInitialValue=\"0\" classFormulaInitialValue=\"0\" />\n\t\t\t\t\t\t\t\t<_bool
+      learnAbilities=\"True\" useStartInventory=\"True\" useStartEquipment=\"True\"
+      useInitEvent=\"True\" levelOnlyBattle=\"False\" classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</combatant>\n\t\t\t\t\t\t\t<requirement>\n\t\t\t\t\t\t\t\t<_bool
+      checkDifficulty=\"False\" />\n\t\t\t\t\t\t\t\t<variableCondition needed=\"0\"
+      >\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</variableCondition>\n\t\t\t\t\t\t\t</requirement>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1>\n\t\t\t\t\t\t\t<_bool
+      ownBattleSpot=\"False\" />\n\t\t\t\t\t\t\t<combatant id=\"1\" levelInit=\"0\"
+      levelMinOffset=\"-5\" levelMaxOffset=\"5\" levelMinRandom=\"1\" levelMaxRandom=\"99\"
+      levelFormulaID=\"0\" classInit=\"0\" classMinOffset=\"-5\" classMaxOffset=\"5\"
+      classMinRandom=\"1\" classMaxRandom=\"99\" classFormulaID=\"0\" >\n\t\t\t\t\t\t\t\t<_float
+      levelFormulaInitialValue=\"0\" classFormulaInitialValue=\"0\" />\n\t\t\t\t\t\t\t\t<_bool
+      learnAbilities=\"True\" useStartInventory=\"True\" useStartEquipment=\"True\"
+      useInitEvent=\"True\" levelOnlyBattle=\"False\" classOnlyBattle=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<levelKey><![CDATA[]]></levelKey>\n\t\t\t\t\t\t\t\t\t<classKey><![CDATA[]]></classKey>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</combatant>\n\t\t\t\t\t\t\t<requirement>\n\t\t\t\t\t\t\t\t<_bool
+      checkDifficulty=\"False\" />\n\t\t\t\t\t\t\t\t<variableCondition needed=\"0\"
+      >\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</variableCondition>\n\t\t\t\t\t\t\t</requirement>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t</member>\n\t\t\t\t\t<itemDrop>\n\t\t\t\t\t</itemDrop>\n\t\t\t\t</_subarrays>\n\t\t\t</2>\n\t\t</data>\n\t</_subarrays>\n</combatantGroups>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -5712,10 +5779,10 @@ MonoBehaviour:
       -4 3 0 />\n\t\t\t\t\t\t<rotation 0 0 0 />\n\t\t\t\t\t\t<scale 1 1 1 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</spot>\n\t\t\t</0>\n\t\t\t<1>\n\t\t\t\t<_bool
       usePA=\"False\" useEA=\"False\" />\n\t\t\t\t<spot>\n\t\t\t\t\t<_bool addRandom=\"False\"
       setRotation=\"False\" setScale=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<spot
-      -4 0 0 />\n\t\t\t\t\t\t<rotation 0 0 0 />\n\t\t\t\t\t\t<scale 1 1 1 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</spot>\n\t\t\t</1>\n\t\t\t<2>\n\t\t\t\t<_bool
+      -4 1 0 />\n\t\t\t\t\t\t<rotation 0 0 0 />\n\t\t\t\t\t\t<scale 1 1 1 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</spot>\n\t\t\t</1>\n\t\t\t<2>\n\t\t\t\t<_bool
       usePA=\"False\" useEA=\"False\" />\n\t\t\t\t<spot>\n\t\t\t\t\t<_bool addRandom=\"False\"
       setRotation=\"False\" setScale=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<spot
-      -4 -3 0 />\n\t\t\t\t\t\t<rotation 0 0 0 />\n\t\t\t\t\t\t<scale 1 1 1 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</spot>\n\t\t\t</2>\n\t\t</enemySpot>\n\t</_subarrays>\n</battleSpots>\n"
+      -4 -1 0 />\n\t\t\t\t\t\t<rotation 0 0 0 />\n\t\t\t\t\t\t<scale 1 1 1 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</spot>\n\t\t\t</2>\n\t\t</enemySpot>\n\t</_subarrays>\n</battleSpots>\n"
     lookUp:
       textures: []
       audioClips: []
