@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: ORKProject
   m_EditorClassIdentifier: 
-  time: 9/22/2020 12:56:42 AM
+  time: 9/22/2020 10:36:26 AM
   version: 2.28.1
   keys:
   - editorSettings
@@ -5857,8 +5857,8 @@ MonoBehaviour:
     encrypted: 0
   - name: battleTexts
     xmlData: "<battleTexts queueInfos=\"2\" infoBoxID=\"5\" >\n\t<_float infoTime=\"3\"
-      />\n\t<_bool showInfo=\"True\" infoAtCom=\"False\" infoComUpdate=\"True\" infoInField=\"False\"
-      infoInTurnBased=\"True\" infoInActiveTime=\"True\" infoInRealTime=\"True\"
+      />\n\t<_bool showInfo=\"False\" infoAtCom=\"False\" infoComUpdate=\"True\"
+      infoInField=\"False\" infoInTurnBased=\"True\" infoInActiveTime=\"True\" infoInRealTime=\"True\"
       infoPhase=\"True\" effectRemoveTextEndBattle=\"True\" effectRemoveTextEndDeath=\"True\"
       />\n\t<_floatarrays>\n\t\t<infoPosOff 0 0 />\n\t</_floatarrays>\n\t<_string>\n\t\t<infoChildName><![CDATA[]]></infoChildName>\n\t</_string>\n\t<textSkin>\n\t\t<_string>\n\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t</_string>\n\t\t<settings>\n\t\t\t<_string>\n\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t</_string>\n\t\t</settings>\n\t</textSkin>\n\t<allAlliesButton>\n\t\t<customSkin>\n\t\t\t<_bool
       useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t</customSkin>\n\t\t<_subarrays>\n\t\t\t<button>\n\t\t\t\t<0>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<name><![CDATA[All

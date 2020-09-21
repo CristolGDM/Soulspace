@@ -16,12 +16,16 @@ public class PlayerMover : CharacterMover {
 
         /* Movement */
         if (ORK.InputKeys.Get(1).GetButton()) {
+            Globals.lastDirection = Globals.direction.Up;
             StartCoroutine(MoveUp());
         } else if (ORK.InputKeys.Get(2).GetButton()) {
+            Globals.lastDirection = Globals.direction.Down;
             StartCoroutine(MoveDown());
         } else if (ORK.InputKeys.Get(3).GetButton()) {
+            Globals.lastDirection = Globals.direction.Left;
             StartCoroutine(MoveLeft());
         } else if (ORK.InputKeys.Get(4).GetButton()) {
+            Globals.lastDirection = Globals.direction.Right;
             StartCoroutine(MoveRight());
         }
 

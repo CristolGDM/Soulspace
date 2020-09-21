@@ -23,29 +23,31 @@ public class CharacterMover : MonoBehaviour {
                 transform.position = pos;
             }
             else {
-                float newX = Mathf.Round(transform.position.x + 9999.5f) - 9999.5f;
-                float newY = Mathf.Round(transform.position.y + 9999.5f) - 9999.5f;
+                //float newX = Mathf.Round(transform.position.x + 9999.5f) - 9999.5f;
+                //float newY = Mathf.Round(transform.position.y + 9999.5f) - 9999.5f;
 
-                float diffX = newX - transform.position.x;
-                float diffY = newY - transform.position.y;
-                int direction = 0;
+                //float diffX = newX - transform.position.x;
+                //float diffY = newY - transform.position.y;
+                //int direction = 0;
 
-                if (Mathf.Abs(diffX) > Mathf.Abs(diffY)) {
-                    if (diffX > 0) {
-                        direction = 3;
-                    }
-                    else {
-                        direction = 1;
-                    }
-                }
-                else {
-                    if(diffY > 0) {
-                        direction = 2;
-                    }
-                }
-                animator.SetInteger("Direction", direction);
-                animator.SetBool("Moving", true);
-                pos = new Vector3(newX, newY, transform.position.z);
+                //if (Mathf.Abs(diffX) > Mathf.Abs(diffY)) {
+                //    if (diffX > 0) {
+                //        direction = 3;
+                //    }
+                //    else {
+                //        direction = 1;
+                //    }
+                //}
+                //else {
+                //    if(diffY > 0) {
+                //        direction = 2;
+                //    }
+                //}
+                //animator.SetInteger("Direction", direction);
+                //animator.SetBool("Moving", true);
+                //pos = new Vector3(newX, newY, transform.position.z);
+
+                animator.SetInteger("Direction", (int)Globals.lastDirection);
             }
         }
         transform.position = Vector3.MoveTowards(transform.position, pos, Time.deltaTime * speed);
@@ -75,7 +77,7 @@ public class CharacterMover : MonoBehaviour {
 
     public IEnumerator MoveUp() {
         if (transform.position == pos) {
-            animator.SetInteger("Direction", 2);
+            animator.SetInteger("Direction", (int)Globals.direction.Up);
             MoveInDirection(Vector3.up);
             yield return new WaitWhile(IsMoving);
         }
@@ -83,7 +85,7 @@ public class CharacterMover : MonoBehaviour {
     }
     public IEnumerator MoveDown() {
         if (transform.position == pos) {
-            animator.SetInteger("Direction", 0);
+            animator.SetInteger("Direction", (int)Globals.direction.Down);
             MoveInDirection(Vector3.down);
             yield return new WaitWhile(IsMoving);
         }
@@ -91,7 +93,7 @@ public class CharacterMover : MonoBehaviour {
     }
     public IEnumerator MoveLeft() {
         if (transform.position == pos) {
-            animator.SetInteger("Direction", 1);
+            animator.SetInteger("Direction", (int)Globals.direction.Left);
             MoveInDirection(Vector3.left);
             yield return new WaitWhile(IsMoving);
         }
@@ -99,7 +101,7 @@ public class CharacterMover : MonoBehaviour {
     }
     public IEnumerator MoveRight() {
         if (transform.position == pos) {
-            animator.SetInteger("Direction", 3);
+            animator.SetInteger("Direction", (int)Globals.direction.Right);
             MoveInDirection(Vector3.right);
             yield return new WaitWhile(IsMoving);
         }
