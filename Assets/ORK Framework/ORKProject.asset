@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: ORKProject
   m_EditorClassIdentifier: 
-  time: 9/28/2020 7:30:03 PM
+  time: 9/28/2020 8:51:19 PM
   version: 2.28.1
   keys:
   - editorSettings
@@ -2201,7 +2201,7 @@ MonoBehaviour:
       maxValue=\"99\" combinedFormulaID=\"0\" maxStatusID=\"0\" deathOn=\"0\" startValue=\"100\"
       startSetIn=\"0\" expType=\"0\" expNoneMaxType=\"0\" countInterpolate=\"0\"
       >\n\t\t\t\t<_float initialValueCombined=\"0\" countTime=\"0.5\" countDelay=\"0\"
-      />\n\t\t\t\t<_bool hidden=\"False\" useOtherMinMax=\"False\" combined=\"False\"
+      />\n\t\t\t\t<_bool hidden=\"True\" useOtherMinMax=\"False\" combined=\"False\"
       noRegeneration=\"False\" animateDamage=\"True\" expEarnOnLevelUp=\"False\"
       expNoneClassDev=\"False\" expFromMinimum=\"False\" initExpToLevel=\"True\"
       useLevelDifference=\"False\" lvlDiffClass=\"False\" countToValue=\"False\"
@@ -2223,7 +2223,7 @@ MonoBehaviour:
       maxValue=\"99\" combinedFormulaID=\"0\" maxStatusID=\"0\" deathOn=\"0\" startValue=\"100\"
       startSetIn=\"0\" expType=\"0\" expNoneMaxType=\"0\" countInterpolate=\"0\"
       >\n\t\t\t\t<_float initialValueCombined=\"0\" countTime=\"0.5\" countDelay=\"0\"
-      />\n\t\t\t\t<_bool hidden=\"False\" useOtherMinMax=\"False\" combined=\"False\"
+      />\n\t\t\t\t<_bool hidden=\"True\" useOtherMinMax=\"False\" combined=\"False\"
       noRegeneration=\"False\" animateDamage=\"True\" expEarnOnLevelUp=\"False\"
       expNoneClassDev=\"False\" expFromMinimum=\"False\" initExpToLevel=\"True\"
       useLevelDifference=\"False\" lvlDiffClass=\"False\" countToValue=\"False\"
@@ -2245,7 +2245,7 @@ MonoBehaviour:
       maxValue=\"99\" combinedFormulaID=\"0\" maxStatusID=\"0\" deathOn=\"0\" startValue=\"100\"
       startSetIn=\"0\" expType=\"0\" expNoneMaxType=\"0\" countInterpolate=\"0\"
       >\n\t\t\t\t<_float initialValueCombined=\"0\" countTime=\"0.5\" countDelay=\"0\"
-      />\n\t\t\t\t<_bool hidden=\"False\" useOtherMinMax=\"False\" combined=\"False\"
+      />\n\t\t\t\t<_bool hidden=\"True\" useOtherMinMax=\"False\" combined=\"False\"
       noRegeneration=\"False\" animateDamage=\"True\" expEarnOnLevelUp=\"False\"
       expNoneClassDev=\"False\" expFromMinimum=\"False\" initExpToLevel=\"True\"
       useLevelDifference=\"False\" lvlDiffClass=\"False\" countToValue=\"False\"
@@ -2267,7 +2267,7 @@ MonoBehaviour:
       maxValue=\"99\" combinedFormulaID=\"0\" maxStatusID=\"0\" deathOn=\"0\" startValue=\"100\"
       startSetIn=\"0\" expType=\"0\" expNoneMaxType=\"0\" countInterpolate=\"0\"
       >\n\t\t\t\t<_float initialValueCombined=\"0\" countTime=\"0.5\" countDelay=\"0\"
-      />\n\t\t\t\t<_bool hidden=\"False\" useOtherMinMax=\"False\" combined=\"False\"
+      />\n\t\t\t\t<_bool hidden=\"True\" useOtherMinMax=\"False\" combined=\"False\"
       noRegeneration=\"False\" animateDamage=\"True\" expEarnOnLevelUp=\"False\"
       expNoneClassDev=\"False\" expFromMinimum=\"False\" initExpToLevel=\"True\"
       useLevelDifference=\"False\" lvlDiffClass=\"False\" countToValue=\"False\"
@@ -2289,7 +2289,7 @@ MonoBehaviour:
       maxValue=\"99\" combinedFormulaID=\"0\" maxStatusID=\"0\" deathOn=\"0\" startValue=\"100\"
       startSetIn=\"0\" expType=\"0\" expNoneMaxType=\"0\" countInterpolate=\"0\"
       >\n\t\t\t\t<_float initialValueCombined=\"0\" countTime=\"0.5\" countDelay=\"0\"
-      />\n\t\t\t\t<_bool hidden=\"False\" useOtherMinMax=\"False\" combined=\"False\"
+      />\n\t\t\t\t<_bool hidden=\"True\" useOtherMinMax=\"False\" combined=\"False\"
       noRegeneration=\"False\" animateDamage=\"True\" expEarnOnLevelUp=\"False\"
       expNoneClassDev=\"False\" expFromMinimum=\"False\" initExpToLevel=\"True\"
       useLevelDifference=\"False\" lvlDiffClass=\"False\" countToValue=\"False\"
@@ -2311,7 +2311,7 @@ MonoBehaviour:
       maxValue=\"99\" combinedFormulaID=\"0\" maxStatusID=\"0\" deathOn=\"0\" startValue=\"100\"
       startSetIn=\"0\" expType=\"0\" expNoneMaxType=\"0\" countInterpolate=\"0\"
       >\n\t\t\t\t<_float initialValueCombined=\"0\" countTime=\"0.5\" countDelay=\"0\"
-      />\n\t\t\t\t<_bool hidden=\"False\" useOtherMinMax=\"False\" combined=\"False\"
+      />\n\t\t\t\t<_bool hidden=\"True\" useOtherMinMax=\"False\" combined=\"False\"
       noRegeneration=\"False\" animateDamage=\"True\" expEarnOnLevelUp=\"False\"
       expNoneClassDev=\"False\" expFromMinimum=\"False\" initExpToLevel=\"True\"
       useLevelDifference=\"False\" lvlDiffClass=\"False\" countToValue=\"False\"
@@ -2333,7 +2333,7 @@ MonoBehaviour:
       maxValue=\"99\" combinedFormulaID=\"0\" maxStatusID=\"0\" deathOn=\"0\" startValue=\"100\"
       startSetIn=\"0\" expType=\"0\" expNoneMaxType=\"0\" countInterpolate=\"0\"
       >\n\t\t\t\t<_float initialValueCombined=\"0\" countTime=\"0.5\" countDelay=\"0\"
-      />\n\t\t\t\t<_bool hidden=\"False\" useOtherMinMax=\"False\" combined=\"False\"
+      />\n\t\t\t\t<_bool hidden=\"True\" useOtherMinMax=\"False\" combined=\"False\"
       noRegeneration=\"False\" animateDamage=\"True\" expEarnOnLevelUp=\"False\"
       expNoneClassDev=\"False\" expFromMinimum=\"False\" initExpToLevel=\"True\"
       useLevelDifference=\"False\" lvlDiffClass=\"False\" countToValue=\"False\"
@@ -2355,7 +2355,7 @@ MonoBehaviour:
       maxValue=\"99\" combinedFormulaID=\"0\" maxStatusID=\"0\" deathOn=\"0\" startValue=\"100\"
       startSetIn=\"0\" expType=\"0\" expNoneMaxType=\"0\" countInterpolate=\"0\"
       >\n\t\t\t\t<_float initialValueCombined=\"0\" countTime=\"0.5\" countDelay=\"0\"
-      />\n\t\t\t\t<_bool hidden=\"False\" useOtherMinMax=\"False\" combined=\"False\"
+      />\n\t\t\t\t<_bool hidden=\"True\" useOtherMinMax=\"False\" combined=\"False\"
       noRegeneration=\"False\" animateDamage=\"True\" expEarnOnLevelUp=\"False\"
       expNoneClassDev=\"False\" expFromMinimum=\"False\" initExpToLevel=\"True\"
       useLevelDifference=\"False\" lvlDiffClass=\"False\" countToValue=\"False\"
@@ -2377,7 +2377,7 @@ MonoBehaviour:
       maxValue=\"99\" combinedFormulaID=\"0\" maxStatusID=\"0\" deathOn=\"0\" startValue=\"100\"
       startSetIn=\"0\" expType=\"0\" expNoneMaxType=\"0\" countInterpolate=\"0\"
       >\n\t\t\t\t<_float initialValueCombined=\"0\" countTime=\"0.5\" countDelay=\"0\"
-      />\n\t\t\t\t<_bool hidden=\"False\" useOtherMinMax=\"False\" combined=\"False\"
+      />\n\t\t\t\t<_bool hidden=\"True\" useOtherMinMax=\"False\" combined=\"False\"
       noRegeneration=\"False\" animateDamage=\"True\" expEarnOnLevelUp=\"False\"
       expNoneClassDev=\"False\" expFromMinimum=\"False\" initExpToLevel=\"True\"
       useLevelDifference=\"False\" lvlDiffClass=\"False\" countToValue=\"False\"
@@ -2724,7 +2724,7 @@ MonoBehaviour:
       usePositiveRange=\"False\" useNegativeChanges=\"False\" useNegativeRange=\"False\"
       />\n\t\t\t\t\t\t\t\t<image color=\"0\" scaleMode=\"0\" >\n\t\t\t\t\t\t\t\t\t<_float
       imageAspect=\"0\" />\n\t\t\t\t\t\t\t\t\t<_bool useImage=\"False\" useAlphaMask=\"False\"
-      useMaterial=\"False\" cropImage=\"False\" alphaBlend=\"True\" />\n\t\t\t\t\t\t\t\t</image>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</image>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</bar>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<changeEvent>\n\t\t\t\t\t</changeEvent>\n\t\t\t\t\t<flyingText>\n\t\t\t\t\t</flyingText>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Hitpercent]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[Hit%]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</25>\n\t\t\t<26
+      useMaterial=\"False\" cropImage=\"False\" alphaBlend=\"True\" />\n\t\t\t\t\t\t\t\t</image>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</image>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</bar>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<changeEvent>\n\t\t\t\t\t</changeEvent>\n\t\t\t\t\t<flyingText>\n\t\t\t\t\t</flyingText>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Hitpercent]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[Hit#percent]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</25>\n\t\t\t<26
       statusTypeID=\"0\" type=\"0\" otherMinID=\"0\" otherMaxID=\"0\" minValue=\"1\"
       maxValue=\"255\" combinedFormulaID=\"0\" maxStatusID=\"0\" deathOn=\"0\" startValue=\"100\"
       startSetIn=\"0\" expType=\"0\" expNoneMaxType=\"0\" countInterpolate=\"0\"
@@ -2858,7 +2858,7 @@ MonoBehaviour:
       usePositiveRange=\"False\" useNegativeChanges=\"False\" useNegativeRange=\"False\"
       />\n\t\t\t\t\t\t\t\t<image color=\"0\" scaleMode=\"0\" >\n\t\t\t\t\t\t\t\t\t<_float
       imageAspect=\"0\" />\n\t\t\t\t\t\t\t\t\t<_bool useImage=\"False\" useAlphaMask=\"False\"
-      useMaterial=\"False\" cropImage=\"False\" alphaBlend=\"True\" />\n\t\t\t\t\t\t\t\t</image>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</image>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</bar>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<changeEvent>\n\t\t\t\t\t</changeEvent>\n\t\t\t\t\t<flyingText>\n\t\t\t\t\t</flyingText>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Evade%]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[ev%]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[24+AGI
+      useMaterial=\"False\" cropImage=\"False\" alphaBlend=\"True\" />\n\t\t\t\t\t\t\t\t</image>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</image>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</bar>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<changeEvent>\n\t\t\t\t\t</changeEvent>\n\t\t\t\t\t<flyingText>\n\t\t\t\t\t</flyingText>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Evade#percent]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[ev#percent]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[24+AGI
       - armor weight]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</31>\n\t\t\t<32
       statusTypeID=\"0\" type=\"0\" otherMinID=\"0\" otherMaxID=\"0\" minValue=\"0\"
       maxValue=\"2147483647\" combinedFormulaID=\"7\" maxStatusID=\"0\" deathOn=\"0\"
@@ -2904,7 +2904,7 @@ MonoBehaviour:
       />\n\t\t\t\t\t\t\t\t<image color=\"0\" scaleMode=\"0\" >\n\t\t\t\t\t\t\t\t\t<_float
       imageAspect=\"0\" />\n\t\t\t\t\t\t\t\t\t<_bool useImage=\"False\" useAlphaMask=\"False\"
       useMaterial=\"False\" cropImage=\"False\" alphaBlend=\"True\" />\n\t\t\t\t\t\t\t\t</image>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</image>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</bar>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<changeEvent>\n\t\t\t\t\t</changeEvent>\n\t\t\t\t\t<flyingText>\n\t\t\t\t\t</flyingText>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Critical
-      chance]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[Crit%]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</33>\n\t\t\t<34
+      chance]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[Crit#percent]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</33>\n\t\t\t<34
       statusTypeID=\"0\" type=\"0\" otherMinID=\"0\" otherMaxID=\"0\" minValue=\"0\"
       maxValue=\"2147483647\" combinedFormulaID=\"0\" maxStatusID=\"0\" deathOn=\"0\"
       startValue=\"100\" startSetIn=\"0\" expType=\"0\" expNoneMaxType=\"0\" countInterpolate=\"0\"
@@ -5223,7 +5223,21 @@ MonoBehaviour:
       />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</quantityValue>\n\t\t\t\t\t\t\t<chanceValue
       type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
       offset=\"0\" value=\"100\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
-      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</chanceValue>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</itemDrop>\n\t\t\t\t\t<startEquipment>\n\t\t\t\t\t\t<0
+      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</chanceValue>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1
+      type=\"2\" id=\"0\" level=\"1\" >\n\t\t\t\t\t\t\t<quantityValue type=\"0\"
+      id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\" offset=\"0\"
+      value=\"1\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\" isUTC=\"False\"
+      />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</quantityValue>\n\t\t\t\t\t\t\t<chanceValue
+      type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"100\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</chanceValue>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t\t<2
+      type=\"1\" id=\"1\" level=\"1\" >\n\t\t\t\t\t\t\t<quantityValue type=\"0\"
+      id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\" offset=\"0\"
+      value=\"1\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\" isUTC=\"False\"
+      />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</quantityValue>\n\t\t\t\t\t\t\t<chanceValue
+      type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"100\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</chanceValue>\n\t\t\t\t\t\t</2>\n\t\t\t\t\t</itemDrop>\n\t\t\t\t\t<startEquipment>\n\t\t\t\t\t\t<0
       startLevel=\"1\" maxLevel=\"10\" >\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<equipment>\n\t\t\t\t\t\t\t\t\t<0
       type=\"1\" equipID=\"0\" level=\"1\" >\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t<1
       type=\"0\" equipID=\"0\" level=\"1\" >\n\t\t\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t\t\t\t<2
@@ -8051,7 +8065,7 @@ MonoBehaviour:
       openWaitForEvent=\"False\" eventOnlyWhenOpening=\"False\" closeWaitForEvent=\"False\"
       closeEventAfterFading=\"True\" eventOnlyWhenClosing=\"False\" ownMusic=\"False\"
       />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Equipment]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<openClip>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<settings>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</settings>\n\t\t\t\t</openClip>\n\t\t\t\t<closeClip>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<settings>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</settings>\n\t\t\t\t</closeClip>\n\t\t\t\t<openGameEvent>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<settings>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</settings>\n\t\t\t\t</openGameEvent>\n\t\t\t\t<closeGameEvent>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<settings>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</settings>\n\t\t\t\t</closeGameEvent>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<part>\n\t\t\t\t\t\t<0
-      onlyContributing=\"2\" guiBoxID=\"6\" clickCount=\"2\" display=\"2\" guiBoxID2=\"8\"
+      onlyContributing=\"2\" guiBoxID=\"11\" clickCount=\"2\" display=\"2\" guiBoxID2=\"8\"
       equipPortraitTypeID=\"0\" equipClickCount=\"2\" hudPlacement=\"0\" hudPlacementList=\"0\"
       >\n\t\t\t\t\t\t\t<_bool allTypes=\"True\" showEmptyTypes=\"False\" showTypePortraits=\"False\"
       useTypeTitle=\"False\" enableDrag=\"False\" enableClick=\"False\" enableTooltip=\"False\"
@@ -8063,7 +8077,7 @@ MonoBehaviour:
       displayLevelPointsList=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<_type><![CDATA[EquipmentMenuPart]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<typeSorter
       sorting=\"2\" >\n\t\t\t\t\t\t\t\t<_bool invert=\"False\" />\n\t\t\t\t\t\t\t</typeSorter>\n\t\t\t\t\t\t\t<typeBackButton
       type=\"0\" >\n\t\t\t\t\t\t\t\t<_bool useCustomButton=\"False\" />\n\t\t\t\t\t\t\t</typeBackButton>\n\t\t\t\t\t\t\t<typeContentLayout
-      titleType=\"2\" type=\"2\" infoType=\"0\" >\n\t\t\t\t\t\t\t\t<_bool removeEmptyLines=\"False\"
+      titleType=\"4\" type=\"0\" infoType=\"0\" >\n\t\t\t\t\t\t\t\t<_bool removeEmptyLines=\"False\"
       hideEmptyInfo=\"False\" infoRemoveEmptyLines=\"False\" />\n\t\t\t\t\t\t\t\t<customSkin>\n\t\t\t\t\t\t\t\t\t<_bool
       useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t\t\t\t</customSkin>\n\t\t\t\t\t\t\t</typeContentLayout>\n\t\t\t\t\t\t\t<partHeaderTexts>\n\t\t\t\t\t\t\t\t<_bool
       useHeaders=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t\t\t</partHeaderTexts>\n\t\t\t\t\t\t\t<emptyButton>\n\t\t\t\t\t\t\t\t<customSkin>\n\t\t\t\t\t\t\t\t\t<_bool
@@ -8089,39 +8103,23 @@ MonoBehaviour:
       acceptNext=\"False\" usePageKeys=\"False\" />\n\t\t\t\t\t\t\t\t</pageKeys>\n\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t<page>\n\t\t\t\t\t\t\t\t\t\t<0
       hudID=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t<_bool useTitle=\"False\" useHUD=\"False\"
       />\n\t\t\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t<statusElement>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<0
-      type=\"0\" combatantOrigin=\"0\" originTargetIndex=\"0\" hasStatusPreview=\"2\"
-      isPreviewBlink=\"2\" isMenuUser=\"2\" isShopUser=\"2\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool
-      useRequirements=\"False\" checkGameStates=\"False\" box=\"False\" noFlash=\"False\"
-      outsideBounds=\"False\" showBackground=\"False\" expandBoundsBG=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[HUDStatus]]></_type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<information
-      alignment=\"0\" vAlignment=\"2\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_float lineSpacing=\"10\"
-      />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool useObjectVariables=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<text>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<0><![CDATA[%n,
-      Lv %]]></0>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</text>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_stringarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<textFormat
-      colorID=\"0\" shadowColorID=\"1\" outlineColorID=\"1\" fontSize=\"30\" fontStyle=\"0\"
-      >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool showShadow=\"True\" showOutline=\"False\"
-      />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<shadowOffset
-      1 1 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<outlineOffset 1 1 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<font>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</font>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</textFormat>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</information>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<bounds
-      anchor=\"0\" relativeTo=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_float width=\"100\"
-      height=\"30\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool useLastElement=\"False\"
-      isPercentWidth=\"True\" adjustWidth=\"True\" isPercentHeight=\"False\" adjustHeight=\"True\"
-      />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<position
-      0 0 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</bounds>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<clickAction>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</clickAction>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<1
       type=\"2\" combatantOrigin=\"0\" originTargetIndex=\"0\" hasStatusPreview=\"2\"
       isPreviewBlink=\"2\" isMenuUser=\"2\" isShopUser=\"2\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool
       useRequirements=\"False\" checkGameStates=\"False\" box=\"False\" noFlash=\"False\"
       outsideBounds=\"False\" showBackground=\"False\" expandBoundsBG=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[HUDStatus]]></_type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<status
-      origin=\"0\" listValues=\"3\" statusID=\"0\" listTypeID=\"0\" listType=\"0\"
+      origin=\"1\" listValues=\"3\" statusID=\"0\" listTypeID=\"0\" listType=\"0\"
       limitIn=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_float barLimitMin=\"0\" barLimitMax=\"100\"
-      />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool enableTooltip=\"False\" usePreviewBlink=\"True\"
+      />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool enableTooltip=\"False\" usePreviewBlink=\"False\"
       keepListPosition=\"False\" checkValue=\"False\" useBar=\"False\" limitBarDisplay=\"False\"
       overrideBar=\"False\" previewUseNoChangeValueText=\"True\" previewUseNoChangeChangeText=\"True\"
       previewOwnMinMaxCurrentText=\"False\" previewOwnMinMaxChangeText=\"False\"
       />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<off
-      0 30 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<percentFormat><![CDATA[0.0]]></percentFormat>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<previewPositiveFormat
-      colorID=\"0\" shadowColorID=\"1\" outlineColorID=\"1\" fontSize=\"20\" fontStyle=\"0\"
+      0 50 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<percentFormat><![CDATA[0.0]]></percentFormat>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<previewPositiveFormat
+      colorID=\"4\" shadowColorID=\"1\" outlineColorID=\"1\" fontSize=\"30\" fontStyle=\"0\"
       >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool showShadow=\"True\" showOutline=\"False\"
       />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<shadowOffset
       1 1 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<outlineOffset 1 1 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<font>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</font>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</previewPositiveFormat>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<previewNegativeFormat
-      colorID=\"0\" shadowColorID=\"1\" outlineColorID=\"1\" fontSize=\"20\" fontStyle=\"0\"
+      colorID=\"3\" shadowColorID=\"1\" outlineColorID=\"1\" fontSize=\"30\" fontStyle=\"0\"
       >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool showShadow=\"True\" showOutline=\"False\"
       />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<shadowOffset
       1 1 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<outlineOffset 1 1 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<font>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</font>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</previewNegativeFormat>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<listCheck
@@ -8131,52 +8129,17 @@ MonoBehaviour:
       isUTC=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</value>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</listCheck>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<text
       alignment=\"0\" vAlignment=\"2\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_float
       lineSpacing=\"10\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool useObjectVariables=\"False\"
-      />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<text>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<0><![CDATA[%n]]></0>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</text>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_stringarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<textFormat
-      colorID=\"0\" shadowColorID=\"1\" outlineColorID=\"1\" fontSize=\"30\" fontStyle=\"0\"
-      >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool showShadow=\"True\" showOutline=\"False\"
-      />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<shadowOffset
-      1 1 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<outlineOffset 1 1 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<font>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</font>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</textFormat>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</text>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</status>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<bounds
-      anchor=\"0\" relativeTo=\"6\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_float width=\"100\"
-      height=\"200\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool useLastElement=\"True\"
-      isPercentWidth=\"True\" adjustWidth=\"True\" isPercentHeight=\"False\" adjustHeight=\"True\"
-      />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<position
-      0 0 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</bounds>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<clickAction>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</clickAction>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<2
-      type=\"2\" combatantOrigin=\"0\" originTargetIndex=\"0\" hasStatusPreview=\"2\"
-      isPreviewBlink=\"2\" isMenuUser=\"2\" isShopUser=\"2\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool
-      useRequirements=\"False\" checkGameStates=\"False\" box=\"False\" noFlash=\"False\"
-      outsideBounds=\"False\" showBackground=\"False\" expandBoundsBG=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[HUDStatus]]></_type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<status
-      origin=\"1\" listValues=\"3\" statusID=\"0\" listTypeID=\"0\" listType=\"0\"
-      limitIn=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_float barLimitMin=\"0\" barLimitMax=\"100\"
-      />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool enableTooltip=\"False\" usePreviewBlink=\"True\"
-      keepListPosition=\"False\" checkValue=\"False\" useBar=\"False\" limitBarDisplay=\"False\"
-      overrideBar=\"False\" previewUseNoChangeValueText=\"True\" previewUseNoChangeChangeText=\"True\"
-      previewOwnMinMaxCurrentText=\"False\" previewOwnMinMaxChangeText=\"False\"
-      />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<off
-      0 30 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<percentFormat><![CDATA[0.0]]></percentFormat>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<previewPositiveFormat
-      colorID=\"4\" shadowColorID=\"1\" outlineColorID=\"1\" fontSize=\"20\" fontStyle=\"0\"
-      >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool showShadow=\"True\" showOutline=\"False\"
-      />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<shadowOffset
-      1 1 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<outlineOffset 1 1 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<font>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</font>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</previewPositiveFormat>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<previewNegativeFormat
-      colorID=\"3\" shadowColorID=\"1\" outlineColorID=\"1\" fontSize=\"20\" fontStyle=\"0\"
-      >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool showShadow=\"True\" showOutline=\"False\"
-      />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<shadowOffset
-      1 1 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<outlineOffset 1 1 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<font>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</font>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</previewNegativeFormat>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<listCheck
-      type=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<value type=\"0\" id=\"0\" rounding=\"0\"
-      >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_float initialValue=\"0\" offset=\"0\"
-      value=\"0\" value2=\"0\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
-      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</value>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</listCheck>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<text
-      alignment=\"2\" vAlignment=\"2\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_float
-      lineSpacing=\"10\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool useObjectVariables=\"False\"
-      />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<text>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<0><![CDATA[%]]></0>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</text>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_stringarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<textFormat
+      />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<text>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<0><![CDATA[%sn
+      %]]></0>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</text>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_stringarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<textFormat
       colorID=\"0\" shadowColorID=\"1\" outlineColorID=\"1\" fontSize=\"30\" fontStyle=\"0\"
       >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool showShadow=\"True\" showOutline=\"False\"
       />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<shadowOffset
       1 1 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<outlineOffset 1 1 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<font>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</font>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</textFormat>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</text>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</status>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<bounds
       anchor=\"0\" relativeTo=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_float width=\"100\"
-      height=\"200\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool useLastElement=\"True\"
+      height=\"200\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool useLastElement=\"False\"
       isPercentWidth=\"True\" adjustWidth=\"True\" isPercentHeight=\"False\" adjustHeight=\"True\"
       />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<position
-      0 0 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</bounds>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<clickAction>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</clickAction>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</2>\n\t\t\t\t\t\t\t\t\t\t\t\t</statusElement>\n\t\t\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t</page>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</infoDisplay>\n\t\t\t\t\t\t</2>\n\t\t\t\t\t</part>\n\t\t\t\t</_subarrays>\n\t\t\t</2>\n\t\t\t<3
+      0 300 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</bounds>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<clickAction>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</clickAction>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t\t\t</statusElement>\n\t\t\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t</page>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</infoDisplay>\n\t\t\t\t\t\t</2>\n\t\t\t\t\t</part>\n\t\t\t\t</_subarrays>\n\t\t\t</2>\n\t\t\t<3
       keyID=\"0\" reqID=\"0\" closeKeyID=\"0\" closeAudioType=\"3\" prevKeyID=\"0\"
       nextKeyID=\"0\" prevPartKeyID=\"0\" nextPartKeyID=\"0\" musicStoreID=\"1\"
       >\n\t\t\t\t<_float timeScale=\"1\" openVolume=\"1\" closeVolume=\"1\" failVolume=\"1\"
