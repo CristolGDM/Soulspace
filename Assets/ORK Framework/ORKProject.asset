@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: ORKProject
   m_EditorClassIdentifier: 
-  time: 9/28/2020 8:51:19 PM
+  time: 9/28/2020 9:30:19 PM
   version: 2.28.1
   keys:
   - editorSettings
@@ -7775,7 +7775,16 @@ MonoBehaviour:
       type=\"2\" infoType=\"0\" >\n\t\t\t\t\t<_bool removeEmptyLines=\"False\" hideEmptyInfo=\"False\"
       infoRemoveEmptyLines=\"False\" />\n\t\t\t\t\t<customSkin>\n\t\t\t\t\t\t<_bool
       useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t</customSkin>\n\t\t\t\t</backLayout>\n\t\t\t\t<message>\n\t\t\t\t\t<_bool
-      useTitle=\"False\" />\n\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t<message>\n\t\t\t\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t\t\t\t</message>\n\t\t\t\t\t</_stringarrays>\n\t\t\t\t</message>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</combatantSelections>\n"
+      useTitle=\"False\" />\n\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t<message>\n\t\t\t\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t\t\t\t</message>\n\t\t\t\t\t</_stringarrays>\n\t\t\t\t</message>\n\t\t\t</0>\n\t\t\t<1
+      guiBoxID=\"8\" >\n\t\t\t\t<_bool onlyBattle=\"True\" onlyAvailable=\"False\"
+      showHiddenMembers=\"False\" rememberSelection=\"False\" autoAcceptOne=\"False\"
+      ownCombatantChoice=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Overview
+      selection]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<backButton type=\"0\" >\n\t\t\t\t\t<_bool
+      useCustomButton=\"False\" />\n\t\t\t\t</backButton>\n\t\t\t\t<backLayout type=\"2\"
+      infoType=\"1\" >\n\t\t\t\t\t<_bool removeEmptyLines=\"False\" hideEmptyInfo=\"False\"
+      infoRemoveEmptyLines=\"False\" />\n\t\t\t\t\t<customSkin>\n\t\t\t\t\t\t<_bool
+      useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t</customSkin>\n\t\t\t\t</backLayout>\n\t\t\t\t<message>\n\t\t\t\t\t<_bool
+      useTitle=\"False\" />\n\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t<message>\n\t\t\t\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t\t\t\t</message>\n\t\t\t\t\t</_stringarrays>\n\t\t\t\t</message>\n\t\t\t</1>\n\t\t</data>\n\t</_subarrays>\n</combatantSelections>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -7851,8 +7860,8 @@ MonoBehaviour:
       closeAfterSave=\"False\" useReq=\"False\" reqHide=\"False\" />\n\t\t\t\t\t\t\t\t\t\t<button>\n\t\t\t\t\t\t\t\t\t\t\t<customSkin>\n\t\t\t\t\t\t\t\t\t\t\t\t<_bool
       useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t</customSkin>\n\t\t\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t<button>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[Inventory]]></name>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<description><![CDATA[Show
       your stuff]]></description>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t<1
-      type=\"0\" screenID=\"2\" selectionID=\"0\" eventID=\"0\" reqID=\"0\" >\n\t\t\t\t\t\t\t\t\t\t<_bool
-      selectCom=\"True\" useCombatantPart=\"False\" ownSelection=\"False\" closeScreen=\"False\"
+      type=\"0\" screenID=\"2\" selectionID=\"1\" eventID=\"0\" reqID=\"0\" >\n\t\t\t\t\t\t\t\t\t\t<_bool
+      selectCom=\"True\" useCombatantPart=\"False\" ownSelection=\"True\" closeScreen=\"False\"
       closeAfterSave=\"False\" useReq=\"False\" reqHide=\"False\" />\n\t\t\t\t\t\t\t\t\t\t<button>\n\t\t\t\t\t\t\t\t\t\t\t<customSkin>\n\t\t\t\t\t\t\t\t\t\t\t\t<_bool
       useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t</customSkin>\n\t\t\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t<button>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[Equipment]]></name>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<description><![CDATA[Change
       your equipment]]></description>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t\t\t\t<2
