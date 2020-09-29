@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: ORKProject
   m_EditorClassIdentifier: 
-  time: 9/28/2020 9:30:19 PM
+  time: 9/29/2020 10:07:54 PM
   version: 2.28.1
   keys:
   - editorSettings
@@ -1618,7 +1618,7 @@ MonoBehaviour:
     encrypted: 0
   - name: logTypes
     xmlData: "<logTypes>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0 parentTypeID=\"0\"
-      >\n\t\t\t\t<_bool isSubType=\"False\" />\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Default]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</logTypes>\n"
+      >\n\t\t\t\t<_bool isSubType=\"False\" />\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Books]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</logTypes>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -1632,7 +1632,9 @@ MonoBehaviour:
   - name: logs
     xmlData: "<logs>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0 logTypeID=\"0\" >\n\t\t\t\t<_bool
       invertTextOrder=\"False\" ownConsoleLearning=\"False\" ownConsoleForgetting=\"False\"
-      />\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<portrait>\n\t\t\t\t\t</portrait>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Default]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</logs>\n"
+      />\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<portrait>\n\t\t\t\t\t</portrait>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[The
+      Legend of Teglierendyll]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[How
+      the soulspace came to be]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</logs>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -1646,7 +1648,12 @@ MonoBehaviour:
   - name: logTexts
     xmlData: "<logTexts>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0 logID=\"0\" >\n\t\t\t\t<_bool
       replaceTexts=\"False\" useTitle=\"False\" ownConsoleLearning=\"False\" ownConsoleForgetting=\"False\"
-      />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Default Text]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<portrait>\n\t\t\t\t\t</portrait>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</logTexts>\n"
+      />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Origin]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[He
+      was just a boy who became a god.]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<portrait>\n\t\t\t\t\t</portrait>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t\t<1
+      logID=\"0\" >\n\t\t\t\t<_bool replaceTexts=\"False\" useTitle=\"True\" ownConsoleLearning=\"False\"
+      ownConsoleForgetting=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[End]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<title>\n\t\t\t\t\t\t<0><![CDATA[The
+      Legend of the Illfated]]></0>\n\t\t\t\t\t</title>\n\t\t\t\t\t<text>\n\t\t\t\t\t\t<0><![CDATA[A
+      god of interdimensional travel, who committed suicide.]]></0>\n\t\t\t\t\t</text>\n\t\t\t\t</_stringarrays>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<portrait>\n\t\t\t\t\t</portrait>\n\t\t\t\t</_subarrays>\n\t\t\t</1>\n\t\t</data>\n\t</_subarrays>\n</logTexts>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -7880,11 +7887,17 @@ MonoBehaviour:
       closeAfterSave=\"False\" useReq=\"False\" reqHide=\"False\" />\n\t\t\t\t\t\t\t\t\t\t<button>\n\t\t\t\t\t\t\t\t\t\t\t<customSkin>\n\t\t\t\t\t\t\t\t\t\t\t\t<_bool
       useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t</customSkin>\n\t\t\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t<button>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[Status]]></name>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<description><![CDATA[Show
       detailed information]]></description>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t\t</3>\n\t\t\t\t\t\t\t\t\t<4
+      type=\"0\" screenID=\"5\" selectionID=\"0\" eventID=\"0\" reqID=\"0\" >\n\t\t\t\t\t\t\t\t\t\t<_bool
+      selectCom=\"False\" useCombatantPart=\"False\" ownSelection=\"False\" closeScreen=\"False\"
+      closeAfterSave=\"False\" useReq=\"False\" reqHide=\"False\" />\n\t\t\t\t\t\t\t\t\t\t<button>\n\t\t\t\t\t\t\t\t\t\t\t<customSkin>\n\t\t\t\t\t\t\t\t\t\t\t\t<_bool
+      useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t</customSkin>\n\t\t\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t<button>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[Mind
+      Library]]></name>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<description><![CDATA[Study
+      all the information you read in the past]]></description>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t\t</4>\n\t\t\t\t\t\t\t\t\t<5
       type=\"3\" screenID=\"0\" selectionID=\"0\" eventID=\"0\" reqID=\"0\" >\n\t\t\t\t\t\t\t\t\t\t<_bool
       selectCom=\"False\" useCombatantPart=\"False\" ownSelection=\"False\" closeScreen=\"False\"
       closeAfterSave=\"False\" useReq=\"False\" reqHide=\"False\" />\n\t\t\t\t\t\t\t\t\t\t<button>\n\t\t\t\t\t\t\t\t\t\t\t<customSkin>\n\t\t\t\t\t\t\t\t\t\t\t\t<_bool
       useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t</customSkin>\n\t\t\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t<button>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[Exit]]></name>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<description><![CDATA[Exit
-      game to the main menu]]></description>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t\t</4>\n\t\t\t\t\t\t\t\t</item>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</2>\n\t\t\t\t\t\t<3>\n\t\t\t\t\t\t\t<_bool
+      game to the main menu]]></description>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t\t</5>\n\t\t\t\t\t\t\t\t</item>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</2>\n\t\t\t\t\t\t<3>\n\t\t\t\t\t\t\t<_bool
       showOkButton=\"False\" showCancelButton=\"False\" unfocusedControl=\"False\"
       />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<_type><![CDATA[CombatantMenuPart]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<infoDisplay
       guiBoxID=\"8\" scope=\"1\" >\n\t\t\t\t\t\t\t\t<_bool isButton=\"False\" allowDragSort=\"False\"
@@ -8982,7 +8995,50 @@ MonoBehaviour:
       />\n\t\t\t\t\t\t\t\t</pageKeys>\n\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t<page>\n\t\t\t\t\t\t\t\t\t\t<0
       hudID=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t<_float updateInterval=\"1\" />\n\t\t\t\t\t\t\t\t\t\t\t<_bool
       useTitle=\"False\" autoUpdate=\"False\" updateByInventory=\"False\" updateByVariables=\"False\"
-      useHUD=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t<informationElement>\n\t\t\t\t\t\t\t\t\t\t\t\t</informationElement>\n\t\t\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t</page>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</infoDisplay>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t</part>\n\t\t\t\t</_subarrays>\n\t\t\t</4>\n\t\t</data>\n\t</_subarrays>\n</menuScreens>\n"
+      useHUD=\"False\" />\n\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t</page>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</infoDisplay>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t</part>\n\t\t\t\t</_subarrays>\n\t\t\t</4>\n\t\t\t<5
+      keyID=\"0\" reqID=\"0\" closeKeyID=\"0\" closeAudioType=\"3\" prevKeyID=\"0\"
+      nextKeyID=\"0\" prevPartKeyID=\"0\" nextPartKeyID=\"0\" musicStoreID=\"1\"
+      >\n\t\t\t\t<_float timeScale=\"1\" openVolume=\"1\" closeVolume=\"1\" failVolume=\"1\"
+      />\n\t\t\t\t<_bool rememberSelection=\"False\" allClosedResetSelection=\"False\"
+      blockControl=\"True\" blockControlMaps=\"True\" pauseNotifications=\"False\"
+      singleScreen=\"True\" closeOn2nd=\"True\" close2ndFocused=\"False\" closeFocusLost=\"False\"
+      pauseGame=\"False\" pauseTime=\"False\" freezePause=\"False\" setTimeScale=\"False\"
+      setORKScale=\"False\" useKey=\"False\" useReq=\"False\" useCloseKey=\"False\"
+      closeKeyNoReturn=\"False\" closeKeyAll=\"False\" openMenuUser=\"False\" aliveUser=\"False\"
+      noHiddenUser=\"False\" battleGroupUser=\"False\" allowNonPlayer=\"False\" allowComChange=\"False\"
+      changeOnlyBattle=\"True\" allowPartChange=\"False\" noGeneralBG=\"False\" ownBG=\"False\"
+      openWaitForEvent=\"False\" eventOnlyWhenOpening=\"False\" closeWaitForEvent=\"False\"
+      closeEventAfterFading=\"True\" eventOnlyWhenClosing=\"False\" ownMusic=\"False\"
+      />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Mind Library]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<openClip>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<settings>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</settings>\n\t\t\t\t</openClip>\n\t\t\t\t<closeClip>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<settings>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</settings>\n\t\t\t\t</closeClip>\n\t\t\t\t<openGameEvent>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<settings>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</settings>\n\t\t\t\t</openGameEvent>\n\t\t\t\t<closeGameEvent>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<settings>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</settings>\n\t\t\t\t</closeGameEvent>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<part>\n\t\t\t\t\t\t<0
+      startParentTypeID=\"0\" nextTypeKey=\"0\" prevTypeKey=\"0\" typeKeysAudioType=\"1\"
+      typeDisplay=\"0\" display=\"2\" guiBoxID=\"0\" displayText=\"3\" guiBoxID2=\"11\"
+      logPortraitTypeID=\"0\" guiBoxID3=\"8\" infoPortraitTypeID=\"0\" >\n\t\t\t\t\t\t\t<_bool
+      allTypes=\"False\" mergeSubTypes=\"False\" enableTypeTooltip=\"False\" setStartParentType=\"False\"
+      addAllTypeChoice=\"False\" allTypeChoiceFirst=\"True\" useTypeKeys=\"False\"
+      showEmptyTypes=\"False\" useTypeTitle=\"False\" useNewTypeContentLayout=\"False\"
+      enableLogTooltip=\"False\" showLogPortraits=\"False\" useTitle=\"False\" useNewLogsContentLayout=\"False\"
+      closeTypeBox=\"False\" showInfoPortrait=\"False\" useTextTitle=\"False\" />\n\t\t\t\t\t\t\t<_intarrays>\n\t\t\t\t\t\t\t\t<availableTypeID
+      0 />\n\t\t\t\t\t\t\t</_intarrays>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<_type><![CDATA[LogMenuPart]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<typeSorter
+      sorting=\"1\" >\n\t\t\t\t\t\t\t\t<_bool invert=\"False\" />\n\t\t\t\t\t\t\t</typeSorter>\n\t\t\t\t\t\t\t<typeBackButton
+      type=\"0\" >\n\t\t\t\t\t\t\t\t<_bool useCustomButton=\"False\" />\n\t\t\t\t\t\t\t</typeBackButton>\n\t\t\t\t\t\t\t<typeContentLayout
+      type=\"2\" infoType=\"0\" >\n\t\t\t\t\t\t\t\t<_bool removeEmptyLines=\"False\"
+      hideEmptyInfo=\"False\" infoRemoveEmptyLines=\"False\" />\n\t\t\t\t\t\t\t\t<customSkin>\n\t\t\t\t\t\t\t\t\t<_bool
+      useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t\t\t\t</customSkin>\n\t\t\t\t\t\t\t</typeContentLayout>\n\t\t\t\t\t\t\t<newTypeContentLayout
+      type=\"2\" infoType=\"0\" >\n\t\t\t\t\t\t\t\t<_bool removeEmptyLines=\"False\"
+      hideEmptyInfo=\"False\" infoRemoveEmptyLines=\"False\" />\n\t\t\t\t\t\t\t\t<customSkin>\n\t\t\t\t\t\t\t\t\t<_bool
+      useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t\t\t\t</customSkin>\n\t\t\t\t\t\t\t</newTypeContentLayout>\n\t\t\t\t\t\t\t<typeHeaderTexts>\n\t\t\t\t\t\t\t\t<_bool
+      useHeaders=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t\t\t</typeHeaderTexts>\n\t\t\t\t\t\t\t<contentSorter
+      sorting=\"1\" >\n\t\t\t\t\t\t\t\t<_bool invert=\"False\" />\n\t\t\t\t\t\t\t</contentSorter>\n\t\t\t\t\t\t\t<backButton
+      type=\"0\" >\n\t\t\t\t\t\t\t\t<_bool useCustomButton=\"False\" />\n\t\t\t\t\t\t\t</backButton>\n\t\t\t\t\t\t\t<contentLayout
+      type=\"2\" infoType=\"0\" >\n\t\t\t\t\t\t\t\t<_bool removeEmptyLines=\"False\"
+      hideEmptyInfo=\"False\" infoRemoveEmptyLines=\"False\" />\n\t\t\t\t\t\t\t\t<customSkin>\n\t\t\t\t\t\t\t\t\t<_bool
+      useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t\t\t\t</customSkin>\n\t\t\t\t\t\t\t</contentLayout>\n\t\t\t\t\t\t\t<newLogContentLayout
+      type=\"2\" infoType=\"0\" >\n\t\t\t\t\t\t\t\t<_bool removeEmptyLines=\"False\"
+      hideEmptyInfo=\"False\" infoRemoveEmptyLines=\"False\" />\n\t\t\t\t\t\t\t\t<customSkin>\n\t\t\t\t\t\t\t\t\t<_bool
+      useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t\t\t\t</customSkin>\n\t\t\t\t\t\t\t</newLogContentLayout>\n\t\t\t\t\t\t\t<headerTexts>\n\t\t\t\t\t\t\t\t<_bool
+      useHeaders=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t\t\t</headerTexts>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1
+      guiBoxID=\"10\" >\n\t\t\t\t\t\t\t<_bool always=\"True\" contentFallback=\"True\"
+      useTitle=\"False\" useCustomText=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<_type><![CDATA[DescriptionMenuPart]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t</part>\n\t\t\t\t</_subarrays>\n\t\t\t</5>\n\t\t</data>\n\t</_subarrays>\n</menuScreens>\n"
     lookUp:
       textures: []
       audioClips: []
