@@ -30,6 +30,7 @@ MonoBehaviour:
   updateScenes: 0
   sceneUpdate: 
   eventAsset:
+  - {fileID: 11400000, guid: 33c2a7a1f0f97467aab5bf8003e32c2a, type: 2}
   - {fileID: 11400000, guid: 8a06e626c14444fd3987a4779faed16d, type: 2}
   - {fileID: 11400000, guid: 9293be35f425548788d8603f73e7d36b, type: 2}
   - {fileID: 11400000, guid: 50cd4fa290acd42da960dbc60a70786d, type: 2}
@@ -39,6 +40,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d31a074b6c09c47f78234c617b6a2392, type: 2}
   - {fileID: 11400000, guid: d0f59def1de7e414fb73babed4a5c2af, type: 2}
   gameEventAsset:
+  - {fileID: 11400000, guid: 33c2a7a1f0f97467aab5bf8003e32c2a, type: 2}
   - {fileID: 11400000, guid: 8a06e626c14444fd3987a4779faed16d, type: 2}
   - {fileID: 11400000, guid: d0f59def1de7e414fb73babed4a5c2af, type: 2}
   moveEventAsset:
@@ -54,5 +56,9 @@ MonoBehaviour:
   phaseChangeEventAsset: []
   variablesDefined: []
   variablesEditor: []
-  variablesEvent: []
+  variablesEvent:
+  - quest01
+  - finished
+  - found
+  - started
   variablesScene: []
