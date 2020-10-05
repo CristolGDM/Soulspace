@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: ORKProject
   m_EditorClassIdentifier: 
-  time: 9/30/2020 7:40:44 PM
+  time: 10/5/2020 6:18:10 PM
   version: 2.28.1
   keys:
   - editorSettings
@@ -7520,7 +7520,7 @@ MonoBehaviour:
       saveGameType=\"1\" saveSpawnID=\"0\" boxSaveOption=\"2\" itemSaveOption=\"2\"
       dropSaveOption=\"0\" battlesSaveOption=\"2\" shopsSaveOption=\"2\" objectVariableOption=\"2\"
       saveSpawnedCombatants=\"0\" gameVariableSelector=\"2\" autoBoxID=\"0\" >\n\t<_float
-      autoVisibilityTime=\"3\" />\n\t<_bool loadAsync=\"False\" encryptData=\"False\"
+      autoVisibilityTime=\"3\" />\n\t<_bool loadAsync=\"False\" encryptData=\"True\"
       storeOptionLanguage=\"False\" storeOptionGlobalVolume=\"False\" storeOptionSoundVolume=\"False\"
       storeOptionMusicVolume=\"False\" useFadeOut=\"True\" useFadeIn=\"True\" saveStatistics=\"True\"
       saveTime=\"True\" saveGroups=\"True\" saveFactions=\"True\" saveLogs=\"True\"
@@ -7537,28 +7537,39 @@ MonoBehaviour:
       interpolation=\"0\" >\n\t\t<_float time=\"0.5\" />\n\t\t<_bool alpha=\"True\"
       red=\"False\" green=\"False\" blue=\"False\" fromCurrent=\"False\" />\n\t\t<_floatarrays>\n\t\t\t<startColor
       0 0 0 1 />\n\t\t\t<endColor 0 0 0 0 />\n\t\t</_floatarrays>\n\t</fadeIn>\n\t<saveMenu
-      guiBoxID=\"0\" qGuiBoxID=\"0\" iGuiBoxID=\"0\" >\n\t\t<_bool useDeleteKey=\"False\"
+      guiBoxID=\"1\" qGuiBoxID=\"0\" iGuiBoxID=\"0\" >\n\t\t<_bool useDeleteKey=\"False\"
       exitAfterSave=\"False\" showExitQuestion=\"False\" oneBox=\"False\" useTitle=\"False\"
-      useQuestion=\"True\" useQTitle=\"False\" useInfo=\"True\" useITitle=\"False\"
-      ownBG=\"False\" />\n\t\t<_stringarrays>\n\t\t\t<message>\n\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t</message>\n\t\t</_stringarrays>\n\t\t<cancelButton
+      useQuestion=\"True\" useQTitle=\"False\" useInfo=\"False\" useITitle=\"False\"
+      ownBG=\"False\" />\n\t\t<_stringarrays>\n\t\t\t<message>\n\t\t\t\t<0><![CDATA[Select
+      a save slot:]]></0>\n\t\t\t</message>\n\t\t\t<qMessage>\n\t\t\t\t<0><![CDATA[Save
+      to slot %?]]></0>\n\t\t\t</qMessage>\n\t\t</_stringarrays>\n\t\t<cancelButton
       type=\"0\" >\n\t\t\t<_bool useCustomButton=\"False\" />\n\t\t</cancelButton>\n\t\t<fileCustomSkin>\n\t\t\t<_bool
       useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t</fileCustomSkin>\n\t\t<emptyCustomSkin>\n\t\t\t<_bool
-      useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t</emptyCustomSkin>\n\t</saveMenu>\n\t<loadMenu
-      guiBoxID=\"0\" qGuiBoxID=\"0\" iGuiBoxID=\"0\" >\n\t\t<_bool useDeleteKey=\"False\"
+      useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t</emptyCustomSkin>\n\t\t<choiceSettings>\n\t\t\t<_bool
+      useChoice=\"True\" />\n\t\t\t<yesButton>\n\t\t\t\t<customSkin>\n\t\t\t\t\t<_bool
+      useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t\t</customSkin>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<button>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Save]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</button>\n\t\t\t\t</_subarrays>\n\t\t\t</yesButton>\n\t\t\t<noButton>\n\t\t\t\t<customSkin>\n\t\t\t\t\t<_bool
+      useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t\t</customSkin>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<button>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Cancel]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</button>\n\t\t\t\t</_subarrays>\n\t\t\t</noButton>\n\t\t</choiceSettings>\n\t</saveMenu>\n\t<loadMenu
+      guiBoxID=\"1\" qGuiBoxID=\"0\" iGuiBoxID=\"0\" >\n\t\t<_bool useDeleteKey=\"False\"
       oneBox=\"False\" useTitle=\"False\" allAutoSaveSlots=\"False\" useQuestion=\"True\"
-      useQTitle=\"False\" useInfo=\"True\" useITitle=\"False\" ownBG=\"False\" />\n\t\t<_stringarrays>\n\t\t\t<message>\n\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t</message>\n\t\t</_stringarrays>\n\t\t<cancelButton
+      useQTitle=\"False\" useInfo=\"False\" useITitle=\"False\" ownBG=\"False\" />\n\t\t<_stringarrays>\n\t\t\t<message>\n\t\t\t\t<0><![CDATA[Select
+      which slot to load:]]></0>\n\t\t\t</message>\n\t\t\t<qMessage>\n\t\t\t\t<0><![CDATA[Load
+      slot %?]]></0>\n\t\t\t</qMessage>\n\t\t</_stringarrays>\n\t\t<cancelButton
       type=\"0\" >\n\t\t\t<_bool useCustomButton=\"False\" />\n\t\t</cancelButton>\n\t\t<fileCustomSkin>\n\t\t\t<_bool
       useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t</fileCustomSkin>\n\t\t<emptyCustomSkin>\n\t\t\t<_bool
-      useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t</emptyCustomSkin>\n\t</loadMenu>\n\t<deleteFile
+      useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t</emptyCustomSkin>\n\t\t<choiceSettings>\n\t\t\t<_bool
+      useChoice=\"True\" />\n\t\t\t<yesButton>\n\t\t\t\t<customSkin>\n\t\t\t\t\t<_bool
+      useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t\t</customSkin>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<button>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Load]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</button>\n\t\t\t\t</_subarrays>\n\t\t\t</yesButton>\n\t\t\t<noButton>\n\t\t\t\t<customSkin>\n\t\t\t\t\t<_bool
+      useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t\t</customSkin>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<button>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Cancel]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</button>\n\t\t\t\t</_subarrays>\n\t\t\t</noButton>\n\t\t</choiceSettings>\n\t</loadMenu>\n\t<deleteFile
       deleteKeyID=\"0\" audioType=\"2\" failAudioType=\"4\" >\n\t\t<_bool useQuestion=\"False\"
       />\n\t\t<question guiBoxID=\"0\" >\n\t\t\t<_bool useTitle=\"False\" />\n\t\t\t<_stringarrays>\n\t\t\t\t<message>\n\t\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t\t</message>\n\t\t\t</_stringarrays>\n\t\t\t<choiceSettings>\n\t\t\t\t<_bool
       useChoice=\"False\" />\n\t\t\t</choiceSettings>\n\t\t</question>\n\t</deleteFile>\n\t<savePoint
       guiBoxID=\"0\" >\n\t\t<_bool useTitle=\"False\" showSave=\"True\" closeAfterSave=\"False\"
-      showLoad=\"True\" ownBG=\"False\" />\n\t\t<_stringarrays>\n\t\t\t<message>\n\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t</message>\n\t\t</_stringarrays>\n\t\t<saveButton>\n\t\t\t<customSkin>\n\t\t\t\t<_bool
+      showLoad=\"True\" ownBG=\"False\" />\n\t\t<_stringarrays>\n\t\t\t<message>\n\t\t\t\t<0><![CDATA[Save
+      or load?]]></0>\n\t\t\t</message>\n\t\t</_stringarrays>\n\t\t<saveButton>\n\t\t\t<customSkin>\n\t\t\t\t<_bool
       useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t</customSkin>\n\t\t\t<_subarrays>\n\t\t\t\t<button>\n\t\t\t\t\t<0>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<name><![CDATA[Save]]></name>\n\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t</icon>\n\t\t\t\t\t</0>\n\t\t\t\t</button>\n\t\t\t</_subarrays>\n\t\t</saveButton>\n\t\t<loadButton>\n\t\t\t<customSkin>\n\t\t\t\t<_bool
       useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t</customSkin>\n\t\t\t<_subarrays>\n\t\t\t\t<button>\n\t\t\t\t\t<0>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<name><![CDATA[Load]]></name>\n\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t</icon>\n\t\t\t\t\t</0>\n\t\t\t\t</button>\n\t\t\t</_subarrays>\n\t\t</loadButton>\n\t\t<cancelButton
-      type=\"0\" >\n\t\t\t<_bool useCustomButton=\"False\" />\n\t\t</cancelButton>\n\t</savePoint>\n\t<_subarrays>\n\t\t<fileInfo>\n\t\t\t<0>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[File
-      %]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<icon>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<settings>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</settings>\n\t\t\t\t</icon>\n\t\t\t</0>\n\t\t</fileInfo>\n\t\t<emptyInfo>\n\t\t\t<0>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Empty
+      type=\"2\" >\n\t\t\t<_bool useCustomButton=\"False\" />\n\t\t</cancelButton>\n\t</savePoint>\n\t<_subarrays>\n\t\t<fileInfo>\n\t\t\t<0>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[File
+      %: %n, %c Lv%l\nTime: %t       Area: %a]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<icon>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<settings>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</settings>\n\t\t\t\t</icon>\n\t\t\t</0>\n\t\t</fileInfo>\n\t\t<emptyInfo>\n\t\t\t<0>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Empty
       %]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<icon>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<settings>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</settings>\n\t\t\t\t</icon>\n\t\t\t</0>\n\t\t</emptyInfo>\n\t</_subarrays>\n</saveGameMenu>\n"
     lookUp:
       textures: []
