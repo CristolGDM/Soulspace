@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: ORKProject
   m_EditorClassIdentifier: 
-  time: 10/5/2020 6:18:10 PM
+  time: 10/13/2020 2:29:47 PM
   version: 2.28.1
   keys:
   - editorSettings
@@ -6265,8 +6265,8 @@ MonoBehaviour:
       unfocusedChoiceHighlight=\"True\" choiceBlockMouseOver=\"False\" choiceDefineWidth=\"False\"
       choiceDefineHeight=\"False\" cAdjustHeight=\"False\" ownHeaders=\"False\" tabsSetWidth=\"False\"
       tabsAdjustWidth=\"True\" ownInactive=\"False\" ownSkins=\"False\" ownAudio=\"False\"
-      ownButtons=\"False\" ownPortraitPosition=\"False\" ownChoiceIcon=\"False\"
-      ownControls=\"False\" ownIconSize=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<screenPadding
+      ownButtons=\"True\" ownPortraitPosition=\"False\" ownChoiceIcon=\"False\" ownControls=\"False\"
+      ownIconSize=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<screenPadding
       0 0 0 0 />\n\t\t\t\t\t<dragBounds 0 0 1920 20 />\n\t\t\t\t\t<boxBounds 960
       540 600 400 />\n\t\t\t\t\t<boxPadding 80 20 80 20 />\n\t\t\t\t\t<nameBounds
       0 0 150 50 />\n\t\t\t\t\t<namePadding 5 1 5 1 />\n\t\t\t\t\t<choiceSpacing
@@ -6333,7 +6333,44 @@ MonoBehaviour:
       interpolation=\"0\" >\n\t\t\t\t\t\t<_float time=\"0.3\" />\n\t\t\t\t\t\t<_bool
       alpha=\"True\" red=\"False\" green=\"False\" blue=\"False\" fromCurrent=\"False\"
       />\n\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t<startColor 0 0 0 1 />\n\t\t\t\t\t\t\t<endColor
-      0 0 0 0 />\n\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t</fade>\n\t\t\t\t</closeBoxBehaviour>\n\t\t\t</0>\n\t\t\t<1
+      0 0 0 0 />\n\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t</fade>\n\t\t\t\t</closeBoxBehaviour>\n\t\t\t\t<buttons>\n\t\t\t\t\t<_float
+      inactiveAlpha=\"0.5\" />\n\t\t\t\t\t<_bool useOk=\"False\" useCancel=\"False\"
+      />\n\t\t\t\t\t<ok anchor=\"8\" >\n\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t<bounds
+      -150 -30 150 30 />\n\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t<settings contentVerticalAlignment=\"0\"
+      infoVerticalAlignment=\"0\" alignment=\"0\" vAlignment=\"2\" alignmentInfo=\"2\"
+      vAlignmentInfo=\"2\" infoPosition=\"1\" infoWidthType=\"1\" >\n\t\t\t\t\t\t\t<_float
+      lineSpacing=\"10\" infoPadding=\"5\" infoWidth=\"100\" iconPadding=\"5\" />\n\t\t\t\t\t\t\t<_bool
+      showButton=\"True\" oneline=\"False\" separateInfo=\"False\" alignIcons=\"True\"
+      ownInfoFormat=\"False\" ownTitleFormat=\"False\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<padding
+      10 10 10 10 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<textFormat colorID=\"0\"
+      shadowColorID=\"1\" outlineColorID=\"1\" fontSize=\"20\" fontStyle=\"0\" >\n\t\t\t\t\t\t\t\t<_bool
+      showShadow=\"True\" showOutline=\"False\" />\n\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t<shadowOffset
+      1 1 />\n\t\t\t\t\t\t\t\t\t<outlineOffset 1 1 />\n\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t<font>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t</font>\n\t\t\t\t\t\t\t</textFormat>\n\t\t\t\t\t\t\t<infoFormat
+      colorID=\"0\" shadowColorID=\"1\" outlineColorID=\"1\" fontSize=\"20\" fontStyle=\"0\"
+      >\n\t\t\t\t\t\t\t\t<_bool showShadow=\"True\" showOutline=\"False\" />\n\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t<shadowOffset
+      1 1 />\n\t\t\t\t\t\t\t\t\t<outlineOffset 1 1 />\n\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t<font>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t</font>\n\t\t\t\t\t\t\t</infoFormat>\n\t\t\t\t\t\t\t<titleFormat
+      colorID=\"0\" shadowColorID=\"1\" outlineColorID=\"1\" fontSize=\"20\" fontStyle=\"0\"
+      >\n\t\t\t\t\t\t\t\t<_bool showShadow=\"True\" showOutline=\"False\" />\n\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t<shadowOffset
+      1 1 />\n\t\t\t\t\t\t\t\t\t<outlineOffset 1 1 />\n\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t<font>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t</font>\n\t\t\t\t\t\t\t</titleFormat>\n\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t<content>\n\t\t\t\t\t\t\t<customSkin>\n\t\t\t\t\t\t\t\t<_bool
+      useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t\t\t</customSkin>\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<button>\n\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[Ok]]></name>\n\t\t\t\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</content>\n\t\t\t\t\t</ok>\n\t\t\t\t\t<cancel
+      anchor=\"8\" >\n\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t<bounds -300 -30
+      150 30 />\n\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t<settings contentVerticalAlignment=\"0\"
+      infoVerticalAlignment=\"0\" alignment=\"0\" vAlignment=\"2\" alignmentInfo=\"2\"
+      vAlignmentInfo=\"2\" infoPosition=\"1\" infoWidthType=\"1\" >\n\t\t\t\t\t\t\t<_float
+      lineSpacing=\"10\" infoPadding=\"5\" infoWidth=\"100\" iconPadding=\"5\" />\n\t\t\t\t\t\t\t<_bool
+      showButton=\"True\" oneline=\"False\" separateInfo=\"False\" alignIcons=\"True\"
+      ownInfoFormat=\"False\" ownTitleFormat=\"False\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<padding
+      10 10 10 10 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<textFormat colorID=\"0\"
+      shadowColorID=\"1\" outlineColorID=\"1\" fontSize=\"20\" fontStyle=\"0\" >\n\t\t\t\t\t\t\t\t<_bool
+      showShadow=\"True\" showOutline=\"False\" />\n\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t<shadowOffset
+      1 1 />\n\t\t\t\t\t\t\t\t\t<outlineOffset 1 1 />\n\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t<font>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t</font>\n\t\t\t\t\t\t\t</textFormat>\n\t\t\t\t\t\t\t<infoFormat
+      colorID=\"0\" shadowColorID=\"1\" outlineColorID=\"1\" fontSize=\"20\" fontStyle=\"0\"
+      >\n\t\t\t\t\t\t\t\t<_bool showShadow=\"True\" showOutline=\"False\" />\n\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t<shadowOffset
+      1 1 />\n\t\t\t\t\t\t\t\t\t<outlineOffset 1 1 />\n\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t<font>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t</font>\n\t\t\t\t\t\t\t</infoFormat>\n\t\t\t\t\t\t\t<titleFormat
+      colorID=\"0\" shadowColorID=\"1\" outlineColorID=\"1\" fontSize=\"20\" fontStyle=\"0\"
+      >\n\t\t\t\t\t\t\t\t<_bool showShadow=\"True\" showOutline=\"False\" />\n\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t<shadowOffset
+      1 1 />\n\t\t\t\t\t\t\t\t\t<outlineOffset 1 1 />\n\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t<font>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t</font>\n\t\t\t\t\t\t\t</titleFormat>\n\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t<content>\n\t\t\t\t\t\t\t<customSkin>\n\t\t\t\t\t\t\t\t<_bool
+      useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t\t\t</customSkin>\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<button>\n\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[Cancel]]></name>\n\t\t\t\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</content>\n\t\t\t\t\t</cancel>\n\t\t\t\t</buttons>\n\t\t\t</0>\n\t\t\t<1
       layerID=\"0\" heightAdjustment=\"0\" boxAnchor=\"6\" contentVerticalAlignment=\"0\"
       alignment=\"0\" vAlignment=\"2\" textColumns=\"1\" typingIncrease=\"1\" nameAnchor=\"6\"
       nameRelativeTo=\"0\" nameVerticalAlignment=\"0\" alignmentName=\"0\" vAlignmentName=\"2\"
@@ -7883,11 +7920,16 @@ MonoBehaviour:
     encrypted: 0
   - name: quantitySelections
     xmlData: "<quantitySelections>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0 guiBoxID=\"0\"
-      type=\"0\" >\n\t\t\t\t<_bool useTitle=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Default]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<topMessage>\n\t\t\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t\t\t</topMessage>\n\t\t\t\t\t<quantityMessage>\n\t\t\t\t\t\t<0><![CDATA[%]]></0>\n\t\t\t\t\t</quantityMessage>\n\t\t\t\t\t<bottomMessage>\n\t\t\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t\t\t</bottomMessage>\n\t\t\t\t</_stringarrays>\n\t\t\t\t<horizontal
-      change=\"1\" >\n\t\t\t\t\t<_bool loop=\"False\" hideButtons=\"False\" isButton=\"True\"
+      type=\"2\" >\n\t\t\t\t<_bool useTitle=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Buy+Sell]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<topMessage>\n\t\t\t\t\t\t<0><![CDATA[%n]]></0>\n\t\t\t\t\t</topMessage>\n\t\t\t\t\t<quantityMessage>\n\t\t\t\t\t\t<0><![CDATA[%/%m]]></0>\n\t\t\t\t\t</quantityMessage>\n\t\t\t\t\t<bottomMessage>\n\t\t\t\t\t\t<0><![CDATA[Price:
+      %t]]></0>\n\t\t\t\t\t</bottomMessage>\n\t\t\t\t</_stringarrays>\n\t\t\t\t<horizontal
+      change=\"10\" >\n\t\t\t\t\t<_bool loop=\"True\" hideButtons=\"True\" isButton=\"True\"
       />\n\t\t\t\t\t<increase>\n\t\t\t\t\t\t<customSkin>\n\t\t\t\t\t\t\t<_bool useCustomSkin=\"False\"
       setIconSize=\"False\" />\n\t\t\t\t\t\t</customSkin>\n\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t<button>\n\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<name><![CDATA[+]]></name>\n\t\t\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t</increase>\n\t\t\t\t\t<decrease>\n\t\t\t\t\t\t<customSkin>\n\t\t\t\t\t\t\t<_bool
-      useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t\t</customSkin>\n\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t<button>\n\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<name><![CDATA[-]]></name>\n\t\t\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t</decrease>\n\t\t\t\t</horizontal>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</quantitySelections>\n"
+      useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t\t</customSkin>\n\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t<button>\n\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<name><![CDATA[-]]></name>\n\t\t\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t</decrease>\n\t\t\t\t</horizontal>\n\t\t\t\t<vertical
+      change=\"1\" >\n\t\t\t\t\t<_bool loop=\"False\" hideButtons=\"True\" isButton=\"True\"
+      />\n\t\t\t\t\t<increase>\n\t\t\t\t\t\t<customSkin>\n\t\t\t\t\t\t\t<_bool useCustomSkin=\"False\"
+      setIconSize=\"False\" />\n\t\t\t\t\t\t</customSkin>\n\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t<button>\n\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<name><![CDATA[+]]></name>\n\t\t\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t</increase>\n\t\t\t\t\t<decrease>\n\t\t\t\t\t\t<customSkin>\n\t\t\t\t\t\t\t<_bool
+      useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t\t</customSkin>\n\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t<button>\n\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<name><![CDATA[-]]></name>\n\t\t\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t</decrease>\n\t\t\t\t</vertical>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</quantitySelections>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -9200,15 +9242,34 @@ MonoBehaviour:
     encrypted: 0
   - name: shopLayouts
     xmlData: "<shopLayouts>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0 closeKeyID=\"0\"
-      closeAudioType=\"3\" display=\"2\" prevKeyID=\"0\" nextKeyID=\"0\" typeBoxID=\"0\"
+      closeAudioType=\"3\" display=\"2\" prevKeyID=\"0\" nextKeyID=\"0\" typeBoxID=\"7\"
       >\n\t\t\t\t<_bool useCloseKey=\"False\" buyWithoutItems=\"False\" buyAutoClose=\"True\"
       sellWithoutItems=\"False\" sellAutoClose=\"True\" allowComChange=\"False\"
-      changeOnlyBattle=\"True\" ownBG=\"False\" showName=\"False\" showBuySell=\"False\"
-      showType=\"False\" showDesc=\"False\" showInfo=\"False\" showComInfo=\"False\"
+      changeOnlyBattle=\"True\" ownBG=\"False\" showName=\"False\" showBuySell=\"True\"
+      showType=\"True\" showDesc=\"True\" showInfo=\"True\" showComInfo=\"False\"
       showBuyCombatantInfo=\"False\" showBuyQuestion=\"False\" showSellQuestion=\"False\"
-      />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Default Layout]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<buyQuantity
-      type=\"0\" >\n\t\t\t\t</buyQuantity>\n\t\t\t\t<sellQuantity type=\"0\" >\n\t\t\t\t</sellQuantity>\n\t\t\t\t<listPart
-      guiBoxID=\"0\" portraitTypeID=\"0\" clickCount=\"2\" >\n\t\t\t\t\t<_bool showPortraits=\"False\"
+      />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Simple Layout]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<buyQuantity
+      type=\"0\" >\n\t\t\t\t</buyQuantity>\n\t\t\t\t<sellQuantity type=\"0\" >\n\t\t\t\t</sellQuantity>\n\t\t\t\t<buySellPart
+      guiBoxID=\"0\" >\n\t\t\t\t\t<_bool showBackgrounds=\"True\" useTitle=\"False\"
+      />\n\t\t\t\t\t<contentLayout type=\"2\" infoType=\"0\" >\n\t\t\t\t\t\t<_bool
+      removeEmptyLines=\"False\" hideEmptyInfo=\"False\" infoRemoveEmptyLines=\"False\"
+      />\n\t\t\t\t\t\t<customSkin>\n\t\t\t\t\t\t\t<_bool useCustomSkin=\"False\"
+      setIconSize=\"False\" />\n\t\t\t\t\t\t</customSkin>\n\t\t\t\t\t</contentLayout>\n\t\t\t\t\t<headerTexts>\n\t\t\t\t\t\t<_bool
+      useHeaders=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t</headerTexts>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<button>\n\t\t\t\t\t\t\t<0
+      type=\"0\" >\n\t\t\t\t\t\t\t\t<button>\n\t\t\t\t\t\t\t\t\t<customSkin>\n\t\t\t\t\t\t\t\t\t\t<_bool
+      useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t\t\t\t\t</customSkin>\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<button>\n\t\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[Buy]]></name>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t<1
+      type=\"1\" >\n\t\t\t\t\t\t\t\t<button>\n\t\t\t\t\t\t\t\t\t<customSkin>\n\t\t\t\t\t\t\t\t\t\t<_bool
+      useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t\t\t\t\t</customSkin>\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<button>\n\t\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[Sell]]></name>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t\t<2
+      type=\"2\" >\n\t\t\t\t\t\t\t\t<button>\n\t\t\t\t\t\t\t\t\t<customSkin>\n\t\t\t\t\t\t\t\t\t\t<_bool
+      useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t\t\t\t\t</customSkin>\n\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t<button>\n\t\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[Exit]]></name>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t</2>\n\t\t\t\t\t\t</button>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</buySellPart>\n\t\t\t\t<typePart>\n\t\t\t\t\t<_bool
+      enableTooltip=\"False\" useTitle=\"False\" autoSelectType=\"False\" />\n\t\t\t\t\t<contentLayout
+      type=\"2\" infoType=\"0\" >\n\t\t\t\t\t\t<_bool removeEmptyLines=\"False\"
+      hideEmptyInfo=\"False\" infoRemoveEmptyLines=\"False\" />\n\t\t\t\t\t\t<customSkin>\n\t\t\t\t\t\t\t<_bool
+      useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t\t</customSkin>\n\t\t\t\t\t</contentLayout>\n\t\t\t\t\t<headerTexts>\n\t\t\t\t\t\t<_bool
+      useHeaders=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t</headerTexts>\n\t\t\t\t\t<backButton
+      type=\"0\" >\n\t\t\t\t\t\t<_bool useCustomButton=\"False\" />\n\t\t\t\t\t</backButton>\n\t\t\t\t\t<typeSorter
+      sorting=\"1\" >\n\t\t\t\t\t\t<_bool invert=\"False\" />\n\t\t\t\t\t</typeSorter>\n\t\t\t\t</typePart>\n\t\t\t\t<listPart
+      guiBoxID=\"8\" portraitTypeID=\"0\" clickCount=\"2\" >\n\t\t\t\t\t<_bool showPortraits=\"False\"
       useTitle=\"False\" autoSelectItem=\"False\" ownBackLayout=\"False\" enableDrag=\"False\"
       enableClick=\"False\" enableTooltip=\"False\" useCombatantLayout=\"False\"
       ownCombatantChoice=\"False\" />\n\t\t\t\t\t<contentLayout type=\"2\" infoType=\"1\"
@@ -9217,7 +9278,39 @@ MonoBehaviour:
       setIconSize=\"False\" />\n\t\t\t\t\t\t</customSkin>\n\t\t\t\t\t</contentLayout>\n\t\t\t\t\t<headerTexts>\n\t\t\t\t\t\t<_bool
       useHeaders=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t</headerTexts>\n\t\t\t\t\t<backButton
       type=\"0\" >\n\t\t\t\t\t\t<_bool useCustomButton=\"False\" />\n\t\t\t\t\t</backButton>\n\t\t\t\t\t<contentSorter
-      sorting=\"1\" >\n\t\t\t\t\t\t<_bool invert=\"False\" />\n\t\t\t\t\t</contentSorter>\n\t\t\t\t</listPart>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</shopLayouts>\n"
+      sorting=\"1\" >\n\t\t\t\t\t\t<_bool invert=\"False\" />\n\t\t\t\t\t</contentSorter>\n\t\t\t\t</listPart>\n\t\t\t\t<descPart
+      guiBoxID=\"10\" >\n\t\t\t\t\t<_bool always=\"True\" showInBuySell=\"True\"
+      showInType=\"True\" showInList=\"True\" useTitle=\"False\" />\n\t\t\t\t</descPart>\n\t\t\t\t<infoPart
+      guiBoxID=\"6\" >\n\t\t\t\t\t<pageKeys nextPageKey=\"0\" prevPageKey=\"0\" pageAudioType=\"2\"
+      >\n\t\t\t\t\t\t<_bool acceptNext=\"False\" usePageKeys=\"False\" />\n\t\t\t\t\t</pageKeys>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<page>\n\t\t\t\t\t\t\t<0
+      hudID=\"0\" >\n\t\t\t\t\t\t\t\t<_float updateInterval=\"1\" />\n\t\t\t\t\t\t\t\t<_bool
+      useTitle=\"False\" autoUpdate=\"False\" updateByInventory=\"False\" updateByVariables=\"False\"
+      useHUD=\"False\" />\n\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t<informationElement>\n\t\t\t\t\t\t\t\t\t\t<0
+      alignment=\"0\" vAlignment=\"2\" >\n\t\t\t\t\t\t\t\t\t\t\t<_float lineSpacing=\"10\"
+      />\n\t\t\t\t\t\t\t\t\t\t\t<_bool useRequirements=\"False\" box=\"False\" noFlash=\"False\"
+      outsideBounds=\"False\" showBackground=\"False\" expandBoundsBG=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[HUDText]]></_type>\n\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t<text>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<0><![CDATA[#currency.name0#\nIn
+      Inventory: \nEquipped:]]></0>\n\t\t\t\t\t\t\t\t\t\t\t\t</text>\n\t\t\t\t\t\t\t\t\t\t\t</_stringarrays>\n\t\t\t\t\t\t\t\t\t\t\t<textFormat
+      colorID=\"0\" shadowColorID=\"1\" outlineColorID=\"1\" fontSize=\"30\" fontStyle=\"0\"
+      >\n\t\t\t\t\t\t\t\t\t\t\t\t<_bool showShadow=\"True\" showOutline=\"False\"
+      />\n\t\t\t\t\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<shadowOffset
+      1 1 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t<outlineOffset 1 1 />\n\t\t\t\t\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t<font>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t\t\t\t\t</font>\n\t\t\t\t\t\t\t\t\t\t\t</textFormat>\n\t\t\t\t\t\t\t\t\t\t\t<bounds
+      anchor=\"0\" relativeTo=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t\t<_float width=\"100\"
+      height=\"100\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<_bool useLastElement=\"False\"
+      isPercentWidth=\"True\" adjustWidth=\"True\" isPercentHeight=\"True\" adjustHeight=\"True\"
+      />\n\t\t\t\t\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<position
+      0 0 />\n\t\t\t\t\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t</bounds>\n\t\t\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t<clickAction>\n\t\t\t\t\t\t\t\t\t\t\t\t</clickAction>\n\t\t\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t<1
+      alignment=\"2\" vAlignment=\"2\" >\n\t\t\t\t\t\t\t\t\t\t\t<_float lineSpacing=\"10\"
+      />\n\t\t\t\t\t\t\t\t\t\t\t<_bool useRequirements=\"False\" box=\"False\" noFlash=\"False\"
+      outsideBounds=\"False\" showBackground=\"False\" expandBoundsBG=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[HUDText]]></_type>\n\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t<text>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<0><![CDATA[#currency.inventory0#\n#inventory\n#equipped]]></0>\n\t\t\t\t\t\t\t\t\t\t\t\t</text>\n\t\t\t\t\t\t\t\t\t\t\t</_stringarrays>\n\t\t\t\t\t\t\t\t\t\t\t<textFormat
+      colorID=\"0\" shadowColorID=\"1\" outlineColorID=\"1\" fontSize=\"30\" fontStyle=\"0\"
+      >\n\t\t\t\t\t\t\t\t\t\t\t\t<_bool showShadow=\"True\" showOutline=\"False\"
+      />\n\t\t\t\t\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<shadowOffset
+      1 1 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t<outlineOffset 1 1 />\n\t\t\t\t\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t<font>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t\t\t\t\t</font>\n\t\t\t\t\t\t\t\t\t\t\t</textFormat>\n\t\t\t\t\t\t\t\t\t\t\t<bounds
+      anchor=\"0\" relativeTo=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t\t<_float width=\"100\"
+      height=\"100\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<_bool useLastElement=\"False\"
+      isPercentWidth=\"True\" adjustWidth=\"True\" isPercentHeight=\"True\" adjustHeight=\"True\"
+      />\n\t\t\t\t\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<position
+      0 0 />\n\t\t\t\t\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t</bounds>\n\t\t\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t<clickAction>\n\t\t\t\t\t\t\t\t\t\t\t\t</clickAction>\n\t\t\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t\t\t\t</informationElement>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</page>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</infoPart>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</shopLayouts>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -9237,7 +9330,104 @@ MonoBehaviour:
       setTimeScale=\"False\" setORKScale=\"False\" saveShop=\"False\" saveSold=\"False\"
       ownBG=\"False\" sellAllItemTypes=\"True\" setExchangeRate=\"False\" useBuyPriceModifier=\"False\"
       useSellPriceModifier=\"False\" ownMusic=\"False\" lootRandom=\"False\" />\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<lootID
-      />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<item>\n\t\t\t\t\t</item>\n\t\t\t\t\t<weapon>\n\t\t\t\t\t</weapon>\n\t\t\t\t\t<armor>\n\t\t\t\t\t</armor>\n\t\t\t\t\t<ability>\n\t\t\t\t\t</ability>\n\t\t\t\t\t<combatant>\n\t\t\t\t\t</combatant>\n\t\t\t\t\t<aiBehaviour>\n\t\t\t\t\t</aiBehaviour>\n\t\t\t\t\t<aiRuleset>\n\t\t\t\t\t</aiRuleset>\n\t\t\t\t\t<craftingRecipe>\n\t\t\t\t\t</craftingRecipe>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Default]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</shops>\n"
+      />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<item>\n\t\t\t\t\t\t<0
+      itemID=\"0\" >\n\t\t\t\t\t\t\t<_float chance=\"100\" />\n\t\t\t\t\t\t\t<_bool
+      limitQuantity=\"False\" overridePrice=\"False\" useVariableConditions=\"False\"
+      />\n\t\t\t\t\t\t\t<quantityValue type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float
+      initialValue=\"0\" offset=\"0\" value=\"1\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool
+      isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</quantityValue>\n\t\t\t\t\t\t\t<priceValue
+      type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"0\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</priceValue>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1
+      itemID=\"1\" >\n\t\t\t\t\t\t\t<_float chance=\"100\" />\n\t\t\t\t\t\t\t<_bool
+      limitQuantity=\"False\" overridePrice=\"False\" useVariableConditions=\"False\"
+      />\n\t\t\t\t\t\t\t<quantityValue type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float
+      initialValue=\"0\" offset=\"0\" value=\"1\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool
+      isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</quantityValue>\n\t\t\t\t\t\t\t<priceValue
+      type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"0\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</priceValue>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t\t<2
+      itemID=\"2\" >\n\t\t\t\t\t\t\t<_float chance=\"100\" />\n\t\t\t\t\t\t\t<_bool
+      limitQuantity=\"False\" overridePrice=\"False\" useVariableConditions=\"False\"
+      />\n\t\t\t\t\t\t\t<quantityValue type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float
+      initialValue=\"0\" offset=\"0\" value=\"1\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool
+      isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</quantityValue>\n\t\t\t\t\t\t\t<priceValue
+      type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"0\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</priceValue>\n\t\t\t\t\t\t</2>\n\t\t\t\t\t\t<3
+      itemID=\"3\" >\n\t\t\t\t\t\t\t<_float chance=\"100\" />\n\t\t\t\t\t\t\t<_bool
+      limitQuantity=\"False\" overridePrice=\"False\" useVariableConditions=\"False\"
+      />\n\t\t\t\t\t\t\t<quantityValue type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float
+      initialValue=\"0\" offset=\"0\" value=\"1\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool
+      isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</quantityValue>\n\t\t\t\t\t\t\t<priceValue
+      type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"0\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</priceValue>\n\t\t\t\t\t\t</3>\n\t\t\t\t\t\t<4
+      itemID=\"4\" >\n\t\t\t\t\t\t\t<_float chance=\"100\" />\n\t\t\t\t\t\t\t<_bool
+      limitQuantity=\"False\" overridePrice=\"False\" useVariableConditions=\"False\"
+      />\n\t\t\t\t\t\t\t<quantityValue type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float
+      initialValue=\"0\" offset=\"0\" value=\"1\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool
+      isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</quantityValue>\n\t\t\t\t\t\t\t<priceValue
+      type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"0\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</priceValue>\n\t\t\t\t\t\t</4>\n\t\t\t\t\t</item>\n\t\t\t\t\t<weapon>\n\t\t\t\t\t\t<0
+      equipID=\"0\" level=\"1\" >\n\t\t\t\t\t\t\t<_float chance=\"100\" />\n\t\t\t\t\t\t\t<_bool
+      limitQuantity=\"False\" overridePrice=\"False\" useVariableConditions=\"False\"
+      />\n\t\t\t\t\t\t\t<quantityValue type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float
+      initialValue=\"0\" offset=\"0\" value=\"1\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool
+      isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</quantityValue>\n\t\t\t\t\t\t\t<priceValue
+      type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"0\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</priceValue>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1
+      equipID=\"2\" level=\"1\" >\n\t\t\t\t\t\t\t<_float chance=\"100\" />\n\t\t\t\t\t\t\t<_bool
+      limitQuantity=\"False\" overridePrice=\"False\" useVariableConditions=\"False\"
+      />\n\t\t\t\t\t\t\t<quantityValue type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float
+      initialValue=\"0\" offset=\"0\" value=\"1\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool
+      isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</quantityValue>\n\t\t\t\t\t\t\t<priceValue
+      type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"0\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</priceValue>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t</weapon>\n\t\t\t\t\t<armor>\n\t\t\t\t\t\t<0
+      equipID=\"0\" level=\"1\" >\n\t\t\t\t\t\t\t<_float chance=\"100\" />\n\t\t\t\t\t\t\t<_bool
+      limitQuantity=\"False\" overridePrice=\"False\" useVariableConditions=\"False\"
+      />\n\t\t\t\t\t\t\t<quantityValue type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float
+      initialValue=\"0\" offset=\"0\" value=\"1\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool
+      isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</quantityValue>\n\t\t\t\t\t\t\t<priceValue
+      type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"0\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</priceValue>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1
+      equipID=\"1\" level=\"1\" >\n\t\t\t\t\t\t\t<_float chance=\"100\" />\n\t\t\t\t\t\t\t<_bool
+      limitQuantity=\"False\" overridePrice=\"False\" useVariableConditions=\"False\"
+      />\n\t\t\t\t\t\t\t<quantityValue type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float
+      initialValue=\"0\" offset=\"0\" value=\"1\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool
+      isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</quantityValue>\n\t\t\t\t\t\t\t<priceValue
+      type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"0\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</priceValue>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t\t<2
+      equipID=\"2\" level=\"1\" >\n\t\t\t\t\t\t\t<_float chance=\"100\" />\n\t\t\t\t\t\t\t<_bool
+      limitQuantity=\"False\" overridePrice=\"False\" useVariableConditions=\"False\"
+      />\n\t\t\t\t\t\t\t<quantityValue type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float
+      initialValue=\"0\" offset=\"0\" value=\"1\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool
+      isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</quantityValue>\n\t\t\t\t\t\t\t<priceValue
+      type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"0\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</priceValue>\n\t\t\t\t\t\t</2>\n\t\t\t\t\t\t<3
+      equipID=\"3\" level=\"1\" >\n\t\t\t\t\t\t\t<_float chance=\"100\" />\n\t\t\t\t\t\t\t<_bool
+      limitQuantity=\"False\" overridePrice=\"False\" useVariableConditions=\"False\"
+      />\n\t\t\t\t\t\t\t<quantityValue type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float
+      initialValue=\"0\" offset=\"0\" value=\"1\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool
+      isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</quantityValue>\n\t\t\t\t\t\t\t<priceValue
+      type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"0\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</priceValue>\n\t\t\t\t\t\t</3>\n\t\t\t\t\t\t<4
+      equipID=\"4\" level=\"1\" >\n\t\t\t\t\t\t\t<_float chance=\"100\" />\n\t\t\t\t\t\t\t<_bool
+      limitQuantity=\"False\" overridePrice=\"False\" useVariableConditions=\"False\"
+      />\n\t\t\t\t\t\t\t<quantityValue type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float
+      initialValue=\"0\" offset=\"0\" value=\"1\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool
+      isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</quantityValue>\n\t\t\t\t\t\t\t<priceValue
+      type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"0\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</priceValue>\n\t\t\t\t\t\t</4>\n\t\t\t\t\t</armor>\n\t\t\t\t\t<ability>\n\t\t\t\t\t</ability>\n\t\t\t\t\t<combatant>\n\t\t\t\t\t</combatant>\n\t\t\t\t\t<aiBehaviour>\n\t\t\t\t\t</aiBehaviour>\n\t\t\t\t\t<aiRuleset>\n\t\t\t\t\t</aiRuleset>\n\t\t\t\t\t<craftingRecipe>\n\t\t\t\t\t</craftingRecipe>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Village
+      shop]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</shops>\n"
     lookUp:
       textures: []
       audioClips: []
