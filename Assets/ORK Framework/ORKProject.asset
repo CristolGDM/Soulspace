@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: ORKProject
   m_EditorClassIdentifier: 
-  time: 10/13/2020 2:57:52 PM
+  time: 10/13/2020 3:06:25 PM
   version: 2.28.1
   keys:
   - editorSettings
@@ -9283,7 +9283,7 @@ MonoBehaviour:
       useHeaders=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t</headerTexts>\n\t\t\t\t\t<backButton
       type=\"0\" >\n\t\t\t\t\t\t<_bool useCustomButton=\"False\" />\n\t\t\t\t\t</backButton>\n\t\t\t\t\t<contentSorter
       sorting=\"1\" >\n\t\t\t\t\t\t<_bool invert=\"False\" />\n\t\t\t\t\t</contentSorter>\n\t\t\t\t</listPart>\n\t\t\t\t<descPart
-      guiBoxID=\"10\" >\n\t\t\t\t\t<_bool always=\"True\" showInBuySell=\"True\"
+      guiBoxID=\"10\" >\n\t\t\t\t\t<_bool always=\"True\" showInBuySell=\"False\"
       showInType=\"True\" showInList=\"True\" useTitle=\"False\" />\n\t\t\t\t</descPart>\n\t\t\t\t<infoPart
       guiBoxID=\"6\" >\n\t\t\t\t\t<pageKeys nextPageKey=\"0\" prevPageKey=\"0\" pageAudioType=\"2\"
       >\n\t\t\t\t\t\t<_bool acceptNext=\"False\" usePageKeys=\"False\" />\n\t\t\t\t\t</pageKeys>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<page>\n\t\t\t\t\t\t\t<0
