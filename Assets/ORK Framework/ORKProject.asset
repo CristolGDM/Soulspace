@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: ORKProject
   m_EditorClassIdentifier: 
-  time: 10/13/2020 2:29:47 PM
+  time: 10/13/2020 2:57:52 PM
   version: 2.28.1
   keys:
   - editorSettings
@@ -6212,7 +6212,11 @@ MonoBehaviour:
       guiAnchor=\"0\" >\n\t\t\t\t<_bool isScreenFader=\"False\" useFullScreen=\"False\"
       useOwnScale=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<guiPadding 0 0
       0 0 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Default
-      Layer]]></name>\n\t\t\t\t</_string>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</guiLayers>\n"
+      Layer]]></name>\n\t\t\t\t</_string>\n\t\t\t</0>\n\t\t\t<1 guiScaleMode=\"0\"
+      guiAnchor=\"0\" >\n\t\t\t\t<_bool isScreenFader=\"False\" useFullScreen=\"False\"
+      useOwnScale=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<guiPadding 0 0
+      0 0 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Top
+      Layer]]></name>\n\t\t\t\t</_string>\n\t\t\t</1>\n\t\t</data>\n\t</_subarrays>\n</guiLayers>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -6241,7 +6245,7 @@ MonoBehaviour:
       generalAssets: []
     encrypted: 0
   - name: guiBoxes
-    xmlData: "<guiBoxes>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0 layerID=\"0\" heightAdjustment=\"0\"
+    xmlData: "<guiBoxes>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0 layerID=\"1\" heightAdjustment=\"0\"
       boxAnchor=\"4\" contentVerticalAlignment=\"1\" alignment=\"0\" vAlignment=\"2\"
       textColumns=\"1\" typingIncrease=\"1\" nameAnchor=\"6\" nameRelativeTo=\"0\"
       nameVerticalAlignment=\"0\" alignmentName=\"0\" vAlignmentName=\"2\" choiceMode=\"0\"
@@ -7750,10 +7754,10 @@ MonoBehaviour:
       choiceMouseOverUnlocked=\"True\" choiceMouseOverUnfocused=\"False\" choiceMouseOverDrag=\"True\"
       dropInteractInChildren=\"True\" dropInteractFromRoot=\"False\" dragSetSelection=\"False\"
       dropSetSelection=\"False\" dragBlockTooltips=\"False\" showDrag=\"True\" dragUseChoiceLayout=\"False\"
-      useTurnFlash=\"False\" />\n\t<newUI pixelDragThreshold=\"5\" layer=\"0\" sortingOrder=\"0\"
-      >\n\t\t<_float planeDistance=\"0.1\" />\n\t\t<_bool usePointerOverGameObject=\"False\"
-      pixelPerfect=\"False\" useScreenSpaceCamera=\"False\" nearPlaneOffset=\"True\"
-      useMainCamera=\"True\" mainCameraFallback=\"True\" />\n\t\t<defaultFont>\n\t\t\t<_string>\n\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t</_string>\n\t\t\t<settings>\n\t\t\t\t<_string>\n\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<_font
+      useTurnFlash=\"False\" />\n\t<newUI pixelDragThreshold=\"5\" layer=\"5\" sortingOrder=\"0\"
+      >\n\t\t<_float planeDistance=\"10\" />\n\t\t<_bool usePointerOverGameObject=\"False\"
+      pixelPerfect=\"True\" useScreenSpaceCamera=\"False\" nearPlaneOffset=\"True\"
+      useMainCamera=\"False\" mainCameraFallback=\"False\" />\n\t\t<defaultFont>\n\t\t\t<_string>\n\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t</_string>\n\t\t\t<settings>\n\t\t\t\t<_string>\n\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<_font
       asset=\"0\" />\n\t\t\t</settings>\n\t\t</defaultFont>\n\t</newUI>\n\t<defaultMaskMaterial>\n\t\t<_string>\n\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t</_string>\n\t\t<settings>\n\t\t\t<_string>\n\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t</_string>\n\t\t</settings>\n\t</defaultMaskMaterial>\n\t<defaultIconSize
       type=\"0\" width=\"100\" height=\"100\" >\n\t</defaultIconSize>\n\t<tooltip>\n\t\t<_bool
       selectionTooltip=\"False\" previewTooltip=\"False\" playerActionTooltip=\"False\"

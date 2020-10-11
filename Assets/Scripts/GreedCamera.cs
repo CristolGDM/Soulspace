@@ -17,8 +17,6 @@ public class GreedCamera : MonoBehaviour {
 
         Camera camera = Camera.main;
 
-        Debug.Log(camera);
-
         canvas.worldCamera = camera;
     }
 }
