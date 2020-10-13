@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: 45a767e55b44cbb4f8c9a332a7875ace
+guid: e0eb90f7fbd3dbd4cb693cb773e5588e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6549793444401180961
-    second: merchant_0
+      213: -1127933441503263673
+    second: devil_0
   - first:
-      213: 65063161555740034
-    second: merchant_1
+      213: 5343951658995598748
+    second: devil_1
   - first:
-      213: 1614086757527820424
-    second: merchant_2
+      213: -5692647946762411356
+    second: devil_2
   - first:
-      213: -8227650458184809490
-    second: merchant_3
+      213: -7807672741457143626
+    second: devil_3
   - first:
-      213: -3352636522432418542
-    second: merchant_4
+      213: 8275111362024837409
+    second: devil_4
   - first:
-      213: 7664137102348059253
-    second: merchant_5
+      213: 9170441290641061556
+    second: devil_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -177,7 +177,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: girl_0
+      name: devil_0
       rect:
         serializedVersion: 2
         x: 0
@@ -191,14 +191,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f0f7354cdc3e4e70800000000000000
-      internalID: 9101278813714116849
+      spriteID: 7440ae0d286c850f0800000000000000
+      internalID: -1127933441503263673
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl_1
+      name: devil_1
       rect:
         serializedVersion: 2
         x: 64
@@ -212,14 +212,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10a0eb497821284b0800000000000000
-      internalID: -5439765026384770559
+      spriteID: c95ca4b68b7892a40800000000000000
+      internalID: 5343951658995598748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl_2
+      name: devil_2
       rect:
         serializedVersion: 2
         x: 128
@@ -233,14 +233,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e5cec0ca07237260800000000000000
-      internalID: 7094056765176595939
+      spriteID: 4a2aed57ad6aff0b0800000000000000
+      internalID: -5692647946762411356
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl_3
+      name: devil_3
       rect:
         serializedVersion: 2
         x: 192
@@ -254,14 +254,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7f0f1de2c6beaea0800000000000000
-      internalID: -5859545116844290178
+      spriteID: 6b852fa220395a390800000000000000
+      internalID: -7807672741457143626
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl_4
+      name: devil_4
       rect:
         serializedVersion: 2
         x: 256
@@ -275,14 +275,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e188d1cc125524e80800000000000000
-      internalID: -8195894768214112226
+      spriteID: 1211a4ab0f917d270800000000000000
+      internalID: 8275111362024837409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: girl_5
+      name: devil_5
       rect:
         serializedVersion: 2
         x: 320
@@ -296,8 +296,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e81c7b26a53d523b0800000000000000
-      internalID: -5537787781625429618
+      spriteID: 4b63c3a44c3f34f70800000000000000
+      internalID: 9170441290641061556
       vertices: []
       indices: 
       edges: []
