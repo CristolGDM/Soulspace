@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: ORKProject
   m_EditorClassIdentifier: 
-  time: 10/13/2020 3:06:25 PM
+  time: 10/15/2020 5:00:59 PM
   version: 2.28.1
   keys:
   - editorSettings
@@ -3869,7 +3869,7 @@ MonoBehaviour:
       generalAssets: []
     encrypted: 0
   - name: inventorySettings
-    xmlData: "<inventorySettings type=\"0\" itemAddType=\"0\" weaponAddType=\"0\"
+    xmlData: "<inventorySettings type=\"0\" itemAddType=\"1\" weaponAddType=\"0\"
       armorAddType=\"0\" quantityLimit=\"99\" stackQuantityLimit=\"99\" dropMask=\"1\"
       dropStartType=\"0\" >\n\t<_bool limitQuantity=\"False\" limitStackQuantity=\"False\"
       limit=\"False\" blockAdd=\"False\" limitOnlyLeader=\"False\" useDelay=\"False\"
@@ -3880,7 +3880,7 @@ MonoBehaviour:
       ownArmor=\"False\" ownBestiary=\"False\" ownCraftingRecipe=\"False\" ownItem=\"False\"
       ownLog=\"False\" ownQuest=\"False\" ownResearchTree=\"False\" ownShop=\"False\"
       ownWeapon=\"False\" />\n\t\t<markNewContent markType=\"0\" unmarkType=\"0\"
-      >\n\t\t</markNewContent>\n\t</markNewContent>\n\t<itemCollection guiBoxID=\"0\"
+      >\n\t\t</markNewContent>\n\t</markNewContent>\n\t<itemCollection guiBoxID=\"1\"
       >\n\t\t<_float closeAfter=\"3\" />\n\t\t<_bool show=\"True\" autoClose=\"False\"
       closeBlockAccept=\"False\" useItemTitle=\"False\" useMoneyTitle=\"False\" showChoice=\"False\"
       />\n\t\t<_stringarrays>\n\t\t\t<message>\n\t\t\t\t<0><![CDATA[You found %n
@@ -3891,16 +3891,17 @@ MonoBehaviour:
       useAnimation=\"False\" playSound=\"False\" />\n\t\t</animateAfterOk>\n\t\t<animateAfterCancel
       animationTypeID=\"0\" >\n\t\t\t<_bool useAnimation=\"False\" playSound=\"False\"
       />\n\t\t</animateAfterCancel>\n\t</itemCollection>\n\t<itemBoxCollection menuScreenID=\"0\"
-      clickCount=\"2\" guiBoxID=\"0\" >\n\t\t<_bool useInventoryExchangeMenu=\"False\"
+      clickCount=\"2\" guiBoxID=\"9\" >\n\t\t<_bool useInventoryExchangeMenu=\"False\"
       enableDrag=\"False\" enableClick=\"False\" enableTooltip=\"False\" receiveDrops=\"False\"
       useInventoryAddType=\"False\" allowCancel=\"True\" autoClose=\"False\" useItemButtons=\"True\"
       useChoice=\"False\" useTitle=\"False\" lineSeparation=\"True\" useNotCollectable=\"False\"
       showTakeAll=\"False\" takeAllFirst=\"False\" showExit=\"False\" exitFirst=\"False\"
-      showDescription=\"False\" />\n\t\t<_string>\n\t\t\t<separator><![CDATA[, ]]></separator>\n\t\t</_string>\n\t\t<_stringarrays>\n\t\t\t<message>\n\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t</message>\n\t\t\t<messageEmpty>\n\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t</messageEmpty>\n\t\t\t<itemText>\n\t\t\t\t<0><![CDATA[%n
+      showDescription=\"False\" />\n\t\t<_string>\n\t\t\t<separator><![CDATA[, ]]></separator>\n\t\t</_string>\n\t\t<_stringarrays>\n\t\t\t<message>\n\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t</message>\n\t\t\t<messageEmpty>\n\t\t\t\t<0><![CDATA[This
+      is empty...]]></0>\n\t\t\t</messageEmpty>\n\t\t\t<itemText>\n\t\t\t\t<0><![CDATA[%n
       (%)]]></0>\n\t\t\t</itemText>\n\t\t</_stringarrays>\n\t\t<animateBefore animationTypeID=\"0\"
       >\n\t\t\t<_bool useAnimation=\"False\" playSound=\"False\" />\n\t\t</animateBefore>\n\t\t<animateAfter
       animationTypeID=\"0\" >\n\t\t\t<_bool useAnimation=\"False\" playSound=\"False\"
-      />\n\t\t</animateAfter>\n\t\t<takeQuantity type=\"0\" >\n\t\t</takeQuantity>\n\t\t<contentLayout
+      />\n\t\t</animateAfter>\n\t\t<takeQuantity type=\"2\" >\n\t\t</takeQuantity>\n\t\t<contentLayout
       type=\"2\" infoType=\"1\" >\n\t\t\t<_bool removeEmptyLines=\"False\" hideEmptyInfo=\"False\"
       infoRemoveEmptyLines=\"False\" />\n\t\t\t<customSkin>\n\t\t\t\t<_bool useCustomSkin=\"False\"
       setIconSize=\"False\" />\n\t\t\t</customSkin>\n\t\t</contentLayout>\n\t</itemBoxCollection>\n\t<quantityText>\n\t\t<_bool
