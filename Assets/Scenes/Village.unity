@@ -203,91 +203,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &68209478
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 68209481}
-  - component: {fileID: 68209480}
-  - component: {fileID: 68209479}
-  m_Layer: 2
-  m_Name: Camera Event
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!61 &68209479
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 68209478}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 3, y: 3}
-  m_EdgeRadius: 0
---- !u!114 &68209480
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 68209478}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 410354867, guid: f5c55b3678e89c6409bf2371aaef7c05, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainCamera: 1
-  cameraTag: 0
-  cameraName: 
-  inBlockedControls: 1
-  onObject: 1
-  placementObject: {fileID: 265916375}
-  foV: 40
-  lookAt: 0
-  camPosID: 0
-  resetPosition: 1
-  useEventObject: 0
-  updatePosition: 0
-  interpolate: 0
-  easeType: 0
-  time: 1
---- !u!4 &68209481
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 68209478}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.5, y: 0.5, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 17
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &87152433
 GameObject:
   m_ObjectHideFlags: 0
@@ -1281,6 +1196,337 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &280674103
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 280674104}
+  m_Layer: 0
+  m_Name: CamPos1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &280674104
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280674103}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.5, y: 3.5, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &353604064
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 353604066}
+  - component: {fileID: 353604065}
+  m_Layer: 0
+  m_Name: IntroductionEvent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &353604065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353604064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2088049802, guid: f5c55b3678e89c6409bf2371aaef7c05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useSceneID: 1
+  sceneID: 4
+  autoDestroy: 1
+  repeatDestroy: 0
+  destroyCheckTime: 1
+  checkObjectVariables: 0
+  variableCondition:
+    needed: 0
+    gameVariable:
+    - conditionType: 0
+      key:
+        type: 0
+        value: VillageIntro
+      variable:
+        isValid: 0
+        type: 1
+        stringValue:
+          type: 0
+          value: 
+        serialize_check:
+          name: 
+          xmlData: 
+          lookUp:
+            textures: []
+            audioClips: []
+            gameObjects: []
+            guiSkins: []
+            materials: []
+            fonts: []
+            eventAssets: []
+            generalAssets: []
+          encrypted: 0
+        vector3Value:
+          type: 0
+          value: {x: 0, y: 0, z: 0}
+          variableKey: 
+          xMin: 0
+          xMax: 0
+          yMin: 0
+          yMax: 0
+          zMin: 0
+          zMax: 0
+        floatCheck: 7
+        floatValue:
+          type: 0
+          name: 
+          isInt: 0
+          id: 0
+          initialValue: 0
+          offset: 0
+          isUTC: 0
+          value: 0
+          value2: 0
+          rounding: 0
+        floatValue2:
+          type: 0
+          name: 
+          isInt: 0
+          id: 0
+          initialValue: 0
+          offset: 0
+          isUTC: 0
+          value: 0
+          value2: 0
+          rounding: 0
+        vector3Check: 7
+        vector3Distance:
+          type: 0
+          name: 
+          isInt: 0
+          id: 0
+          initialValue: 0
+          offset: 0
+          isUTC: 0
+          value: 0
+          value2: 0
+          rounding: 0
+        vector3Distance2:
+          type: 0
+          name: 
+          isInt: 0
+          id: 0
+          initialValue: 0
+          offset: 0
+          isUTC: 0
+          value: 0
+          value2: 0
+          rounding: 0
+      condition:
+        needed: 0
+        gameVariable: []
+      templateID: 0
+      isValid: 1
+      type: 4
+      stringValue:
+        type: 0
+        value: 
+      floatCheck: 0
+      floatValue:
+        type: 0
+        name: 
+        isInt: 0
+        id: 0
+        initialValue: 0
+        offset: 0
+        isUTC: 0
+        value: 0
+        value2: 0
+        rounding: 0
+      floatValue2:
+        type: 0
+        name: 
+        isInt: 0
+        id: 0
+        initialValue: 0
+        offset: 0
+        isUTC: 0
+        value: 0
+        value2: 0
+        rounding: 0
+      vector3Check: 1
+      vector3Distance:
+        type: 0
+        name: 
+        isInt: 0
+        id: 0
+        initialValue: 0
+        offset: 0
+        isUTC: 0
+        value: 0
+        value2: 0
+        rounding: 0
+      vector3Distance2:
+        type: 0
+        name: 
+        isInt: 0
+        id: 0
+        initialValue: 0
+        offset: 0
+        isUTC: 0
+        value: 0
+        value2: 0
+        rounding: 0
+      vector3Value:
+        type: 0
+        value: {x: 0, y: 0, z: 0}
+        variableKey: 
+        xMin: 0
+        xMax: 0
+        yMin: 0
+        yMax: 0
+        zMin: 0
+        zMax: 0
+  setObjectVariables: 0
+  variableSetter:
+    gameVariable:
+    - key:
+        type: 0
+        value: VillageIntro
+      remove: 0
+      type: 1
+      stringValue:
+        type: 0
+        value: 
+      boolValue: 1
+      floatOperator: 7
+      floatValue:
+        type: 0
+        name: 
+        isInt: 0
+        id: 0
+        initialValue: 0
+        offset: 0
+        isUTC: 0
+        value: 0
+        value2: 0
+        rounding: 0
+      vector3Operator: 2
+      vector3Normalize: 0
+      vector3Value:
+        type: 0
+        value: {x: 0, y: 0, z: 0}
+        variableKey: 
+        xMin: 0
+        xMax: 0
+        yMin: 0
+        yMax: 0
+        zMin: 0
+        zMax: 0
+  questCondition:
+    neededQuestTypes: 0
+    questTypeStatus: []
+    neededQuests: 0
+    questStatus: []
+    neededTasks: 0
+    taskStatus: []
+  startType: 1
+  inBlockedControl: 0
+  customType: 
+  autoStartAfter: 0
+  allowClick: 1
+  overrideClickDistance: 0
+  maxClickDistance: 3
+  useMoveToInteraction: 1
+  destinationObject: {fileID: 0}
+  overrideInteractionRadius: 0
+  interactionRadius: 1
+  overrideStopDistance: 0
+  stopDistance: 1
+  overrideMoveToSpeed: 0
+  moveToSpeed:
+    type: 1
+    speed: 5
+  keyToPress: 0
+  keyPressInTrigger: 0
+  keyPressWhileColliding: 0
+  dropType: 0
+  dropItem:
+    type: 0
+    id: 0
+    level: 1
+    quantity: 1
+    chance: 100
+  dropAbility:
+    abilityID: 0
+    level: 1
+  consumeDrop: 0
+  startByCollider: 1
+  startByTrigger: 1
+  startByRootObject: 0
+  useOtherObject: 0
+  startObjectCheck:
+    checkName: 0
+    isTag: 0
+    name: 
+    components: []
+  horizontalPlane: 0
+  useFront: 1
+  useBack: 1
+  useLeft: 1
+  useRight: 1
+  eventAsset: {fileID: 11400000, guid: de10dc9b7e2c444eab09d471c54ae536, type: 2}
+  interactionType: 2
+  repeatExecution: 0
+  deactivateAfter: 1
+  turnToEvent: 0
+  turnToPlayer: 0
+  stopOnDestroy: 0
+  actor:
+  - {fileID: 0}
+  - {fileID: 0}
+  waypoint:
+  - {fileID: 0}
+  - {fileID: 0}
+  prefab: []
+  audioClip: []
+  timeBefore: 0
+  timeAfter: 0
+--- !u!4 &353604066
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353604064}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.5, y: 0.5, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &401990706
 GameObject:
   m_ObjectHideFlags: 0
@@ -2105,6 +2351,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1710672962}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1003322312
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1003322313}
+  m_Layer: 0
+  m_Name: CamPos2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1003322313
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1003322312}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.5, y: 0.5, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1086609581
 GameObject:
