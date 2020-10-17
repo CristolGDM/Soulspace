@@ -63,7 +63,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2992b15bf027945989e9c9207da81ef9, type: 2}
   phaseChangeEventAsset: []
   variablesDefined: []
-  variablesEditor: []
+  variablesEditor:
+  - tokenDropped
   variablesEvent:
   - quest01
   - finished

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: ORKProject
   m_EditorClassIdentifier: 
-  time: 10/17/2020 4:18:02 PM
+  time: 10/17/2020 7:39:51 PM
   version: 2.28.1
   keys:
   - editorSettings
@@ -5471,7 +5471,7 @@ MonoBehaviour:
       isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</chanceValue>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</aiBehaviour>\n\t\t\t\t\t<aiBehaviourSlot>\n\t\t\t\t\t</aiBehaviourSlot>\n\t\t\t\t\t<aiRulesetSlot>\n\t\t\t\t\t</aiRulesetSlot>\n\t\t\t\t\t<defaultShortcut>\n\t\t\t\t\t</defaultShortcut>\n\t\t\t\t\t<autoAddShortcuts>\n\t\t\t\t\t</autoAddShortcuts>\n\t\t\t\t\t<autoArrangeShortcuts>\n\t\t\t\t\t</autoArrangeShortcuts>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Fire
       Centipede]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</1>\n\t\t\t<2
       typeID=\"1\" startLevel=\"1\" startClassID=\"0\" startClassLevel=\"1\" statusDevelopmentID=\"0\"
-      lootOrigin=\"0\" menuID=\"0\" turnBasedMenuID=\"0\" activeTimeMenuID=\"0\"
+      lootOrigin=\"1\" menuID=\"0\" turnBasedMenuID=\"0\" activeTimeMenuID=\"0\"
       realTimeMenuID=\"0\" phaseMenuID=\"0\" logTextID=\"0\" logID=\"0\" deathVarOrigin=\"0\"
       aggressionType=\"0\" shortcutListCount=\"1\" animationSystem=\"1\" animationID=\"0\"
       animationBattleID=\"0\" moveID=\"0\" battleMoveID=\"0\" >\n\t\t\t\t<_float
@@ -5505,7 +5505,7 @@ MonoBehaviour:
       useMoveAI=\"False\" useBattleMoveAI=\"False\" />\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<controlMap
       />\n\t\t\t\t\t<startValue 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       2 16 0 4 0 1 4 0 1 0 106 />\n\t\t\t\t\t<defenceAttributeID 7 2 />\n\t\t\t\t\t<actionCombo
-      />\n\t\t\t\t\t<money 6 />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<animationCustomName><![CDATA[]]></animationCustomName>\n\t\t\t\t</_string>\n\t\t\t\t<buyPriceValue
+      />\n\t\t\t\t\t<money 6 />\n\t\t\t\t\t<lootID 0 1 />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<animationCustomName><![CDATA[]]></animationCustomName>\n\t\t\t\t</_string>\n\t\t\t\t<buyPriceValue
       type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t<_float initialValue=\"0\"
       offset=\"0\" value=\"50\" value2=\"0\" />\n\t\t\t\t\t<_bool isInt=\"False\"
       isUTC=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t</buyPriceValue>\n\t\t\t\t<prefab>\n\t\t\t\t\t<_float
@@ -5711,7 +5711,44 @@ MonoBehaviour:
     encrypted: 0
   - name: loot
     xmlData: "<loot>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0>\n\t\t\t\t<_bool useFirstFoundTable=\"True\"
-      />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Default Loot]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<table>\n\t\t\t\t\t</table>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</loot>\n"
+      />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Standard]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<table>\n\t\t\t\t\t\t<0
+      minLevel=\"1\" maxLevel=\"99\" varConOrigin=\"0\" varSetOrigin=\"0\" >\n\t\t\t\t\t\t\t<_bool
+      isClassLevel=\"False\" useVarCon=\"False\" useVarSet=\"False\" varSetOnlyOnDrop=\"False\"
+      getRandom=\"False\" />\n\t\t\t\t\t\t\t<_intarrays>\n\t\t\t\t\t\t\t\t<money
+      50 />\n\t\t\t\t\t\t\t</_intarrays>\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<itemDrop>\n\t\t\t\t\t\t\t\t\t<0
+      type=\"0\" id=\"0\" level=\"1\" >\n\t\t\t\t\t\t\t\t\t\t<quantityValue type=\"0\"
+      id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"1\" value2=\"0\" />\n\t\t\t\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t</quantityValue>\n\t\t\t\t\t\t\t\t\t\t<chanceValue
+      type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"75\" value2=\"0\" />\n\t\t\t\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t</chanceValue>\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t<1
+      type=\"0\" id=\"3\" level=\"1\" >\n\t\t\t\t\t\t\t\t\t\t<quantityValue type=\"0\"
+      id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"1\" value2=\"0\" />\n\t\t\t\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t</quantityValue>\n\t\t\t\t\t\t\t\t\t\t<chanceValue
+      type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"25\" value2=\"0\" />\n\t\t\t\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t</chanceValue>\n\t\t\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t\t\t</itemDrop>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</table>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t\t<1>\n\t\t\t\t<_bool
+      useFirstFoundTable=\"True\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Special]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<table>\n\t\t\t\t\t\t<0
+      minLevel=\"1\" maxLevel=\"99\" varConOrigin=\"0\" varSetOrigin=\"0\" >\n\t\t\t\t\t\t\t<_bool
+      isClassLevel=\"False\" useVarCon=\"True\" useVarSet=\"True\" varSetOnlyOnDrop=\"True\"
+      getRandom=\"False\" />\n\t\t\t\t\t\t\t<_intarrays>\n\t\t\t\t\t\t\t\t<money
+      0 />\n\t\t\t\t\t\t\t</_intarrays>\n\t\t\t\t\t\t\t<variableCondition needed=\"0\"
+      >\n\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t\t\t\t<0
+      conditionType=\"0\" templateID=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t<key type=\"0\"
+      >\n\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<value><![CDATA[tokenDropped]]></value>\n\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t</key>\n\t\t\t\t\t\t\t\t\t\t\t<variable
+      type=\"1\" >\n\t\t\t\t\t\t\t\t\t\t\t\t<_bool isValid=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t</variable>\n\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</variableCondition>\n\t\t\t\t\t\t\t<variableSetter>\n\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t\t\t\t<0
+      type=\"1\" floatOperator=\"7\" vector3Operator=\"2\" >\n\t\t\t\t\t\t\t\t\t\t\t<_bool
+      remove=\"False\" boolValue=\"True\" vector3Normalize=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t<key
+      type=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<value><![CDATA[tokenDropped]]></value>\n\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t</key>\n\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</variableSetter>\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<itemDrop>\n\t\t\t\t\t\t\t\t\t<0
+      type=\"2\" id=\"2\" level=\"1\" >\n\t\t\t\t\t\t\t\t\t\t<quantityValue type=\"0\"
+      id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"1\" value2=\"0\" />\n\t\t\t\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t</quantityValue>\n\t\t\t\t\t\t\t\t\t\t<chanceValue
+      type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"5\" value2=\"0\" />\n\t\t\t\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t</chanceValue>\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</itemDrop>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</table>\n\t\t\t\t</_subarrays>\n\t\t\t</1>\n\t\t</data>\n\t</_subarrays>\n</loot>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -9282,7 +9319,7 @@ MonoBehaviour:
       />\n\t\t\t\t\t\t\t\t</pageKeys>\n\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t<page>\n\t\t\t\t\t\t\t\t\t\t<0
       hudID=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t<_float updateInterval=\"1\" />\n\t\t\t\t\t\t\t\t\t\t\t<_bool
       useTitle=\"False\" autoUpdate=\"False\" updateByInventory=\"False\" updateByVariables=\"False\"
-      useHUD=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t<informationElement>\n\t\t\t\t\t\t\t\t\t\t\t\t</informationElement>\n\t\t\t\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t</page>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</infoDisplay>\n\t\t\t\t\t\t</2>\n\t\t\t\t\t</part>\n\t\t\t\t</_subarrays>\n\t\t\t</6>\n\t\t</data>\n\t</_subarrays>\n</menuScreens>\n"
+      useHUD=\"False\" />\n\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t</page>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</infoDisplay>\n\t\t\t\t\t\t</2>\n\t\t\t\t\t</part>\n\t\t\t\t</_subarrays>\n\t\t\t</6>\n\t\t</data>\n\t</_subarrays>\n</menuScreens>\n"
     lookUp:
       textures: []
       audioClips: []
