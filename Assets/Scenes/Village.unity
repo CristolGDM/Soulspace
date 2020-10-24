@@ -980,7 +980,151 @@ MonoBehaviour:
   checkObjectVariables: 0
   variableCondition:
     needed: 0
-    gameVariable: []
+    gameVariable:
+    - conditionType: 0
+      key:
+        type: 0
+        value: oldManJoined
+      variable:
+        isValid: 0
+        type: 1
+        stringValue:
+          type: 0
+          value: 
+        serialize_check:
+          name: 
+          xmlData: 
+          lookUp:
+            textures: []
+            audioClips: []
+            gameObjects: []
+            guiSkins: []
+            materials: []
+            fonts: []
+            eventAssets: []
+            generalAssets: []
+          encrypted: 0
+        vector3Value:
+          type: 0
+          value: {x: 0, y: 0, z: 0}
+          variableKey: 
+          xMin: 0
+          xMax: 0
+          yMin: 0
+          yMax: 0
+          zMin: 0
+          zMax: 0
+        floatCheck: 7
+        floatValue:
+          type: 0
+          name: 
+          isInt: 0
+          id: 0
+          initialValue: 0
+          offset: 0
+          isUTC: 0
+          value: 0
+          value2: 0
+          rounding: 0
+        floatValue2:
+          type: 0
+          name: 
+          isInt: 0
+          id: 0
+          initialValue: 0
+          offset: 0
+          isUTC: 0
+          value: 0
+          value2: 0
+          rounding: 0
+        vector3Check: 7
+        vector3Distance:
+          type: 0
+          name: 
+          isInt: 0
+          id: 0
+          initialValue: 0
+          offset: 0
+          isUTC: 0
+          value: 0
+          value2: 0
+          rounding: 0
+        vector3Distance2:
+          type: 0
+          name: 
+          isInt: 0
+          id: 0
+          initialValue: 0
+          offset: 0
+          isUTC: 0
+          value: 0
+          value2: 0
+          rounding: 0
+      condition:
+        needed: 0
+        gameVariable: []
+      templateID: 0
+      isValid: 1
+      type: 4
+      stringValue:
+        type: 0
+        value: 
+      floatCheck: 0
+      floatValue:
+        type: 0
+        name: 
+        isInt: 0
+        id: 0
+        initialValue: 0
+        offset: 0
+        isUTC: 0
+        value: 0
+        value2: 0
+        rounding: 0
+      floatValue2:
+        type: 0
+        name: 
+        isInt: 0
+        id: 0
+        initialValue: 0
+        offset: 0
+        isUTC: 0
+        value: 0
+        value2: 0
+        rounding: 0
+      vector3Check: 1
+      vector3Distance:
+        type: 0
+        name: 
+        isInt: 0
+        id: 0
+        initialValue: 0
+        offset: 0
+        isUTC: 0
+        value: 0
+        value2: 0
+        rounding: 0
+      vector3Distance2:
+        type: 0
+        name: 
+        isInt: 0
+        id: 0
+        initialValue: 0
+        offset: 0
+        isUTC: 0
+        value: 0
+        value2: 0
+        rounding: 0
+      vector3Value:
+        type: 0
+        value: {x: 0, y: 0, z: 0}
+        variableKey: 
+        xMin: 0
+        xMax: 0
+        yMin: 0
+        yMax: 0
+        zMin: 0
+        zMax: 0
   setObjectVariables: 0
   variableSetter:
     gameVariable: []
