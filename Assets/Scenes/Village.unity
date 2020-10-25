@@ -2501,7 +2501,7 @@ MonoBehaviour:
   useRight: 1
   shopSceneID: 808d7f8b-ed8a-4e44-a555-ca29119f25c0
   shopID: 0
-  turnToEvent: 1
+  turnToEvent: 0
   turnToPlayer: 0
   useFaction: 0
   factionID: 0
