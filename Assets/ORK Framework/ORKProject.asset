@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: ORKProject
   m_EditorClassIdentifier: 
-  time: 10/25/2020 1:29:14 PM
+  time: 10/26/2020 8:55:18 PM
   version: 2.28.1
   keys:
   - editorSettings
@@ -2813,7 +2813,7 @@ MonoBehaviour:
       maxValue=\"2147483647\" combinedFormulaID=\"1\" maxStatusID=\"0\" deathOn=\"0\"
       startValue=\"100\" startSetIn=\"0\" expType=\"0\" expNoneMaxType=\"0\" countInterpolate=\"0\"
       >\n\t\t\t\t<_float initialValueCombined=\"0\" countTime=\"0.5\" countDelay=\"0\"
-      />\n\t\t\t\t<_bool hidden=\"False\" useOtherMinMax=\"False\" combined=\"True\"
+      />\n\t\t\t\t<_bool hidden=\"False\" useOtherMinMax=\"False\" combined=\"False\"
       noRegeneration=\"False\" animateDamage=\"True\" expEarnOnLevelUp=\"False\"
       expNoneClassDev=\"False\" expFromMinimum=\"False\" initExpToLevel=\"True\"
       useLevelDifference=\"False\" lvlDiffClass=\"False\" countToValue=\"False\"
@@ -4696,7 +4696,127 @@ MonoBehaviour:
       variableSave=\"True\" variableUseWhenLoading=\"True\" useVariableDescription=\"False\"
       useUpdateVariables=\"False\" />\n\t\t\t\t\t<variableChanges>\n\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t</variableChanges>\n\t\t\t\t</variableSettings>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<items>\n\t\t\t\t\t</items>\n\t\t\t\t\t<equipmentPartChange>\n\t\t\t\t\t</equipmentPartChange>\n\t\t\t\t\t<targetChange>\n\t\t\t\t\t</targetChange>\n\t\t\t\t\t<portrait>\n\t\t\t\t\t</portrait>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Dictionary
       of the Old Tongue]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[Allow
-      you to understand the Speaker of Truth]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</5>\n\t\t</data>\n\t</_subarrays>\n</items>\n"
+      you to understand the Speaker of Truth]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</5>\n\t\t\t<6
+      itemType=\"0\" damageTypeID=\"0\" quantityLimit=\"99\" stackQuantityLimit=\"99\"
+      inventoryAddType=\"0\" useableIn=\"3\" autoConsumeType=\"0\" selectionID=\"0\"
+      itemAbility=\"0\" learnAbilityID=\"0\" useAbilityID=\"0\" actionType=\"0\"
+      abilityLevel=\"1\" recipeID=\"0\" recipeQuantity=\"1\" logTextID=\"0\" logID=\"0\"
+      reuseType=\"0\" reuseScope=\"0\" globalEventID=\"0\" timebarChangeOperator=\"0\"
+      timebarChangeRounding=\"0\" actionsPerTurnChangeOperator=\"0\" actionsPerTurnChangeRounding=\"0\"
+      >\n\t\t\t\t<_float sympathyChange=\"0\" inventorySpace=\"1\" randomBattleFactor=\"0\"
+      randomBattleFactorTime=\"60\" />\n\t\t\t\t<_bool ownDamageType=\"False\" hidden=\"False\"
+      dropable=\"False\" stealable=\"False\" inventorySpacePerStack=\"False\" ownLimitQuantity=\"False\"
+      limitQuantity=\"False\" ownStackLimitQuantity=\"False\" limitStackQuantity=\"False\"
+      overrideInventoryAddType=\"False\" consume=\"True\" allowDeadUser=\"False\"
+      consumeShowNotification=\"True\" consumeShowConsole=\"True\" revive=\"False\"
+      scanTarget=\"False\" scanIgnoreNotScanable=\"False\" scanIgnoreNoEntry=\"False\"
+      ownSelection=\"False\" useScreenCombatant=\"False\" isGroupAbility=\"False\"
+      abilityShowNotification=\"True\" abilityShowConsole=\"True\" addItems=\"False\"
+      addRandomItem=\"False\" itemsShowNotification=\"True\" itemsShowConsole=\"True\"
+      learnRecipe=\"False\" recipeShowNotification=\"True\" recipeShowConsole=\"True\"
+      learnLog=\"False\" completeLog=\"False\" logShowConsole=\"True\" ownTurnActionCost=\"False\"
+      ownPhaseActionCost=\"False\" ownCastTime=\"False\" ownDelay=\"False\" useDelay=\"False\"
+      callGlobalEvent=\"False\" changeClass=\"False\" setRandomBattleFactor=\"False\"
+      changeTimebar=\"False\" changeActionsPerTurn=\"False\" changeUsedActionsPerTurn=\"False\"
+      useRequirements=\"False\" ownBattleInfoText=\"False\" ownNotifications=\"False\"
+      ownConsoleAddAction=\"False\" ownConsoleAction=\"False\" ownConsoleCast=\"False\"
+      ownConsoleCastCancel=\"False\" ownConsoleAdd=\"False\" ownConsoleRemove=\"False\"
+      />\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<activationTags>\n\t\t\t\t\t</activationTags>\n\t\t\t\t</_stringarrays>\n\t\t\t\t<initGameEvent>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<settings>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</settings>\n\t\t\t\t</initGameEvent>\n\t\t\t\t<prefabSettings>\n\t\t\t\t\t<prefab>\n\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t<spawnOffset
+      0 0 0 />\n\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t<prefab>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t</prefab>\n\t\t\t\t\t</prefab>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<conditionalPrefab>\n\t\t\t\t\t\t</conditionalPrefab>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</prefabSettings>\n\t\t\t\t<price
+      sellSetter=\"0\" rounding=\"3\" >\n\t\t\t\t\t<_bool sellable=\"True\" />\n\t\t\t\t\t<buyPriceValue
+      type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"100\" value2=\"0\" />\n\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</buyPriceValue>\n\t\t\t\t\t<sellPriceValue
+      type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"50\" value2=\"0\" />\n\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</sellPriceValue>\n\t\t\t\t</price>\n\t\t\t\t<variables>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</variables>\n\t\t\t\t<classChange
+      classID=\"0\" >\n\t\t\t\t\t<_bool unequipAll=\"True\" forget=\"False\" learn=\"False\"
+      reset=\"False\" rem=\"False\" add=\"False\" resetAtkAttrStart=\"False\" resetDefAttrStart=\"False\"
+      />\n\t\t\t\t</classChange>\n\t\t\t\t<turnBasedOrderChanges changeRounding=\"0\"
+      >\n\t\t\t\t\t<_bool removeTurnOrder=\"False\" changeOrder=\"False\" />\n\t\t\t\t</turnBasedOrderChanges>\n\t\t\t\t<battleAnimation>\n\t\t\t\t\t<_bool
+      animate=\"False\" />\n\t\t\t\t</battleAnimation>\n\t\t\t\t<ddActivation soundTypeID=\"0\"
+      >\n\t\t\t\t\t<_float stopAfter=\"1\" after=\"0\" />\n\t\t\t\t\t<_bool addAudio=\"False\"
+      useSoundType=\"False\" targetSound=\"False\" addPrefab=\"False\" mountPrefab=\"False\"
+      stopParticles=\"False\" />\n\t\t\t\t\t<battleAnimation>\n\t\t\t\t\t\t<_bool
+      animate=\"False\" />\n\t\t\t\t\t</battleAnimation>\n\t\t\t\t</ddActivation>\n\t\t\t\t<targetSettings
+      targetType=\"2\" targetRange=\"1\" isDead=\"1\" >\n\t\t\t\t\t<_bool targetRangeToggle=\"False\"
+      notSelf=\"False\" noneSelectGridCell=\"False\" />\n\t\t\t\t\t<useRange>\n\t\t\t\t\t\t<_bool
+      ownUseRange=\"False\" />\n\t\t\t\t\t</useRange>\n\t\t\t\t\t<affectRange type=\"0\"
+      >\n\t\t\t\t\t\t<_bool fromUser=\"False\" />\n\t\t\t\t\t</affectRange>\n\t\t\t\t\t<requirement>\n\t\t\t\t\t\t<_bool
+      useRequirements=\"False\" />\n\t\t\t\t\t</requirement>\n\t\t\t\t\t<orientation
+      horizontalPlane=\"0\" >\n\t\t\t\t\t\t<_bool checkUserOrientation=\"False\"
+      userFront=\"False\" userBack=\"False\" userLeft=\"False\" userRight=\"False\"
+      checkTargetOrientation=\"False\" targetFront=\"False\" targetBack=\"False\"
+      targetLeft=\"False\" targetRight=\"False\" />\n\t\t\t\t\t</orientation>\n\t\t\t\t\t<autoTarget>\n\t\t\t\t\t\t<_bool
+      useAutoTarget=\"False\" />\n\t\t\t\t\t</autoTarget>\n\t\t\t\t</targetSettings>\n\t\t\t\t<userChange>\n\t\t\t\t\t<_bool
+      cancelCasts=\"False\" blockable=\"False\" useAttackEffects=\"False\" useDefenceEffects=\"False\"
+      />\n\t\t\t\t\t<gameEvent>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</settings>\n\t\t\t\t\t</gameEvent>\n\t\t\t\t\t<audioSetting
+      soundTypeID=\"0\" >\n\t\t\t\t\t\t<_float volume=\"1\" />\n\t\t\t\t\t\t<_bool
+      useSoundType=\"False\" />\n\t\t\t\t\t\t<audioClip>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t</audioClip>\n\t\t\t\t\t</audioSetting>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<consume>\n\t\t\t\t\t\t</consume>\n\t\t\t\t\t\t<effect>\n\t\t\t\t\t\t</effect>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</userChange>\n\t\t\t\t<variableSettings>\n\t\t\t\t\t<_bool
+      variableSave=\"True\" variableUseWhenLoading=\"True\" useVariableDescription=\"False\"
+      useUpdateVariables=\"False\" />\n\t\t\t\t\t<variableChanges>\n\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t</variableChanges>\n\t\t\t\t</variableSettings>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<items>\n\t\t\t\t\t</items>\n\t\t\t\t\t<equipmentPartChange>\n\t\t\t\t\t</equipmentPartChange>\n\t\t\t\t\t<targetChange>\n\t\t\t\t\t</targetChange>\n\t\t\t\t\t<portrait>\n\t\t\t\t\t</portrait>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Weapon
+      DMG +5]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[Increase
+      weapon DMG by +5]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</6>\n\t\t\t<7
+      itemType=\"0\" damageTypeID=\"0\" quantityLimit=\"99\" stackQuantityLimit=\"99\"
+      inventoryAddType=\"0\" useableIn=\"3\" autoConsumeType=\"0\" selectionID=\"0\"
+      itemAbility=\"0\" learnAbilityID=\"0\" useAbilityID=\"0\" actionType=\"0\"
+      abilityLevel=\"1\" recipeID=\"0\" recipeQuantity=\"1\" logTextID=\"0\" logID=\"0\"
+      reuseType=\"0\" reuseScope=\"0\" globalEventID=\"0\" timebarChangeOperator=\"0\"
+      timebarChangeRounding=\"0\" actionsPerTurnChangeOperator=\"0\" actionsPerTurnChangeRounding=\"0\"
+      >\n\t\t\t\t<_float sympathyChange=\"0\" inventorySpace=\"1\" randomBattleFactor=\"0\"
+      randomBattleFactorTime=\"60\" />\n\t\t\t\t<_bool ownDamageType=\"False\" hidden=\"False\"
+      dropable=\"False\" stealable=\"False\" inventorySpacePerStack=\"False\" ownLimitQuantity=\"False\"
+      limitQuantity=\"False\" ownStackLimitQuantity=\"False\" limitStackQuantity=\"False\"
+      overrideInventoryAddType=\"False\" consume=\"True\" allowDeadUser=\"False\"
+      consumeShowNotification=\"True\" consumeShowConsole=\"True\" revive=\"False\"
+      scanTarget=\"False\" scanIgnoreNotScanable=\"False\" scanIgnoreNoEntry=\"False\"
+      ownSelection=\"False\" useScreenCombatant=\"False\" isGroupAbility=\"False\"
+      abilityShowNotification=\"True\" abilityShowConsole=\"True\" addItems=\"False\"
+      addRandomItem=\"False\" itemsShowNotification=\"True\" itemsShowConsole=\"True\"
+      learnRecipe=\"False\" recipeShowNotification=\"True\" recipeShowConsole=\"True\"
+      learnLog=\"False\" completeLog=\"False\" logShowConsole=\"True\" ownTurnActionCost=\"False\"
+      ownPhaseActionCost=\"False\" ownCastTime=\"False\" ownDelay=\"False\" useDelay=\"False\"
+      callGlobalEvent=\"False\" changeClass=\"False\" setRandomBattleFactor=\"False\"
+      changeTimebar=\"False\" changeActionsPerTurn=\"False\" changeUsedActionsPerTurn=\"False\"
+      useRequirements=\"False\" ownBattleInfoText=\"False\" ownNotifications=\"False\"
+      ownConsoleAddAction=\"False\" ownConsoleAction=\"False\" ownConsoleCast=\"False\"
+      ownConsoleCastCancel=\"False\" ownConsoleAdd=\"False\" ownConsoleRemove=\"False\"
+      />\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<activationTags>\n\t\t\t\t\t</activationTags>\n\t\t\t\t</_stringarrays>\n\t\t\t\t<initGameEvent>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<settings>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</settings>\n\t\t\t\t</initGameEvent>\n\t\t\t\t<prefabSettings>\n\t\t\t\t\t<prefab>\n\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t<spawnOffset
+      0 0 0 />\n\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t<prefab>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t</prefab>\n\t\t\t\t\t</prefab>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<conditionalPrefab>\n\t\t\t\t\t\t</conditionalPrefab>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</prefabSettings>\n\t\t\t\t<price
+      sellSetter=\"0\" rounding=\"3\" >\n\t\t\t\t\t<_bool sellable=\"True\" />\n\t\t\t\t\t<buyPriceValue
+      type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"250\" value2=\"0\" />\n\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</buyPriceValue>\n\t\t\t\t\t<sellPriceValue
+      type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"50\" value2=\"0\" />\n\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</sellPriceValue>\n\t\t\t\t</price>\n\t\t\t\t<variables>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</variables>\n\t\t\t\t<classChange
+      classID=\"0\" >\n\t\t\t\t\t<_bool unequipAll=\"True\" forget=\"False\" learn=\"False\"
+      reset=\"False\" rem=\"False\" add=\"False\" resetAtkAttrStart=\"False\" resetDefAttrStart=\"False\"
+      />\n\t\t\t\t</classChange>\n\t\t\t\t<turnBasedOrderChanges changeRounding=\"0\"
+      >\n\t\t\t\t\t<_bool removeTurnOrder=\"False\" changeOrder=\"False\" />\n\t\t\t\t</turnBasedOrderChanges>\n\t\t\t\t<battleAnimation>\n\t\t\t\t\t<_bool
+      animate=\"False\" />\n\t\t\t\t</battleAnimation>\n\t\t\t\t<ddActivation soundTypeID=\"0\"
+      >\n\t\t\t\t\t<_float stopAfter=\"1\" after=\"0\" />\n\t\t\t\t\t<_bool addAudio=\"False\"
+      useSoundType=\"False\" targetSound=\"False\" addPrefab=\"False\" mountPrefab=\"False\"
+      stopParticles=\"False\" />\n\t\t\t\t\t<battleAnimation>\n\t\t\t\t\t\t<_bool
+      animate=\"False\" />\n\t\t\t\t\t</battleAnimation>\n\t\t\t\t</ddActivation>\n\t\t\t\t<targetSettings
+      targetType=\"2\" targetRange=\"1\" isDead=\"1\" >\n\t\t\t\t\t<_bool targetRangeToggle=\"False\"
+      notSelf=\"False\" noneSelectGridCell=\"False\" />\n\t\t\t\t\t<useRange>\n\t\t\t\t\t\t<_bool
+      ownUseRange=\"False\" />\n\t\t\t\t\t</useRange>\n\t\t\t\t\t<affectRange type=\"0\"
+      >\n\t\t\t\t\t\t<_bool fromUser=\"False\" />\n\t\t\t\t\t</affectRange>\n\t\t\t\t\t<requirement>\n\t\t\t\t\t\t<_bool
+      useRequirements=\"False\" />\n\t\t\t\t\t</requirement>\n\t\t\t\t\t<orientation
+      horizontalPlane=\"0\" >\n\t\t\t\t\t\t<_bool checkUserOrientation=\"False\"
+      userFront=\"False\" userBack=\"False\" userLeft=\"False\" userRight=\"False\"
+      checkTargetOrientation=\"False\" targetFront=\"False\" targetBack=\"False\"
+      targetLeft=\"False\" targetRight=\"False\" />\n\t\t\t\t\t</orientation>\n\t\t\t\t\t<autoTarget>\n\t\t\t\t\t\t<_bool
+      useAutoTarget=\"False\" />\n\t\t\t\t\t</autoTarget>\n\t\t\t\t</targetSettings>\n\t\t\t\t<userChange>\n\t\t\t\t\t<_bool
+      cancelCasts=\"False\" blockable=\"False\" useAttackEffects=\"False\" useDefenceEffects=\"False\"
+      />\n\t\t\t\t\t<gameEvent>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</settings>\n\t\t\t\t\t</gameEvent>\n\t\t\t\t\t<audioSetting
+      soundTypeID=\"0\" >\n\t\t\t\t\t\t<_float volume=\"1\" />\n\t\t\t\t\t\t<_bool
+      useSoundType=\"False\" />\n\t\t\t\t\t\t<audioClip>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t</audioClip>\n\t\t\t\t\t</audioSetting>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<consume>\n\t\t\t\t\t\t</consume>\n\t\t\t\t\t\t<effect>\n\t\t\t\t\t\t</effect>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</userChange>\n\t\t\t\t<variableSettings>\n\t\t\t\t\t<_bool
+      variableSave=\"True\" variableUseWhenLoading=\"True\" useVariableDescription=\"False\"
+      useUpdateVariables=\"False\" />\n\t\t\t\t\t<variableChanges>\n\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t<gameVariable>\n\t\t\t\t\t\t\t</gameVariable>\n\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t</variableChanges>\n\t\t\t\t</variableSettings>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<items>\n\t\t\t\t\t</items>\n\t\t\t\t\t<equipmentPartChange>\n\t\t\t\t\t</equipmentPartChange>\n\t\t\t\t\t<targetChange>\n\t\t\t\t\t</targetChange>\n\t\t\t\t\t<portrait>\n\t\t\t\t\t</portrait>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Weapon
+      DMG +10]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[Increase
+      weapon DMG by +10]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</7>\n\t\t</data>\n\t</_subarrays>\n</items>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -5678,7 +5798,7 @@ MonoBehaviour:
       useMoveAI=\"False\" useBattleMoveAI=\"False\" />\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<controlMap
       />\n\t\t\t\t\t<startValue 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
       2 16 0 4 0 1 4 0 1 0 106 />\n\t\t\t\t\t<defenceAttributeID 7 2 />\n\t\t\t\t\t<actionCombo
-      />\n\t\t\t\t\t<money 6 />\n\t\t\t\t\t<lootID 0 1 />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<animationCustomName><![CDATA[]]></animationCustomName>\n\t\t\t\t</_string>\n\t\t\t\t<buyPriceValue
+      />\n\t\t\t\t\t<money 2000 />\n\t\t\t\t\t<lootID 0 1 />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<animationCustomName><![CDATA[]]></animationCustomName>\n\t\t\t\t</_string>\n\t\t\t\t<buyPriceValue
       type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t<_float initialValue=\"0\"
       offset=\"0\" value=\"50\" value2=\"0\" />\n\t\t\t\t\t<_bool isInt=\"False\"
       isUTC=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t</buyPriceValue>\n\t\t\t\t<prefab>\n\t\t\t\t\t<_float
@@ -5963,7 +6083,7 @@ MonoBehaviour:
       minLevel=\"1\" maxLevel=\"99\" varConOrigin=\"0\" varSetOrigin=\"0\" >\n\t\t\t\t\t\t\t<_bool
       isClassLevel=\"False\" useVarCon=\"False\" useVarSet=\"False\" varSetOnlyOnDrop=\"False\"
       getRandom=\"False\" />\n\t\t\t\t\t\t\t<_intarrays>\n\t\t\t\t\t\t\t\t<money
-      50 />\n\t\t\t\t\t\t\t</_intarrays>\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<itemDrop>\n\t\t\t\t\t\t\t\t\t<0
+      3000 />\n\t\t\t\t\t\t\t</_intarrays>\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<itemDrop>\n\t\t\t\t\t\t\t\t\t<0
       type=\"0\" id=\"0\" level=\"1\" >\n\t\t\t\t\t\t\t\t\t\t<quantityValue type=\"0\"
       id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
       offset=\"0\" value=\"1\" value2=\"0\" />\n\t\t\t\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
@@ -6697,32 +6817,67 @@ MonoBehaviour:
       />\n\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t<startColor 0 0 0 1 />\n\t\t\t\t\t\t\t<endColor
       0 0 0 0 />\n\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t</fade>\n\t\t\t\t</closeBoxBehaviour>\n\t\t\t\t<buttons>\n\t\t\t\t\t<_float
       inactiveAlpha=\"0.5\" />\n\t\t\t\t\t<_bool useOk=\"False\" useCancel=\"False\"
-      />\n\t\t\t\t</buttons>\n\t\t\t</0>\n\t\t\t<1 layerID=\"1\" heightAdjustment=\"0\"
-      boxAnchor=\"6\" contentVerticalAlignment=\"0\" alignment=\"0\" vAlignment=\"2\"
-      textColumns=\"1\" typingIncrease=\"1\" nameAnchor=\"6\" nameRelativeTo=\"0\"
-      nameVerticalAlignment=\"0\" alignmentName=\"0\" vAlignmentName=\"2\" choiceMode=\"0\"
-      choiceColumns=\"1\" columnFill=\"0\" circleChoiceAnchor=\"4\" choiceTitleVerticalAlignment=\"0\"
-      alignmentTitle=\"0\" vAlignmentTitle=\"2\" tabsPosition=\"0\" tabsArrowPosition=\"0\"
-      >\n\t\t\t\t<_float scrollPadding=\"5\" scrollSpeed=\"3\" lineSpacing=\"10\"
-      textColumnSpacing=\"10\" typingInterval=\"0\" typingAudioInterval=\"0.5\" typingVolume=\"1\"
-      inputFieldSpacing=\"10\" nameLineSpacing=\"10\" choiceOffsetToText=\"10\" circleRadius=\"100\"
-      circleDegree=\"360\" circleFirstOffset=\"0\" circleFixedOffset=\"30\" choiceInactiveAlpha=\"0.5\"
-      choiceTitlePadding=\"10\" choiceTitleWidth=\"200\" selectedChoiceOffset=\"0\"
-      choiceWidth=\"300\" choiceOffsetX=\"0\" choiceHeight=\"100\" tabsSpacing=\"0\"
-      tabsInactiveAlpha=\"0.5\" tabsWidth=\"200\" />\n\t\t\t\t<_bool cursorOver=\"True\"
-      resetUnityInput=\"True\" ownScrollSpeed=\"False\" useAutoMinHeight=\"False\"
-      oneline=\"False\" limitToScreen=\"False\" dragable=\"False\" atCursor=\"False\"
-      followCursor=\"False\" followAtClose=\"False\" showBox=\"True\" useTextTyping=\"False\"
-      typingHidesOkCancel=\"False\" alignInputFields=\"True\" nameRelative=\"True\"
-      showNameBox=\"True\" nameAdjWidth=\"True\" nameAdjHeight=\"True\" choiceNoClickAccept=\"False\"
-      circleUseFixedOffset=\"False\" circleInverse=\"False\" circleRotateSelection=\"False\"
-      circleInterpolate=\"False\" circleRadialSelection=\"False\" choiceSetTitleWidth=\"False\"
-      loop=\"False\" selectFirst=\"False\" dragOnlySelected=\"False\" unfocusedChoice=\"False\"
-      unfocusedChoiceHighlight=\"True\" choiceBlockMouseOver=\"False\" choiceDefineWidth=\"False\"
-      choiceDefineHeight=\"False\" cAdjustHeight=\"False\" ownHeaders=\"False\" tabsSetWidth=\"False\"
-      tabsAdjustWidth=\"True\" ownInactive=\"False\" ownSkins=\"False\" ownAudio=\"False\"
-      ownButtons=\"True\" ownPortraitPosition=\"False\" ownChoiceIcon=\"False\" ownControls=\"False\"
-      ownIconSize=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<screenPadding
+      />\n\t\t\t\t\t<ok anchor=\"8\" >\n\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t<bounds
+      -150 -30 150 30 />\n\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t<settings contentVerticalAlignment=\"0\"
+      infoVerticalAlignment=\"0\" alignment=\"0\" vAlignment=\"2\" alignmentInfo=\"2\"
+      vAlignmentInfo=\"2\" infoPosition=\"1\" infoWidthType=\"1\" >\n\t\t\t\t\t\t\t<_float
+      lineSpacing=\"10\" infoPadding=\"5\" infoWidth=\"100\" iconPadding=\"5\" />\n\t\t\t\t\t\t\t<_bool
+      showButton=\"True\" oneline=\"False\" separateInfo=\"False\" alignIcons=\"True\"
+      ownInfoFormat=\"False\" ownTitleFormat=\"False\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<padding
+      10 10 10 10 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<textFormat colorID=\"0\"
+      shadowColorID=\"1\" outlineColorID=\"1\" fontSize=\"20\" fontStyle=\"0\" >\n\t\t\t\t\t\t\t\t<_bool
+      showShadow=\"True\" showOutline=\"False\" />\n\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t<shadowOffset
+      1 1 />\n\t\t\t\t\t\t\t\t\t<outlineOffset 1 1 />\n\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t<font>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t</font>\n\t\t\t\t\t\t\t</textFormat>\n\t\t\t\t\t\t\t<infoFormat
+      colorID=\"0\" shadowColorID=\"1\" outlineColorID=\"1\" fontSize=\"20\" fontStyle=\"0\"
+      >\n\t\t\t\t\t\t\t\t<_bool showShadow=\"True\" showOutline=\"False\" />\n\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t<shadowOffset
+      1 1 />\n\t\t\t\t\t\t\t\t\t<outlineOffset 1 1 />\n\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t<font>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t</font>\n\t\t\t\t\t\t\t</infoFormat>\n\t\t\t\t\t\t\t<titleFormat
+      colorID=\"0\" shadowColorID=\"1\" outlineColorID=\"1\" fontSize=\"20\" fontStyle=\"0\"
+      >\n\t\t\t\t\t\t\t\t<_bool showShadow=\"True\" showOutline=\"False\" />\n\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t<shadowOffset
+      1 1 />\n\t\t\t\t\t\t\t\t\t<outlineOffset 1 1 />\n\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t<font>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t</font>\n\t\t\t\t\t\t\t</titleFormat>\n\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t<content>\n\t\t\t\t\t\t\t<customSkin>\n\t\t\t\t\t\t\t\t<_bool
+      useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t\t\t</customSkin>\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<button>\n\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[Ok]]></name>\n\t\t\t\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</content>\n\t\t\t\t\t</ok>\n\t\t\t\t\t<cancel
+      anchor=\"8\" >\n\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t<bounds -300 -30
+      150 30 />\n\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t<settings contentVerticalAlignment=\"0\"
+      infoVerticalAlignment=\"0\" alignment=\"0\" vAlignment=\"2\" alignmentInfo=\"2\"
+      vAlignmentInfo=\"2\" infoPosition=\"1\" infoWidthType=\"1\" >\n\t\t\t\t\t\t\t<_float
+      lineSpacing=\"10\" infoPadding=\"5\" infoWidth=\"100\" iconPadding=\"5\" />\n\t\t\t\t\t\t\t<_bool
+      showButton=\"True\" oneline=\"False\" separateInfo=\"False\" alignIcons=\"True\"
+      ownInfoFormat=\"False\" ownTitleFormat=\"False\" />\n\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t<padding
+      10 10 10 10 />\n\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t<textFormat colorID=\"0\"
+      shadowColorID=\"1\" outlineColorID=\"1\" fontSize=\"20\" fontStyle=\"0\" >\n\t\t\t\t\t\t\t\t<_bool
+      showShadow=\"True\" showOutline=\"False\" />\n\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t<shadowOffset
+      1 1 />\n\t\t\t\t\t\t\t\t\t<outlineOffset 1 1 />\n\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t<font>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t</font>\n\t\t\t\t\t\t\t</textFormat>\n\t\t\t\t\t\t\t<infoFormat
+      colorID=\"0\" shadowColorID=\"1\" outlineColorID=\"1\" fontSize=\"20\" fontStyle=\"0\"
+      >\n\t\t\t\t\t\t\t\t<_bool showShadow=\"True\" showOutline=\"False\" />\n\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t<shadowOffset
+      1 1 />\n\t\t\t\t\t\t\t\t\t<outlineOffset 1 1 />\n\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t<font>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t</font>\n\t\t\t\t\t\t\t</infoFormat>\n\t\t\t\t\t\t\t<titleFormat
+      colorID=\"0\" shadowColorID=\"1\" outlineColorID=\"1\" fontSize=\"20\" fontStyle=\"0\"
+      >\n\t\t\t\t\t\t\t\t<_bool showShadow=\"True\" showOutline=\"False\" />\n\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t<shadowOffset
+      1 1 />\n\t\t\t\t\t\t\t\t\t<outlineOffset 1 1 />\n\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t<font>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t</font>\n\t\t\t\t\t\t\t</titleFormat>\n\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t<content>\n\t\t\t\t\t\t\t<customSkin>\n\t\t\t\t\t\t\t\t<_bool
+      useCustomSkin=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t\t\t</customSkin>\n\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t<button>\n\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[Cancel]]></name>\n\t\t\t\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t</content>\n\t\t\t\t\t</cancel>\n\t\t\t\t</buttons>\n\t\t\t</0>\n\t\t\t<1
+      layerID=\"1\" heightAdjustment=\"0\" boxAnchor=\"6\" contentVerticalAlignment=\"0\"
+      alignment=\"0\" vAlignment=\"2\" textColumns=\"1\" typingIncrease=\"1\" nameAnchor=\"6\"
+      nameRelativeTo=\"0\" nameVerticalAlignment=\"0\" alignmentName=\"0\" vAlignmentName=\"2\"
+      choiceMode=\"0\" choiceColumns=\"1\" columnFill=\"0\" circleChoiceAnchor=\"4\"
+      choiceTitleVerticalAlignment=\"0\" alignmentTitle=\"0\" vAlignmentTitle=\"2\"
+      tabsPosition=\"0\" tabsArrowPosition=\"0\" >\n\t\t\t\t<_float scrollPadding=\"5\"
+      scrollSpeed=\"3\" lineSpacing=\"10\" textColumnSpacing=\"10\" typingInterval=\"0\"
+      typingAudioInterval=\"0.5\" typingVolume=\"1\" inputFieldSpacing=\"10\" nameLineSpacing=\"10\"
+      choiceOffsetToText=\"10\" circleRadius=\"100\" circleDegree=\"360\" circleFirstOffset=\"0\"
+      circleFixedOffset=\"30\" choiceInactiveAlpha=\"0.5\" choiceTitlePadding=\"10\"
+      choiceTitleWidth=\"200\" selectedChoiceOffset=\"0\" choiceWidth=\"300\" choiceOffsetX=\"0\"
+      choiceHeight=\"100\" tabsSpacing=\"0\" tabsInactiveAlpha=\"0.5\" tabsWidth=\"200\"
+      />\n\t\t\t\t<_bool cursorOver=\"True\" resetUnityInput=\"True\" ownScrollSpeed=\"False\"
+      useAutoMinHeight=\"False\" oneline=\"False\" limitToScreen=\"False\" dragable=\"False\"
+      atCursor=\"False\" followCursor=\"False\" followAtClose=\"False\" showBox=\"True\"
+      useTextTyping=\"False\" typingHidesOkCancel=\"False\" alignInputFields=\"True\"
+      nameRelative=\"True\" showNameBox=\"True\" nameAdjWidth=\"True\" nameAdjHeight=\"True\"
+      choiceNoClickAccept=\"False\" circleUseFixedOffset=\"False\" circleInverse=\"False\"
+      circleRotateSelection=\"False\" circleInterpolate=\"False\" circleRadialSelection=\"False\"
+      choiceSetTitleWidth=\"False\" loop=\"False\" selectFirst=\"False\" dragOnlySelected=\"False\"
+      unfocusedChoice=\"False\" unfocusedChoiceHighlight=\"True\" choiceBlockMouseOver=\"False\"
+      choiceDefineWidth=\"False\" choiceDefineHeight=\"False\" cAdjustHeight=\"False\"
+      ownHeaders=\"False\" tabsSetWidth=\"False\" tabsAdjustWidth=\"True\" ownInactive=\"False\"
+      ownSkins=\"False\" ownAudio=\"False\" ownButtons=\"True\" ownPortraitPosition=\"False\"
+      ownChoiceIcon=\"False\" ownControls=\"False\" ownIconSize=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<screenPadding
       0 0 0 0 />\n\t\t\t\t\t<dragBounds 0 0 1920 20 />\n\t\t\t\t\t<boxBounds 0 1080
       1920 400 />\n\t\t\t\t\t<boxPadding 40 40 40 40 />\n\t\t\t\t\t<nameBounds 0
       0 200 50 />\n\t\t\t\t\t<namePadding 40 20 40 20 />\n\t\t\t\t\t<choiceSpacing
@@ -10089,7 +10244,23 @@ MonoBehaviour:
       isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</quantityValue>\n\t\t\t\t\t\t\t<priceValue
       type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
       offset=\"0\" value=\"0\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
-      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</priceValue>\n\t\t\t\t\t\t</4>\n\t\t\t\t\t</item>\n\t\t\t\t\t<weapon>\n\t\t\t\t\t\t<0
+      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</priceValue>\n\t\t\t\t\t\t</4>\n\t\t\t\t\t\t<5
+      itemID=\"6\" >\n\t\t\t\t\t\t\t<_float chance=\"100\" />\n\t\t\t\t\t\t\t<_bool
+      limitQuantity=\"True\" overridePrice=\"False\" useVariableConditions=\"False\"
+      />\n\t\t\t\t\t\t\t<quantityValue type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float
+      initialValue=\"0\" offset=\"0\" value=\"5\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool
+      isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</quantityValue>\n\t\t\t\t\t\t\t<priceValue
+      type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"0\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</priceValue>\n\t\t\t\t\t\t</5>\n\t\t\t\t\t\t<6
+      itemID=\"7\" >\n\t\t\t\t\t\t\t<_float chance=\"100\" />\n\t\t\t\t\t\t\t<_bool
+      limitQuantity=\"True\" overridePrice=\"False\" useVariableConditions=\"False\"
+      />\n\t\t\t\t\t\t\t<quantityValue type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float
+      initialValue=\"0\" offset=\"0\" value=\"1\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool
+      isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</quantityValue>\n\t\t\t\t\t\t\t<priceValue
+      type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float initialValue=\"0\"
+      offset=\"0\" value=\"0\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</priceValue>\n\t\t\t\t\t\t</6>\n\t\t\t\t\t</item>\n\t\t\t\t\t<weapon>\n\t\t\t\t\t\t<0
       equipID=\"0\" level=\"1\" >\n\t\t\t\t\t\t\t<_float chance=\"100\" />\n\t\t\t\t\t\t\t<_bool
       limitQuantity=\"False\" overridePrice=\"False\" useVariableConditions=\"False\"
       />\n\t\t\t\t\t\t\t<quantityValue type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float
