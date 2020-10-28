@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: ORKProject
   m_EditorClassIdentifier: 
-  time: 10/26/2020 8:55:18 PM
+  time: 10/28/2020 10:33:53 PM
   version: 2.28.1
   keys:
   - editorSettings
@@ -9623,7 +9623,7 @@ MonoBehaviour:
       useKey=\"False\" onlyWhileKey=\"False\" />\n\t\t\t\t</toggleKey>\n\t\t\t\t<settings
       comScope=\"0\" groupStartOffset=\"0\" groupMaximumLength=\"3\" portraitTypeID=\"0\"
       needed=\"0\" >\n\t\t\t\t\t<_bool emptyElements=\"False\" hideEmptyHUD=\"False\"
-      noFlash=\"False\" enableDrop=\"False\" invertGroup=\"True\" onlyLeader=\"False\"
+      noFlash=\"False\" enableDrop=\"False\" invertGroup=\"False\" onlyLeader=\"False\"
       groupLimitDisplay=\"False\" curOver=\"False\" cursorOverReverse=\"False\" cursorOverUIBlocks=\"False\"
       cursorOverHUD=\"False\" cursorOverCell=\"False\" useIndividualRangeLimit=\"False\"
       invertRange=\"False\" rangeToCamera=\"False\" player=\"True\" ally=\"False\"

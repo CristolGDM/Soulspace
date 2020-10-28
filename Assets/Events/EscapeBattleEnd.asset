@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 1453291137, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: EscapeBattleEnd
   m_EditorClassIdentifier: 
-  time: 9/21/2020 11:42:32 AM
+  time: 10/28/2020 10:32:36 PM
   version: 2.28.1
   data:
     name: battleEndEvent
@@ -64,8 +64,11 @@ MonoBehaviour:
       type=\"0\" origin=\"1\" >\n\t\t\t\t\t\t<_bool useObject=\"True\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t\t<selectedKey><![CDATA[]]></selectedKey>\n\t\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</animate>\n\t\t\t\t<storeDuration
       floatOperator=\"7\" >\n\t\t\t\t\t<_float normalizedTime=\"1\" />\n\t\t\t\t\t<_bool
       store=\"False\" />\n\t\t\t\t</storeDuration>\n\t\t\t</5>\n\t\t\t<6 id=\"0\"
-      next=\"2\" >\n\t\t\t\t<_bool block=\"True\" all=\"False\" active=\"True\" overrideNodeName=\"False\"
-      />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 665 0 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[BlockHUDStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t</6>\n\t\t</step>\n\t</_subarrays>\n</battleEndEvent>\n"
+      next=\"7\" >\n\t\t\t\t<_bool block=\"True\" all=\"False\" active=\"True\" overrideNodeName=\"False\"
+      />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 665 0 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[BlockHUDStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t</6>\n\t\t\t<7
+      id=\"3\" next=\"2\" >\n\t\t\t\t<_bool block=\"True\" all=\"False\" active=\"True\"
+      overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      703 57 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[BlockHUDStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t</7>\n\t\t</step>\n\t</_subarrays>\n</battleEndEvent>\n"
     lookUp:
       textures: []
       audioClips: []
