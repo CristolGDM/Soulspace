@@ -6,7 +6,7 @@ using ORKFramework;
 public class PlayerMover : CharacterMover {
     private Transform interactionController;
     private readonly float interactionControllerDistance = 0.3f;
-    private readonly float triggerDistance = 0.45f;
+    private readonly float triggerDistance = 0.4f;
 
     [SerializeField]
     private GameObject trigger = null;
