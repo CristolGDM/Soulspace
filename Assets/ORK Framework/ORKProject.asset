@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: ORKProject
   m_EditorClassIdentifier: 
-  time: 10/28/2020 10:33:53 PM
+  time: 10/30/2020 7:42:36 PM
   version: 2.28.1
   keys:
   - editorSettings
@@ -2789,7 +2789,7 @@ MonoBehaviour:
       Defense]]></name>\n\t\t\t\t\t\t\t\t<shortName><![CDATA[MDEF]]></shortName>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t<icon>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</icon>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</26>\n\t\t\t<27
       statusTypeID=\"0\" type=\"2\" otherMinID=\"0\" otherMaxID=\"0\" minValue=\"0\"
       maxValue=\"100000\" combinedFormulaID=\"0\" maxStatusID=\"0\" deathOn=\"0\"
-      startValue=\"100\" startSetIn=\"0\" expType=\"1\" expNoneMaxType=\"0\" countInterpolate=\"0\"
+      startValue=\"100\" startSetIn=\"0\" expType=\"2\" expNoneMaxType=\"0\" countInterpolate=\"0\"
       >\n\t\t\t\t<_float initialValueCombined=\"0\" countTime=\"0.5\" countDelay=\"0\"
       />\n\t\t\t\t<_bool hidden=\"False\" useOtherMinMax=\"False\" combined=\"False\"
       noRegeneration=\"False\" animateDamage=\"True\" expEarnOnLevelUp=\"False\"
@@ -5838,7 +5838,7 @@ MonoBehaviour:
       isUTC=\"False\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</sprintSpeed>\n\t\t\t\t</moveSettings>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<conditionalPrefab>\n\t\t\t\t\t</conditionalPrefab>\n\t\t\t\t\t<battleSound>\n\t\t\t\t\t</battleSound>\n\t\t\t\t\t<portraitSet>\n\t\t\t\t\t</portraitSet>\n\t\t\t\t\t<textCode>\n\t\t\t\t\t</textCode>\n\t\t\t\t\t<expReward>\n\t\t\t\t\t\t<0
       statusID=\"27\" >\n\t\t\t\t\t\t\t<_bool forKiller=\"False\" useChance=\"False\"
       />\n\t\t\t\t\t\t\t<rewardValue type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t\t\t<_float
-      initialValue=\"0\" offset=\"0\" value=\"51\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool
+      initialValue=\"0\" offset=\"0\" value=\"200\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool
       isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</rewardValue>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</expReward>\n\t\t\t\t\t<normalSVReward>\n\t\t\t\t\t</normalSVReward>\n\t\t\t\t\t<fieldStatusChange>\n\t\t\t\t\t</fieldStatusChange>\n\t\t\t\t\t<battleStatusChange>\n\t\t\t\t\t</battleStatusChange>\n\t\t\t\t\t<atkAttrStart>\n\t\t\t\t\t</atkAttrStart>\n\t\t\t\t\t<defAttrStart>\n\t\t\t\t\t</defAttrStart>\n\t\t\t\t\t<baseAttack>\n\t\t\t\t\t\t<0
       abilityID=\"0\" level=\"1\" >\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</baseAttack>\n\t\t\t\t\t<itemDrop>\n\t\t\t\t\t</itemDrop>\n\t\t\t\t\t<startEquipment>\n\t\t\t\t\t</startEquipment>\n\t\t\t\t\t<battleAnimation>\n\t\t\t\t\t</battleAnimation>\n\t\t\t\t\t<aiBehaviour>\n\t\t\t\t\t\t<0
       battleAI=\"0\" >\n\t\t\t\t\t\t\t<_bool useRequirements=\"False\" />\n\t\t\t\t\t\t\t<chanceValue
@@ -8739,7 +8739,7 @@ MonoBehaviour:
       outsideBounds=\"False\" showBackground=\"False\" expandBoundsBG=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[HUDStatus]]></_type>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<information
       alignment=\"0\" vAlignment=\"2\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_float lineSpacing=\"10\"
       />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool useObjectVariables=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<text>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<0><![CDATA[%cn
-      Lv%]]></0>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</text>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_stringarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<textFormat
+      Lv%c]]></0>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</text>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</_stringarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<textFormat
       colorID=\"0\" shadowColorID=\"1\" outlineColorID=\"1\" fontSize=\"30\" fontStyle=\"0\"
       >\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_bool showShadow=\"True\" showOutline=\"False\"
       />\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<shadowOffset
