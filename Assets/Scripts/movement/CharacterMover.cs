@@ -9,6 +9,7 @@ public class CharacterMover : MonoBehaviour {
     private float speed = 4.0f;
     private Vector3 originalPosition;
     private Animator animator;
+    private float positionOffsetHelper = 10000.5F;
 
     // Use this for initialization
     public virtual void Start () {
@@ -23,6 +24,22 @@ public class CharacterMover : MonoBehaviour {
                 transform.position = pos;
             }
             else {
+                switch (Globals.lastDirection) {
+                    case Globals.direction.Down:
+                        pos = new Vector3(pos.x, Mathf.Floor(pos.y + positionOffsetHelper) - positionOffsetHelper, pos.z);
+                        break;
+                    case Globals.direction.Up:
+                        pos = new Vector3(pos.x, Mathf.Ceil(pos.y + positionOffsetHelper) - positionOffsetHelper, pos.z);
+                        break;
+                    case Globals.direction.Left:
+                        pos = new Vector3(Mathf.Floor(pos.x + positionOffsetHelper) - positionOffsetHelper, pos.y, pos.z);
+                        break;
+                    case Globals.direction.Right:
+                        pos = new Vector3(Mathf.Ceil(pos.x + positionOffsetHelper) - positionOffsetHelper, pos.y, pos.z);
+                        break;
+                    default:
+                        break;
+                }
                 //float newX = Mathf.Round(transform.position.x + 9999.5f) - 9999.5f;
                 //float newY = Mathf.Round(transform.position.y + 9999.5f) - 9999.5f;
 
