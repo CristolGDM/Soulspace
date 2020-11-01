@@ -30,6 +30,8 @@ MonoBehaviour:
   updateScenes: 0
   sceneUpdate: 
   eventAsset:
+  - {fileID: 11400000, guid: d54760807a56e654a95e5a31c2fd2806, type: 2}
+  - {fileID: 11400000, guid: d0f59def1de7e414fb73babed4a5c2af, type: 2}
   - {fileID: 11400000, guid: 2992b15bf027945989e9c9207da81ef9, type: 2}
   - {fileID: 11400000, guid: 50cd4fa290acd42da960dbc60a70786d, type: 2}
   - {fileID: 11400000, guid: 9293be35f425548788d8603f73e7d36b, type: 2}
@@ -43,8 +45,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c3916c62ece174f3d8668d7e795b04dc, type: 2}
   - {fileID: 11400000, guid: 167ec19b8640f4d5ebdf87eae23fbb6f, type: 2}
   - {fileID: 11400000, guid: d31a074b6c09c47f78234c617b6a2392, type: 2}
-  - {fileID: 11400000, guid: d0f59def1de7e414fb73babed4a5c2af, type: 2}
   gameEventAsset:
+  - {fileID: 11400000, guid: d54760807a56e654a95e5a31c2fd2806, type: 2}
+  - {fileID: 11400000, guid: d0f59def1de7e414fb73babed4a5c2af, type: 2}
   - {fileID: 11400000, guid: 3d4144fcdd16c3949bca07c3ef6d7e54, type: 2}
   - {fileID: 11400000, guid: 33c2a7a1f0f97467aab5bf8003e32c2a, type: 2}
   - {fileID: 11400000, guid: 72beaba84886dca4ca026a17db08cb62, type: 2}
@@ -52,7 +55,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: de10dc9b7e2c444eab09d471c54ae536, type: 2}
   - {fileID: 11400000, guid: ebf5624412b5ff744b7a22900b59b615, type: 2}
   - {fileID: 11400000, guid: c3916c62ece174f3d8668d7e795b04dc, type: 2}
-  - {fileID: 11400000, guid: d0f59def1de7e414fb73babed4a5c2af, type: 2}
   moveEventAsset:
   - {fileID: 11400000, guid: d31a074b6c09c47f78234c617b6a2392, type: 2}
   battleEventAsset:
@@ -67,6 +69,7 @@ MonoBehaviour:
   variablesDefined: []
   variablesEditor:
   - tokenDropped
+  - moneyHud
   variablesEvent:
   - quest01
   - finished
@@ -75,4 +78,5 @@ MonoBehaviour:
   - counter
   - oldManJoined
   - currentweapon
+  - moneyHud
   variablesScene: []
