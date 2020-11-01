@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: ORKProject
   m_EditorClassIdentifier: 
-  time: 10/30/2020 8:45:35 PM
+  time: 11/1/2020 2:18:42 PM
   version: 2.28.1
   keys:
   - editorSettings
@@ -8431,8 +8431,8 @@ MonoBehaviour:
       dropSetSelection=\"False\" dragBlockTooltips=\"False\" showDrag=\"True\" dragUseChoiceLayout=\"False\"
       useTurnFlash=\"False\" />\n\t<newUI pixelDragThreshold=\"5\" layer=\"5\" sortingOrder=\"0\"
       >\n\t\t<_float planeDistance=\"10\" />\n\t\t<_bool usePointerOverGameObject=\"False\"
-      pixelPerfect=\"True\" useScreenSpaceCamera=\"False\" nearPlaneOffset=\"True\"
-      useMainCamera=\"False\" mainCameraFallback=\"False\" />\n\t\t<defaultFont>\n\t\t\t<_string>\n\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t</_string>\n\t\t\t<settings>\n\t\t\t\t<_string>\n\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<_font
+      pixelPerfect=\"True\" useScreenSpaceCamera=\"False\" nearPlaneOffset=\"False\"
+      useMainCamera=\"True\" mainCameraFallback=\"False\" />\n\t\t<defaultFont>\n\t\t\t<_string>\n\t\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t\t</_string>\n\t\t\t<settings>\n\t\t\t\t<_string>\n\t\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<_font
       asset=\"0\" />\n\t\t\t</settings>\n\t\t</defaultFont>\n\t</newUI>\n\t<defaultMaskMaterial>\n\t\t<_string>\n\t\t\t<type><![CDATA[ORKFramework.ReferenceAssetSource`1]]></type>\n\t\t</_string>\n\t\t<settings>\n\t\t\t<_string>\n\t\t\t\t<_type><![CDATA[ReferenceAssetSource`1]]></_type>\n\t\t\t</_string>\n\t\t</settings>\n\t</defaultMaskMaterial>\n\t<defaultIconSize
       type=\"0\" width=\"100\" height=\"100\" >\n\t</defaultIconSize>\n\t<tooltip>\n\t\t<_bool
       selectionTooltip=\"False\" previewTooltip=\"False\" playerActionTooltip=\"False\"
@@ -8547,7 +8547,7 @@ MonoBehaviour:
       - {fileID: 2800000, guid: a631dbbfe44994c129feb18d75c18ef1, type: 3}
       audioClips: []
       gameObjects:
-      - {fileID: 5566569818926563059, guid: a84e04f27683c483c9212f551e284910, type: 3}
+      - {fileID: 5566569818926563059, guid: d08865879792c06429d5bb2c3f0bc290, type: 3}
       - {fileID: 5566569818926563059, guid: b68f3ff5bf7ee4092aa6aecdbacfa380, type: 3}
       guiSkins: []
       materials: []
