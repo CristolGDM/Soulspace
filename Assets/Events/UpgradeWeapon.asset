@@ -236,7 +236,7 @@ MonoBehaviour:
       initialValue=\"0\" offset=\"0\" value=\"100\" value2=\"0\" />\n\t\t\t\t\t\t\t\t<_bool
       isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<variableOrigin
       origin=\"1\" >\n\t\t\t\t\t\t\t\t\t<_bool useObject=\"True\" />\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</variableOrigin>\n\t\t\t\t\t\t\t</chanceValue>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</item>\n\t\t\t\t</_subarrays>\n\t\t\t</9>\n\t\t\t<10
-      statusValueID=\"28\" changeOP=\"0\" next=\"12\" >\n\t\t\t\t<_bool active=\"True\"
+      statusValueID=\"0\" changeOP=\"0\" next=\"12\" >\n\t\t\t\t<_bool active=\"True\"
       overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
       589 361 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[ChangeEquipStatusValueStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<selectedData
       origin=\"0\" >\n\t\t\t\t\t<key type=\"0\" origin=\"1\" >\n\t\t\t\t\t\t<_bool
@@ -245,7 +245,7 @@ MonoBehaviour:
       rounding=\"0\" >\n\t\t\t\t\t<_float initialValue=\"0\" offset=\"0\" />\n\t\t\t\t\t<_bool
       isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<variableOrigin
       origin=\"1\" >\n\t\t\t\t\t\t<_bool useObject=\"True\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</variableOrigin>\n\t\t\t\t</value>\n\t\t\t</10>\n\t\t\t<11
-      statusValueID=\"28\" changeOP=\"0\" next=\"12\" >\n\t\t\t\t<_bool active=\"True\"
+      statusValueID=\"0\" changeOP=\"0\" next=\"12\" >\n\t\t\t\t<_bool active=\"True\"
       overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
       551 475 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[ChangeEquipStatusValueStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<selectedData
       origin=\"0\" >\n\t\t\t\t\t<key type=\"0\" origin=\"1\" >\n\t\t\t\t\t\t<_bool
